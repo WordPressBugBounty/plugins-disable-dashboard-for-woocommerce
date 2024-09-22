@@ -1,0 +1,1 @@
+# plugins-disable-dashboard-for-woocommerce
