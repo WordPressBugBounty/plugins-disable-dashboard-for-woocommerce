@@ -1,9 +1,9 @@
 === Disable Bloat for WordPress & WooCommerce ===
 Contributors: disablebloat, ospiotr, mikewire_rocksolid
 Tags: WooCommerce, WordPress Optimization, Admin Panel Customization, Website Cleanup, remove bloat, unbloat, Yoast SEO, white label, Speed up WordPress
-Stable tag: 3.4.9
+Stable tag: 3.5.0
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7.1
 Requires PHP: 5.6
 WC requires at least: 4.0
 WC tested up to: 8.9
@@ -212,6 +212,9 @@ Great! If you need a specific feature, please add a new thread in the plugin sup
 7. Plugin data section - Delete, Export, Import configuration
 
 == Changelog ==
+= [3.5.0] - 2025-02-05 =
+
+- Security updates 
 
 = [3.4.8] - 2024-04-13 =
 
