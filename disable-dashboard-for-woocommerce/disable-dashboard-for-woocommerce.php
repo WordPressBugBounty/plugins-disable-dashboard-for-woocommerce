@@ -4,38 +4,42 @@
  * Plugin Name: Disable Bloat for WordPress & WooCommerce
  * Plugin URI: https://disablebloat.com/
  * Description: All-in-One solution to speed up your WordPress & WooCommerce. Remove unnecessary features and make your site faster and cleaner.
- * Version: 3.5.0
+ * Version: 4.0.0
  * Author: Disable Bloat
  * Developer: Disable Bloat
  * Author URI: https://disablebloat.com/
  * Text Domain: disable-dashboard-for-woocommerce
  * Domain Path: /languages
  * Requires at least: 4.5
- * Tested up to: 6.7.1
+ * Tested up to: 7.1
  * Requires PHP: 5.6
  * WC requires at least: 4.0
- * WC tested up to: 8.7
+ * WC tested up to: 10.9
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
 if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
-
+if ( !defined( 'WCBLOAT_VERSION' ) ) {
+    define( 'WCBLOAT_VERSION', '4.0.0' );
+}
+if ( !defined( 'WCBLOAT_PLUGIN_FILE' ) ) {
+    define( 'WCBLOAT_PLUGIN_FILE', __FILE__ );
+}
+if ( !defined( 'WCBLOAT_PLUGIN_BASENAME' ) ) {
+    define( 'WCBLOAT_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+}
 if ( function_exists( 'wcbloat_fs' ) ) {
     wcbloat_fs()->set_basename( false, __FILE__ );
 } else {
     // DO NOT REMOVE THIS IF, IT IS ESSENTIAL FOR THE `function_exists` CALL ABOVE TO PROPERLY WORK.
-    
     if ( !function_exists( 'wcbloat_fs' ) ) {
         // Actual Freemius integration snippet
-        
         if ( !function_exists( 'wcbloat_fs' ) ) {
             // Create a helper function for easy SDK access.
-            function wcbloat_fs()
-            {
-                global  $wcbloat_fs ;
-                
+            function wcbloat_fs() {
+                global $wcbloat_fs;
                 if ( !isset( $wcbloat_fs ) ) {
                     // Activate multisite network integration.
                     if ( !defined( 'WP_FS__PRODUCT_10157_MULTISITE' ) ) {
@@ -44,58 +48,55 @@ if ( function_exists( 'wcbloat_fs' ) ) {
                     // Include Freemius SDK.
                     require_once dirname( __FILE__ ) . '/includes/freemius/start.php';
                     $wcbloat_fs = fs_dynamic_init( array(
-                        'id'             => '10157',
-                        'slug'           => 'disable-dashboard-for-woocommerce',
-                        'premium_slug'   => 'disable-dashboard-for-woocommerce-pro',
-                        'type'           => 'plugin',
-                        'public_key'     => 'pk_16f665643a809fd13e01f8a3d1381',
-                        'is_premium'     => false,
-                        'premium_suffix' => 'PRO',
-                        'has_addons'     => false,
-                        'has_paid_plans' => true,
-                        'menu'           => array(
-                        'contact' => false,
-                        'support' => false,
-                        'account' => false,
-                        'pricing' => false,
-                    ),
-                        'pricing'        => false,
-                        'anonymous_mode' => !function_exists( 'is_anonymous_mode_disabled__premium_only' ) || !is_anonymous_mode_disabled__premium_only(),
-                        'is_live'        => true,
+                        'id'               => '10157',
+                        'slug'             => 'disable-dashboard-for-woocommerce',
+                        'premium_slug'     => 'disable-dashboard-for-woocommerce-pro',
+                        'type'             => 'plugin',
+                        'public_key'       => 'pk_16f665643a809fd13e01f8a3d1381',
+                        'is_premium'       => false,
+                        'premium_suffix'   => 'PRO',
+                        'has_addons'       => false,
+                        'has_paid_plans'   => true,
+                        'menu'             => array(
+                            'contact' => false,
+                            'support' => false,
+                            'account' => false,
+                            'pricing' => false,
+                        ),
+                        'pricing'          => false,
+                        'anonymous_mode'   => !function_exists( 'is_anonymous_mode_disabled__premium_only' ) || !is_anonymous_mode_disabled__premium_only(),
+                        'is_live'          => true,
+                        'is_org_compliant' => true,
                     ) );
                 }
-                
                 return $wcbloat_fs;
             }
-            
+
             // Init Freemius.
             wcbloat_fs();
             // Signal that SDK was initiated.
             do_action( 'wcbloat_fs_loaded' );
         }
-        
         if ( function_exists( 'fs_override_i18n' ) ) {
             fs_override_i18n( array(
-                'opt-in' => __( '', 'disable-dashboard-for-woocommerce' ),
+                'opt-in' => '',
             ), 'disable-dashboard-for-woocommerce' );
         }
         wcbloat_fs()->add_filter( 'default_to_anonymous_feedback', '__return_true' );
         wcbloat_fs()->add_filter( 'hide_freemius_powered_by', '__return_true' );
         wcbloat_fs()->add_filter( 'hide_billing_and_payments_info', '__return_true' );
-        function wcbloat_custom_pricing_url( $pricing_url )
-        {
+        function wcbloat_custom_pricing_url(  $pricing_url  ) {
             $pricing_url = 'https://disablebloat.com/?utm_source=plugins_list&utm_medium=referral&utm_campaign=Plugin+links';
             return $pricing_url;
         }
-        
+
         wcbloat_fs()->add_filter( 'pricing_url', 'wcbloat_custom_pricing_url' );
         wcbloat_fs()->add_filter( 'checkout_url', 'wcbloat_custom_pricing_url' );
         // Opt-In Icon Customization
-        function wcbloat_custom_plugin_icon()
-        {
+        function wcbloat_custom_plugin_icon() {
             return dirname( __FILE__ ) . '/assets/img/disable-dashboard-for-woocommerce.png';
         }
-        
+
         wcbloat_fs()->add_filter( 'plugin_icon', 'wcbloat_custom_plugin_icon' );
         wcbloat_fs()->add_filter( 'show_deactivation_feedback_form', '__return_false' );
         wcbloat_fs()->override_i18n( array(
@@ -104,44 +105,43 @@ if ( function_exists( 'wcbloat_fs' ) ) {
         ) );
         // Freemius END
         // load plugin text domain
-        function wcbloat_init()
-        {
+        function wcbloat_init() {
             load_plugin_textdomain( 'disable-dashboard-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
         }
-        
-        add_action( 'plugins_loaded', 'wcbloat_init' );
+
+        // Load the text domain on init: loading it on plugins_loaded triggers _load_textdomain_just_in_time notices since WP 6.7
+        add_action( 'init', 'wcbloat_init' );
         // Links on Plugins screen
-        function wcbloat_action_links( $links )
-        {
-            $custom_links = [ '<a href="' . admin_url( 'options-general.php?page=disable-bloat' ) . '">' . __( 'Settings' ) . '</a>' ];
-            if ( !wcbloat_fs()->is_premium() ) {
-                $custom_links[] = '<a href="https://disablebloat.com/?utm_source=plugins_list&utm_medium=referral&utm_campaign=Plugin+links" target="_blank"><b>' . __( 'Upgrade', 'disable-dashboard-for-woocommerce' ) . '</b></a>';
-            }
-            if ( wcbloat_fs()->is_plan( 'pro' ) ) {
-                $custom_links[] = sprintf( '<a href="%1$s">%2$s</a>', esc_url( wcbloat_fs()->get_account_url() ), __( 'My Account', 'disable-dashboard-for-woocommerce' ) );
-            }
+        function wcbloat_action_links(  $links  ) {
+            $custom_links = ['<a href="' . admin_url( 'options-general.php?page=disable-bloat' ) . '">' . __( 'Settings' ) . '</a>'];
+            $custom_links[] = '<a href="https://disablebloat.com/?utm_source=plugins_list&utm_medium=referral&utm_campaign=Plugin+links" target="_blank"><b>' . __( 'Upgrade', 'disable-dashboard-for-woocommerce' ) . '</b></a>';
             return array_merge( $custom_links, $links );
         }
-        
+
         add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'wcbloat_action_links' );
     }
-    
     // Add CSS and JS to the plugin settings screens
-    function wcbloat_custom_wp_admin_assets()
-    {
-        
+    function wcbloat_custom_wp_admin_assets() {
         if ( function_exists( 'get_current_screen' ) ) {
             $screen = get_current_screen();
-            
             if ( $screen && $screen->base === 'settings_page_disable-bloat' ) {
-                wp_enqueue_style( 'wcbloat_wp_admin_css', plugin_dir_url( __FILE__ ) . 'assets/css/disable-bloat-admin-style.css' );
-                wp_enqueue_script( 'wcbloat_wp_admin_js', plugin_dir_url( __FILE__ ) . 'assets/js/disable-bloat-admin-settings.js' );
+                wp_enqueue_style(
+                    'wcbloat_wp_admin_css',
+                    plugin_dir_url( __FILE__ ) . 'assets/css/disable-bloat-admin-style.css',
+                    array(),
+                    WCBLOAT_VERSION
+                );
+                wp_enqueue_script(
+                    'wcbloat_wp_admin_js',
+                    plugin_dir_url( __FILE__ ) . 'assets/js/disable-bloat-admin-settings.js',
+                    array('jquery'),
+                    WCBLOAT_VERSION,
+                    true
+                );
             }
-        
         }
-    
     }
-    
+
     add_action( 'admin_enqueue_scripts', 'wcbloat_custom_wp_admin_assets' );
     // Include WooCommerce integration
     require_once 'includes/functions/disable-bloat-woocommerce.php';

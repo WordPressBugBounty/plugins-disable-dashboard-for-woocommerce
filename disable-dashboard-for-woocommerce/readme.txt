@@ -1,12 +1,12 @@
 === Disable Bloat for WordPress & WooCommerce ===
-Contributors: disablebloat, ospiotr, mikewire_rocksolid
+Contributors: disablebloat, ospiotr, mikewire_rocksolid, freemius
 Tags: WooCommerce, WordPress Optimization, Admin Panel Customization, Website Cleanup, remove bloat, unbloat, Yoast SEO, white label, Speed up WordPress
-Stable tag: 3.5.0
+Stable tag: 4.0.0
 Requires at least: 5.0
-Tested up to: 6.7.1
+Tested up to: 7.1
 Requires PHP: 5.6
 WC requires at least: 4.0
-WC tested up to: 8.9
+WC tested up to: 10.9
 Donate link: https://disablebloat.com/
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -212,6 +212,36 @@ Great! If you need a specific feature, please add a new thread in the plugin sup
 7. Plugin data section - Delete, Export, Import configuration
 
 == Changelog ==
+= [4.0.0] - 2026-09-16 =
+
+- Compatibility: Tested with WordPress 7.1 and WooCommerce 10.9
+- Updated: Freemius SDK updated to 2.13.4
+- Fixed: "Function _load_textdomain_just_in_time was called incorrectly" notice on WordPress 6.7+ (the text domain is now loaded on init and no translation is requested during plugin load)
+- Fixed: "Disable WooCommerce Dashicons on the front-end" broke plugins whose stylesheets depend on Dashicons (Ninja Forms forms rendered without styling, Beaver Builder media modal unusable). Dashicons is now only dequeued, so it still loads when another stylesheet needs it, and it is never removed inside the Beaver Builder, Elementor, Divi and Bricks editors
+- Fixed: "Disable WooCommerce Admin completely" removed the component styles from the WooCommerce Settings > Payments screen (components/style.css not loading). The WooCommerce admin stylesheet is now left in place on the WooCommerce settings screens
+- Fixed: "Marketing Hub" filter could remove the wrong WooCommerce Admin feature when the marketing feature was not present in the list
+- Updated: "Hide marketplace link on the Payments Settings screen" now hides the "More payment options" block on the new WooCommerce Payments settings screen (WooCommerce 9.7+)
+- Updated: "Disable WooCommerce Widgets" also removes the WooCommerce Brands widgets (WooCommerce 9.6+)
+- Updated: "Disable WooCommerce Admin features" list is now read from the installed WooCommerce version, so the options always match the features WooCommerce actually ships (stale entries such as Navigation, Settings and Multichannel Marketing removed; Core profiler, Launch your store, Customize your store, New product editor and others added)
+- Updated: "Hide marketplace link on the Payments Settings screen" no longer causes a JavaScript error on the new WooCommerce Payments settings screen
+- Updated: "WooCommerce Blocks (back-end)" now targets the current WooCommerce Blocks editor stylesheet and runs in the admin panel (PRO)
+- Updated: "Auto-close Welcome Guide" and "Auto-exit the Fullscreen Mode" work with the current Block Editor preferences and no longer depend on the removed jQuery .load() method; the script is only added on Block Editor screens (PRO)
+- Fixed: PRO features were not loading because the PRO functions file was no longer included (PRO)
+- Fixed: "Disable Sidebar WordPress Widgets" caused a fatal error when more than one widget was selected and never removed the selected widgets (PRO)
+- Fixed: "Remove Shortlink From HTTP Header" was controlled by the "Remove RSD link" option instead of its own (PRO)
+- Fixed: WooCommerce detection on multisite installations where the plugin is network activated (also affects the Stripe compatibility notice)
+- Fixed: "Deactivate the Template Editor" had no effect because it ran before the theme registered its support
+- Fixed: "Disable the RSS feeds" did not stop execution after the redirect (PRO)
+- Fixed: "Remove WPML Meta Generator Tag" ran before WPML was loaded (PRO)
+- Fixed: "Disable jQuery Migrate" script check (PRO)
+- Fixed: "Disable WooCommerce guide emails" and "Disable new WooCommerce product editor" could not be saved
+- Fixed: Multi-checkbox settings were saved without sanitization and could cause PHP 8 errors when the stored value was not a list
+- Fixed: Settings import now verifies the security nonce and user capability and sanitizes the imported values
+- Fixed: WooCommerce task list options were written to the database on every page load; they are now only updated in the admin panel when needed
+- Fixed: Removed duplicated inline styles, duplicated script dequeue and a duplicated settings field
+- Improved: Plugin admin assets are loaded with a version number for cache busting
+- Improved: Development files are excluded from the WordPress.org release package
+
 = [3.5.0] - 2025-02-05 =
 
 - Security updates 
