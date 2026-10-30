@@ -13,6 +13,7 @@ if ( !empty( get_option( 'wcbloat_uninstall_cleanup' ) ) && ( get_option( 'wcblo
     foreach ( $options as $option ) {
         delete_option( $option );
     }
+    delete_option( 'wcbloat_review_notice_after' );
   }
     wcbloat_fs()->add_action( 'after_uninstall', 'wcbloat_fs_uninstall_cleanup' );
     register_uninstall_hook( __FILE__, 'wcbloat_fs_uninstall_cleanup' );
