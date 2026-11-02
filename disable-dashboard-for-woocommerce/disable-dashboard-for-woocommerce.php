@@ -4,7 +4,7 @@
  * Plugin Name: Disable Bloat for WordPress & WooCommerce
  * Plugin URI: https://disablebloat.com/
  * Description: All-in-One solution to speed up your WordPress & WooCommerce. Remove unnecessary features and make your site faster and cleaner.
- * Version: 4.1.0
+ * Version: 4.1.1
  * Author: Disable Bloat
  * Developer: Disable Bloat
  * Author URI: https://disablebloat.com/
@@ -22,7 +22,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 if ( !defined( 'WCBLOAT_VERSION' ) ) {
-    define( 'WCBLOAT_VERSION', '4.1.0' );
+    define( 'WCBLOAT_VERSION', '4.1.1' );
 }
 if ( !defined( 'WCBLOAT_PLUGIN_FILE' ) ) {
     define( 'WCBLOAT_PLUGIN_FILE', __FILE__ );

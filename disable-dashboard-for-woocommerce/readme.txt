@@ -1,7 +1,7 @@
-=== Disable Bloat for WordPress & WooCommerce ===
+=== Disable Bloat for WordPress & WooCommerce – Speed Up & Clean Up Admin ===
 Contributors: disablebloat, ospiotr, mikewire_rocksolid, freemius
-Tags: WooCommerce, WordPress Optimization, Admin Panel Customization, Website Cleanup, remove bloat, unbloat, Yoast SEO, white label, Speed up WordPress
-Stable tag: 4.1.0
+Tags: woocommerce, remove bloat, disable woocommerce admin, performance, admin cleanup
+Stable tag: 4.1.1
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 5.6
@@ -11,13 +11,13 @@ Donate link: https://disablebloat.com/
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-All-in-One solution to speed up your WordPress & WooCommerce. Remove unnecessary features and make your site faster and cleaner.
+Speed up WooCommerce and WordPress. Disable WooCommerce Admin, Analytics, Marketing Hub, cart fragments, Gutenberg and other bloat you don't use.
 
 == Description ==
 
 🚀 **Boost Your Site's Speed and Cleanliness with Disable Bloat!** 🚀
 
-== Over 400k downloads and 20k+ active installs! And many 5 star reviews ==
+== Over 500k downloads and 10k+ active installs! And many 5 star reviews ==
 
 ---
 
@@ -36,6 +36,8 @@ All-in-One solution to speed up your WordPress & WooCommerce. Remove unnecessary
 ---
 
 Bloat is the silent killer of your site’s performance, often slowing down your entire website. Ensure your site stays lightning-fast with **Disable Bloat**, the ultimate plugin to disable unnecessary features that drag your site down. 
+
+Disable Bloat lets you disable WooCommerce Admin, WooCommerce Analytics, the Marketing Hub and dozens of unused WordPress features from one settings page, so you can speed up WooCommerce and clean up the admin without writing code.
 
 By default, the WordPress admin panel is cluttered with preinstalled elements that can distract you from your work. **Disable Bloat** smooths and cleans the admin panel by removing these unnecessary elements.
 
@@ -212,6 +214,10 @@ Great! If you need a specific feature, please add a new thread in the plugin sup
 7. Plugin data section - Delete, Export, Import configuration
 
 == Changelog ==
+= [4.1.1] - 2026-11-02 =
+
+- Updated: plugin description
+
 = [4.1.0] - 2026-10-30 =
 
 - New: a small, dismissible prompt on the Disable Bloat settings page asking for a review on WordPress.org (shown once you've used the plugin for two weeks)
