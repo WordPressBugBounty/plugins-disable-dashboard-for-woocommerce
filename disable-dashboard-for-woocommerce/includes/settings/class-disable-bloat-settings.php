@@ -115,6 +115,47 @@ function wcbloat_buy_pro_bar() {
     return $buy_pro_bar;
 }
 
+// Register a yes/no checkbox setting and its field in one go.
+// $args: page, group, section, title, label, description (may contain HTML), pro (bool).
+function wcbloat_add_checkbox_setting(  $option_name, $args  ) {
+    add_settings_field(
+        $option_name,
+        $args['title'],
+        'wcbloat_checkbox_setting_callback',
+        $args['page'],
+        $args['section'],
+        array_merge( $args, array(
+            'option_name' => $option_name,
+        ) )
+    );
+    register_setting( $args['group'], $option_name, array(
+        'sanitize_callback' => 'sanitize_key',
+    ) );
+}
+
+// Render a checkbox registered with wcbloat_add_checkbox_setting()
+function wcbloat_checkbox_setting_callback(  $args  ) {
+    $option_name = $args['option_name'];
+    $is_pro = !empty( $args['pro'] );
+    ?>
+    <input type='hidden' name='<?php 
+    echo esc_attr( $option_name );
+    ?>' value='no'>
+    <label><input type='checkbox' name='<?php 
+    echo esc_attr( $option_name );
+    ?>' <?php 
+    checked( get_option( $option_name ), 'yes' );
+    echo ( $is_pro ? wcbloat_is_pro_readonly() : '' );
+    ?> value='yes'> <?php 
+    echo esc_html( $args['label'] );
+    echo ( $is_pro ? wcbloat_is_pro_badge() : '' );
+    ?></label>
+    <p><?php 
+    echo wp_kses_post( $args['description'] );
+    ?></p>
+  <?php 
+}
+
 // Options that store a list of keys (multi-checkbox fields)
 function wcbloat_array_option_names() {
     return array('wcbloat_admin_disable_features', 'wcbloat_wp_dashboard_widgets_disable', 'wcbloat_wp_sidebar_widgets_disable');
@@ -127,6 +168,35 @@ function wcbloat_sanitize_key_array(  $value  ) {
     }
     $value = array_filter( $value, 'is_scalar' );
     return array_values( array_filter( array_map( 'sanitize_key', array_map( 'strval', $value ) ) ) );
+}
+
+// Keywords that keep a third-party admin notice visible ("Notices from other plugins" option)
+function wcbloat_default_notice_keywords() {
+    return 'saved, payment, error, failed, expired, security, database';
+}
+
+// Sanitize a comma-separated keyword list: lowercase, trimmed, no duplicates, joined with ", "
+function wcbloat_sanitize_keyword_list(  $value  ) {
+    if ( !is_scalar( $value ) ) {
+        return '';
+    }
+    $words = preg_split( '/[,\\n]+/', strtolower( sanitize_textarea_field( (string) $value ) ) );
+    $words = array_unique( array_filter( array_map( 'trim', $words ) ) );
+    return implode( ', ', $words );
+}
+
+// The keyword list as an array
+function wcbloat_notice_keywords() {
+    $value = get_option( 'wcbloat_third_party_notices_keep', wcbloat_default_notice_keywords() );
+    $value = wcbloat_sanitize_keyword_list( $value );
+    return ( $value === '' ? array() : explode( ', ', $value ) );
+}
+
+// Options that store free text, with their sanitize callback (used by the settings import)
+function wcbloat_text_option_names() {
+    return array(
+        'wcbloat_third_party_notices_keep' => 'wcbloat_sanitize_keyword_list',
+    );
 }
 
 // Is the current field PRO only

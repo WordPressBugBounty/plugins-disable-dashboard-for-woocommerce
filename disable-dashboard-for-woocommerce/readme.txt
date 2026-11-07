@@ -1,12 +1,12 @@
 === Disable Bloat for WordPress & WooCommerce – Speed Up & Clean Up Admin ===
 Contributors: disablebloat, ospiotr, mikewire_rocksolid, freemius
 Tags: woocommerce, remove bloat, disable woocommerce admin, performance, admin cleanup
-Stable tag: 4.1.1
+Stable tag: 4.3.0
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 5.6
 WC requires at least: 4.0
-WC tested up to: 10.9
+WC tested up to: 11.2
 Donate link: https://disablebloat.com/
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -46,6 +46,19 @@ By default, the WordPress admin panel is cluttered with preinstalled elements th
 - Accelerate Your WordPress Website and enhance user experience
 - Boost Security by turning off features you don’t use
 - Eliminate Third-Party Plugin Bloat to keep your site lean and fast-loading
+
+📏 **Measured, Not Guessed** 📏
+We tested Disable Bloat on a busy WooCommerce store with 23 active plugins, including Elementor, Yoast, WPForms, Jetpack and WooPayments, on the OceanWP theme. With its settings switched on:
+
+- **WooCommerce Home loads 17% faster**, with 20% fewer database queries
+- **Up to 20% fewer database queries** on WooCommerce admin screens (14% on average)
+- **Around 10% fewer database queries** on every store page
+- **Up to 10 fewer scripts and stylesheets** per store page with PRO
+
+Results depend on your theme, plugins and hosting. Fewer database queries matter most on shared hosting.
+
+🔕 **New in PRO: Hide Notices from Other Plugins** 🔕
+One switch hides the banners, nags and "please rate us" promos that other plugins and your theme add to the top of every admin screen. WordPress, WooCommerce and Disable Bloat notices still show. So does any notice containing a word you choose, such as "payment", "error" or "saved", so important warnings and "Settings saved" messages get through.
 
 Enjoy the perfect blend of aesthetics and speed. With **Disable Bloat**, every tweak is seamless and live, giving you the fast, clean WordPress admin panel you deserve.
 
@@ -93,6 +106,7 @@ Make the admin panel smooth and clean by removing unnecessary elements:
 - **Clean Admin Interface**
 - **Hide Update Notice for Non-admin Users**
 - **Disable WordPress Editor Autosave**
+- **Hide Admin Notices from Other Plugins and Themes, with a Keyword Keep-list [PRO](https://disablebloat.com/?utm_source=wp_org&utm_medium=referral&utm_campaign=readme)**
 - **Disable Dashboard Widgets [PRO](https://disablebloat.com/?utm_source=wp_org&utm_medium=referral&utm_campaign=readme)**
 - **Remove WordPress Logo from Admin Bar [PRO](https://disablebloat.com/?utm_source=wp_org&utm_medium=referral&utm_campaign=readme)**
 - **Remove Admin Footer Text [PRO](https://disablebloat.com/?utm_source=wp_org&utm_medium=referral&utm_campaign=readme)**
@@ -214,6 +228,33 @@ Great! If you need a specific feature, please add a new thread in the plugin sup
 7. Plugin data section - Delete, Export, Import configuration
 
 == Changelog ==
+= [4.3.0] - 2026-11-07 =
+
+- New PRO: Hide admin notices from other plugins and themes (Admin panel tab). Removes the banners, nags and promos other plugins and your theme add to the top of admin screens. WordPress, WooCommerce and Disable Bloat notices still show.
+- New PRO: "Always show notices containing" keyword list. A hidden plugin's notice still shows if it contains one of your words. Default: saved, payment, error, failed, expired, security, database
+- Fixed: WooCommerce > Home and other WooCommerce React admin pages were unstyled when "Disable WooCommerce Admin" was on (WooCommerce 11+)
+- Fixed: "Disable WooCommerce Blocks (front-end)" (PRO) broke the block Cart and Checkout pages. They now always keep their block styles, so the store can still take orders
+- Fixed: "Disable REST API" (PRO) broke the block editor, WooCommerce admin screens and the block checkout. The REST API now stays available to logged-in users and to the WooCommerce Store API
+- Fixed: "Deactivate the Template Editor" gave a blank front end on block themes. It now only applies to classic themes
+- Improved: clearer help text for "Choose Admin Features to Disable" on WooCommerce 11, which only lets plugins switch off a few admin features
+- Improved: importing settings keeps text settings (such as the notice keywords) intact
+
+= [4.2.0] - 2026-11-02 =
+
+- Compatibility: Tested with WordPress 7.1 and WooCommerce 11.2
+- New: Remove the top-level "Payments" menu item that promotes WooPayments (WooCommerce tab)
+- New: Disable WooCommerce usage tracking and remote logging (WooCommerce tab)
+- New: Hide the "Live" / "Coming soon" store visibility badge in the admin bar (WooCommerce tab)
+- New: Remove the "Shipping Label" promo box from the order edit screen (WooCommerce tab)
+- New: Disable the built-in WordPress 7.0+ AI features (WordPress Core tab)
+- New PRO: Disable WooCommerce Order Attribution tracking, which removes sourcebuster.js, order-attribution.js and the sbjs_* cookies from every page
+- New PRO: Stop WooCommerce auto-inserting the Mini-Cart, Customer account and Product details blocks into block themes
+- New PRO: Disable speculative loading (WordPress 6.8+)
+- New PRO: Remove the image auto-sizes inline CSS (WordPress 6.7+)
+- New PRO: Remove global styles and classic theme styles on classic themes
+- Improved: "Marketplace Suggestions" now also stops WooCommerce marketplace promotions and the payment, shipping and extension recommendations fetched from WooCommerce.com
+- Fixed: "WooCommerce scripts and styles" no longer left jQuery BlockUI and js-cookie loading on non-shop pages (WooCommerce 10.3+ renamed these scripts)
+- Fixed: "Emoji styles and scripts" (PRO) left the emoji stylesheet and the s.w.org DNS prefetch in place on WordPress 6.4+
 = [4.1.1] - 2026-11-02 =
 
 - Updated: plugin description

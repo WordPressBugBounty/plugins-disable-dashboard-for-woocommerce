@@ -168,6 +168,16 @@ function wcbloat_main_settings_init()
       array('sanitize_callback' => 'sanitize_key')
     );
 
+    // Top-level Payments menu (WooCommerce 9.x+)
+    wcbloat_add_checkbox_setting( 'wcbloat_wc_payments_menu_disable', array(
+      'page'        => 'wcbloat-main',
+      'group'       => 'wcbloat-main-options',
+      'section'     => 'wcbloat-woo-promotions-section',
+      'title'       => __( 'Payments menu', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Remove the top-level "Payments" menu item', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'Recent WooCommerce versions add a "Payments" item to the main admin menu that promotes WooPayments, sometimes with a notification badge. It only links to WooCommerce > Settings > Payments, which stays available. When WooPayments is set up, its own Payments menu is kept.', 'disable-dashboard-for-woocommerce' ),
+    ) );
+
     // WooCommerce emails section
     add_settings_section(
       'wcbloat-woo-emails-section',
@@ -282,6 +292,36 @@ function wcbloat_main_settings_init()
       array('sanitize_callback' => 'sanitize_key')
     );
 
+    // WooCommerce usage tracking and remote logging
+    wcbloat_add_checkbox_setting( 'wcbloat_wc_tracking_disable', array(
+      'page'        => 'wcbloat-main',
+      'group'       => 'wcbloat-main-options',
+      'section'     => 'wcbloat-woo-backend-scripts-section',
+      'title'       => __( 'Usage tracking and remote logging', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Disable WooCommerce usage tracking and remote logging', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'Stops WooCommerce from sending usage data, admin click tracking (Tracks), the weekly tracker report and error logs to WooCommerce.com. Fewer remote requests from your admin, and nothing is lost for your store.', 'disable-dashboard-for-woocommerce' ),
+    ) );
+
+    // Site visibility badge in the admin bar (WooCommerce 9.1+)
+    wcbloat_add_checkbox_setting( 'wcbloat_wc_visibility_badge_disable', array(
+      'page'        => 'wcbloat-main',
+      'group'       => 'wcbloat-main-options',
+      'section'     => 'wcbloat-woo-backend-scripts-section',
+      'title'       => __( 'Store visibility badge', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Hide the "Live" / "Coming soon" badge in the admin bar', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'Removes the store visibility badge WooCommerce adds next to your site name in the admin bar. Coming soon mode itself is not affected and can still be set in WooCommerce > Settings > Site visibility.', 'disable-dashboard-for-woocommerce' ),
+    ) );
+
+    // Shipping Label meta box on the order screen
+    wcbloat_add_checkbox_setting( 'wcbloat_wc_shipping_label_banner_disable', array(
+      'page'        => 'wcbloat-main',
+      'group'       => 'wcbloat-main-options',
+      'section'     => 'wcbloat-woo-backend-scripts-section',
+      'title'       => __( 'Shipping Label meta box', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Remove the "Shipping Label" promo box from the order edit screen', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'Removes the box promoting WooCommerce Shipping on the order edit screen. Keep it if you print labels with WooCommerce Shipping.', 'disable-dashboard-for-woocommerce' ),
+    ) );
+
     // Your Store's Front-end
     add_settings_section(
       'wcbloat-woo-frontend-section',
@@ -359,6 +399,28 @@ function wcbloat_main_settings_init()
       'wcbloat_wc_stripe_scripts_disable',
       array('sanitize_callback' => 'sanitize_key')
     );
+
+    // Order Attribution tracking PRO
+    wcbloat_add_checkbox_setting( 'wcbloat_wc_order_attribution_disable', array(
+      'page'        => 'wcbloat-main',
+      'group'       => 'wcbloat-main-options',
+      'section'     => 'wcbloat-woo-frontend-section',
+      'title'       => __( 'Order Attribution tracking', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Disable Order Attribution tracking', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'WooCommerce loads two tracking scripts (sourcebuster.js and order-attribution.js) on every page of your site and sets sbjs_* cookies to record where each customer came from. Disabling it removes both scripts and the cookies. You lose the "Origin" column on orders, so keep it if you rely on that data.', 'disable-dashboard-for-woocommerce' ),
+      'pro'         => true,
+    ) );
+
+    // Blocks auto-inserted into block theme templates PRO
+    wcbloat_add_checkbox_setting( 'wcbloat_wc_hooked_blocks_disable', array(
+      'page'        => 'wcbloat-main',
+      'group'       => 'wcbloat-main-options',
+      'section'     => 'wcbloat-woo-frontend-section',
+      'title'       => __( 'Auto-inserted blocks', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Stop WooCommerce adding blocks to your block theme', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'On block themes, WooCommerce automatically inserts the Mini-Cart and Customer account blocks into your header (and Product details into product templates), together with their scripts. Enable this if you placed these blocks yourself or do not want them. Classic themes are not affected.', 'disable-dashboard-for-woocommerce' ),
+      'pro'         => true,
+    ) );
 }
 
 // Display the fields added before
@@ -519,7 +581,7 @@ function wcbloat_admin_disable_features_callback()
   ?>
 </tbody>
 </table>
-    <p><?php _e( 'Choose which of the WooCommerce Admin features should be disabled. The ones you choose will be <strong>disabled</strong>, and the ones that had not been selected will stay <strong>active</strong>.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'Choose which of the WooCommerce Admin features should be disabled. The ones you choose will be <strong>disabled</strong>, and the ones that had not been selected will stay <strong>active</strong>.<br />This list comes from WooCommerce itself. Since WooCommerce 11, WooCommerce only lets plugins switch off a few of its admin features this way (often just Store alerts), so the list may be short. WooCommerce Analytics can be turned off under WooCommerce > Settings > Advanced > Features, and the Marketing hub with the Marketing Hub option below.', 'disable-dashboard-for-woocommerce' ); ?></p>
 
     <?php
 }
@@ -559,7 +621,7 @@ function wcbloat_wc_marketplace_callback()
   ?>
     <input type='hidden' name='wcbloat_wc_marketplace' value='no'>
     <label><input type='checkbox' name='wcbloat_wc_marketplace' <?php checked( esc_attr( $value ), 'yes' ); ?> value='yes'> <?php esc_attr_e( 'Disable WooCommerce Marketplace Suggestions', 'disable-dashboard-for-woocommerce' ); ?></label>
-    <p><?php _e( 'This option will disable Marketplace Suggestions. Suggestions are visible on the product edit page and on the Orders pages.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'This option will disable Marketplace Suggestions and promotions. Suggestions are visible on the product edit page and on the Orders pages. It also turns off the "Show suggestions" setting in WooCommerce > Settings > Advanced > WooCommerce.com, which stops payment, shipping and extension recommendations and remote inbox notes from being fetched.', 'disable-dashboard-for-woocommerce' ); ?></p>
   <?php
 }
 
@@ -740,7 +802,7 @@ function wcbloat_wc_blocks_frontend_disable_callback()
     <label><input type='checkbox' name='wcbloat_wc_blocks_frontend_disable' <?php checked( esc_attr( $value ), 'yes' );
     echo wcbloat_is_pro_readonly(); ?> value='yes'> <?php esc_attr_e( 'Disable WooCommerce Blocks (front-end)', 'disable-dashboard-for-woocommerce' );
 echo wcbloat_is_pro_badge(); ?></label>
-    <p><?php _e( 'WooCommerce Blocks module loads tons of CSS files (200 KB) in your site front-end. Activating this option will turn off loading the WooCommerce Blocks in your store and should improve page loading speed. If you are using any of the Blocks, they won\'t display after enabling this option.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'WooCommerce Blocks module loads tons of CSS files (200 KB) in your site front-end. Activating this option will turn off loading the WooCommerce Blocks in your store and should improve page loading speed. If you are using any of the Blocks, they won\'t display correctly after enabling this option. The Cart and Checkout pages always keep their block styles, so your store can still take orders.', 'disable-dashboard-for-woocommerce' ); ?></p>
   <?php
 }
 

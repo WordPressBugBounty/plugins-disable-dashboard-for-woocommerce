@@ -4,6 +4,22 @@ if ( !defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly
 }
 
+// True when a plugin checkbox option is switched on
+if ( !function_exists( 'wcbloat_option_is_yes' ) ) {
+  function wcbloat_option_is_yes( $option_name )
+  {
+      return get_option( $option_name ) === 'yes';
+  }
+}
+
+// Short-circuits a WooCommerce option to 'no' (used for core options the plugin overrides without changing them)
+if ( !function_exists( 'wcbloat_return_no' ) ) {
+  function wcbloat_return_no()
+  {
+      return 'no';
+  }
+}
+
 // Check if WooCommmerce is active and execute following code only if Woo is active
 if ( wcbloat_is_woo_active() ) {
     /* Disable WooCommerce Admin completely: Disable WooCommerce Admin, Analytics tab, Notification bar
@@ -44,8 +60,16 @@ if ( wcbloat_is_woo_active() ) {
           // The WooCommerce settings screens (e.g. the React Payments settings page) load their component styles
           // through wc-admin-app, so leave the stylesheet alone there. Deregistering would also drop every
           // stylesheet that depends on it, which is what broke components/style.css on the Payments screen.
-        if ( class_exists( '\Automattic\WooCommerce\Admin\PageController' ) && method_exists( '\Automattic\WooCommerce\Admin\PageController', 'is_settings_page' ) && \Automattic\WooCommerce\Admin\PageController::is_settings_page() ) {
-            return;
+          // Full React pages (WooCommerce > Home and other page=wc-admin screens) still render on WooCommerce 11+
+          // even with woocommerce_admin_disabled, and are unstyled without wc-admin-app and its dependents.
+          $wcbloat_page_controller = '\Automattic\WooCommerce\Admin\PageController';
+        if ( class_exists( $wcbloat_page_controller ) ) {
+          if ( method_exists( $wcbloat_page_controller, 'is_settings_page' ) && $wcbloat_page_controller::is_settings_page() ) {
+              return;
+          }
+          if ( method_exists( $wcbloat_page_controller, 'is_admin_page' ) && $wcbloat_page_controller::is_admin_page() ) {
+              return;
+          }
         }
           $screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
         if ( $screen && $screen->id === 'woocommerce_page_wc-settings' ) {
@@ -204,6 +228,10 @@ if ( wcbloat_is_woo_active() ) {
         wp_dequeue_script( 'prettyPhoto' );
         wp_dequeue_script( 'prettyPhoto-init' );
         wp_dequeue_script( 'jquery-blockui' );
+        wp_dequeue_script( 'js-cookie' );
+        // WooCommerce 10.3+ handle names (the old ones above are kept for older WooCommerce versions)
+        wp_dequeue_script( 'wc-jquery-blockui' );
+        wp_dequeue_script( 'wc-js-cookie' );
         wp_dequeue_script( 'jquery-placeholder' );
         wp_dequeue_script( 'fancybox' );
         wp_dequeue_script( 'jqueryui' );
@@ -253,6 +281,51 @@ if ( wcbloat_is_woo_active() ) {
 /***********************************************************************/
   if ( !empty( get_option( 'wcbloat_wc_marketplace' ) ) && ( get_option( 'wcbloat_wc_marketplace' ) === 'yes' ) ) {
       add_filter( 'woocommerce_allow_marketplace_suggestions', '__return_false', 999 );
+      // WooCommerce 9+: marketplace promotions (fetched from WooCommerce.com twice a day) and the
+      // Settings > Advanced > WooCommerce.com "Show suggestions" switch, which also gates remote inbox
+      // notifications, payment gateway suggestions, WooPayments promotions and free extension suggestions
+      add_filter( 'woocommerce_marketplace_suppress_promotions', '__return_true' );
+      add_filter( 'pre_option_woocommerce_show_marketplace_suggestions', 'wcbloat_return_no' );
+  }
+
+    /* Top-level "Payments" menu promoting WooPayments (WooCommerce 9.x+)
+/***********************************************************************/
+  if ( wcbloat_option_is_yes( 'wcbloat_wc_payments_menu_disable' ) ) {
+      add_action( 'admin_menu', function () {
+          // Only the promotional entries: when WooPayments is set up, it owns its own Payments menu and stays
+          remove_menu_page( 'admin.php?page=wc-settings&tab=checkout&from=PAYMENTS_MENU_ITEM' );
+          remove_menu_page( 'wc-admin&path=/payments/connect' );
+          remove_menu_page( 'wc-admin&path=/wc-pay-welcome-page' );
+      }, 999 );
+  }
+
+    /* WooCommerce usage tracking and remote logging
+/***********************************************************************/
+  if ( wcbloat_option_is_yes( 'wcbloat_wc_tracking_disable' ) ) {
+      add_filter( 'woocommerce_apply_tracking', '__return_false' );
+      add_filter( 'woocommerce_apply_user_tracking', '__return_false' );
+      // Also stops the weekly WC_Tracker report and remote error logging, which both require tracking
+      add_filter( 'pre_option_woocommerce_allow_tracking', 'wcbloat_return_no' );
+  }
+
+    /* "Live" / "Coming soon" site visibility badge in the admin bar (WooCommerce 9.1+)
+/***********************************************************************/
+  if ( wcbloat_option_is_yes( 'wcbloat_wc_visibility_badge_disable' ) ) {
+      add_filter( 'pre_option_woocommerce_feature_site_visibility_badge_enabled', 'wcbloat_return_no' );
+  }
+
+    /* Shipping Label promo meta box on the order edit screen
+/***********************************************************************/
+  if ( wcbloat_option_is_yes( 'wcbloat_wc_shipping_label_banner_disable' ) ) {
+      add_action( 'add_meta_boxes', function () {
+          $screens = array( 'shop_order' );
+        if ( function_exists( 'wc_get_page_screen_id' ) ) {
+            $screens[] = wc_get_page_screen_id( 'shop-order' );
+        }
+        foreach ( array_unique( $screens ) as $screen ) {
+            remove_meta_box( 'woocommerce-admin-print-label', $screen, 'normal' );
+        }
+      }, 99 );
   }
 
     /* Disable Extensions submenu
@@ -334,6 +407,11 @@ if ( !empty( get_option( 'wcbloat_wp_update_nag_disable' ) ) && ( get_option( 'w
     }
   }
     add_action( 'admin_head', 'wcbloat_hide_wp_update_notice', 1 );
+}
+
+// Disable the built-in AI features (WordPress 7.0+): AI provider connectors and the core AI client
+if ( wcbloat_option_is_yes( 'wcbloat_wp_ai_disable' ) ) {
+    add_filter( 'wp_supports_ai', '__return_false' );
 }
 
 // Disable Autosave
@@ -565,6 +643,11 @@ if ( !empty( get_option( 'wcbloat_disable_widget_block_editor' ) ) && ( get_opti
 if ( !empty( get_option( 'wcbloat_disable_template_editor' ) ) && ( get_option( 'wcbloat_disable_template_editor' ) === 'yes' ) ) {
   function wcbloat_disable_template_editor()
   {
+      // Block themes render every page from block templates; removing the support leaves WordPress without a
+      // template to load and the whole front end comes out blank. Only classic themes can safely opt out.
+    if ( function_exists( 'wp_is_block_theme' ) && wp_is_block_theme() ) {
+        return;
+    }
       remove_theme_support( 'block-templates' );
   }
     add_action( 'after_setup_theme', 'wcbloat_disable_template_editor', 999 );

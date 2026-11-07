@@ -138,6 +138,16 @@ function wcbloat_wpcore_settings_init()
       array('sanitize_callback' => 'sanitize_key')
     );
 
+    // Built-in AI features (WordPress 7.0+)
+    wcbloat_add_checkbox_setting( 'wcbloat_wp_ai_disable', array(
+      'page'        => 'wcbloat-wpcore',
+      'group'       => 'wcbloat-wpcore-options',
+      'section'     => 'wcbloat-wpcore-speed-section',
+      'title'       => __( 'AI features', 'disable-dashboard-for-woocommerce' ),
+      'label'       => __( 'Disable the built-in WordPress AI features', 'disable-dashboard-for-woocommerce' ),
+      'description' => __( 'WordPress 7.0 added an AI client and AI provider connectors (Settings > Connectors). This option switches them off, for WordPress core and for plugins that use the core AI client. Other connectors, such as Akismet, keep working. Has no effect on older WordPress versions.', 'disable-dashboard-for-woocommerce' ),
+    ) );
+
     // API section
     add_settings_section(
       'wcbloat-wpcore-api-section',
@@ -348,6 +358,6 @@ function wcbloat_wp_rest_api_disable_callback()
     <label><input type='checkbox' name='wcbloat_wp_rest_api_disable' <?php checked( esc_attr( $value ), 'yes' );
     echo wcbloat_is_pro_readonly(); ?> value='yes'> <?php esc_attr_e( 'Disable WordPress REST API', 'disable-dashboard-for-woocommerce' );
 echo wcbloat_is_pro_badge(); ?></label>
-    <p><?php _e( 'Prevent access to the API endpoints that allow external applications to interact with a website. This can be done for security reasons, to prevent unauthorized access or protect sensitive data, or for performance reasons: to reduce server load. <br /><strong>Note:</strong> Disabling the REST API can impact functionality of certain themes and plugins that rely on it.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'Prevent access to the API endpoints that allow external applications to interact with a website. This can be done for security reasons, to prevent unauthorized access or protect sensitive data, or for performance reasons: to reduce server load. The REST API stays available to logged-in users (the block editor and WooCommerce admin need it) and for the WooCommerce Cart and Checkout blocks. <br /><strong>Note:</strong> Disabling the REST API can impact functionality of certain themes and plugins that rely on it, such as contact forms submitted by visitors.', 'disable-dashboard-for-woocommerce' ); ?></p>
   <?php
 }

@@ -251,6 +251,6 @@ function wcbloat_disable_template_editor_callback()
     <label><input type='checkbox' name='wcbloat_disable_template_editor' <?php checked( esc_attr( $value ), 'yes' );
     echo wcbloat_is_pro_readonly(); ?> value='yes'> <?php esc_attr_e( 'Deactivate the Template Editor', 'disable-dashboard-for-woocommerce' );
 echo wcbloat_is_pro_badge(); ?></label>
-    <p><?php _e( 'The Template Editor allows users to edit their theme\'s templates from within the Block Editor. Block themes might overwrite this setting.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'The Template Editor allows users to edit their theme\'s templates from within the Block Editor. Only applies to classic themes: block themes need the Template Editor to display your site, so this setting is ignored when a block theme is active.', 'disable-dashboard-for-woocommerce' ); ?></p>
   <?php
 }

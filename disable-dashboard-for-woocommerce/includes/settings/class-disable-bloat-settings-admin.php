@@ -49,6 +49,27 @@ function wcbloat_admin_settings_init() {
     register_setting( 'wcbloat-admin-options', 'wcbloat_autosave_disable', array(
         'sanitize_callback' => 'sanitize_key',
     ) );
+    // Hide admin notices from other plugins and themes PRO
+    wcbloat_add_checkbox_setting( 'wcbloat_third_party_notices_disable', array(
+        'page'        => 'wcbloat-admin',
+        'group'       => 'wcbloat-admin-options',
+        'section'     => 'wcbloat_clean_admin_section',
+        'pro'         => true,
+        'title'       => __( 'Notices from other plugins', 'disable-dashboard-for-woocommerce' ),
+        'label'       => __( 'Hide admin notices from other plugins and themes', 'disable-dashboard-for-woocommerce' ),
+        'description' => __( 'Removes the banners, nags and promotions that other plugins and your theme add to the top of admin screens. Notices from WordPress itself (such as update and error messages), from WooCommerce and from Disable Bloat stay visible, and so do notices that contain one of the words below.', 'disable-dashboard-for-woocommerce' ),
+    ) );
+    // Keywords that keep a third-party notice visible PRO
+    add_settings_field(
+        'wcbloat_third_party_notices_keep',
+        __( 'Always show notices containing', 'disable-dashboard-for-woocommerce' ),
+        'wcbloat_third_party_notices_keep_callback',
+        'wcbloat-admin',
+        'wcbloat_clean_admin_section'
+    );
+    register_setting( 'wcbloat-admin-options', 'wcbloat_third_party_notices_keep', array(
+        'sanitize_callback' => 'wcbloat_sanitize_keyword_list',
+    ) );
     // Disable Dashboard widgets PRO
     add_settings_field(
         'wcbloat_wp_dashboard_widgets_disable',
@@ -166,6 +187,25 @@ function wcbloat_wp_update_nag_disable_callback() {
     ?></label>
     <p><?php 
     _e( 'The next time any user with the Role set as Subscriber, Contributor, Author, or Editor access the WordPress back-end, they will not be prompted to update the WordPress core. The notification will continue to display for admin users.', 'disable-dashboard-for-woocommerce' );
+    ?></p>
+  <?php 
+}
+
+// Keywords that keep a third-party notice visible PRO
+function wcbloat_third_party_notices_keep_callback() {
+    $value = get_option( 'wcbloat_third_party_notices_keep', wcbloat_default_notice_keywords() );
+    ?>
+    <input type='text' class='regular-text' name='wcbloat_third_party_notices_keep' value='<?php 
+    echo esc_attr( $value );
+    ?>'<?php 
+    echo wcbloat_is_pro_readonly();
+    ?>>
+    <?php 
+    echo wcbloat_is_pro_badge();
+    ?>
+    <p><?php 
+    /* translators: %s: default keyword list */
+    printf( __( 'Comma-separated words. A notice from another plugin stays visible when its text contains one of them (not case-sensitive, and part of a word counts: <code>payment</code> also matches "WooPayments"), so important messages such as "Settings saved" or a failed payment are not hidden. Default: <code>%s</code>. Leave empty to hide all notices from other plugins.', 'disable-dashboard-for-woocommerce' ), esc_html( wcbloat_default_notice_keywords() ) );
     ?></p>
   <?php 
 }

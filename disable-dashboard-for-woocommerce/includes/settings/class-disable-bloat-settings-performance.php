@@ -137,6 +137,36 @@ function wcbloat_performance_settings_init() {
     register_setting( 'wcbloat-performance-options', 'wcbloat_disable_wp_embed', array(
         'sanitize_callback' => 'sanitize_key',
     ) );
+    // Speculative loading (WordPress 6.8+) PRO
+    wcbloat_add_checkbox_setting( 'wcbloat_speculative_loading_disable', array(
+        'page'        => 'wcbloat-performance',
+        'group'       => 'wcbloat-performance-options',
+        'section'     => 'wcbloat-performance-speed-section',
+        'title'       => __( 'Speculative loading', 'disable-dashboard-for-woocommerce' ),
+        'label'       => __( 'Disable speculative loading', 'disable-dashboard-for-woocommerce' ),
+        'description' => __( 'Since WordPress 6.8, browsers are told to prefetch pages when a visitor hovers over a link. On a store this can mean extra requests to cart, account and product pages that are never opened, adding server load and noise in your analytics. This option removes the speculation rules script.', 'disable-dashboard-for-woocommerce' ),
+        'pro'         => true,
+    ) );
+    // Auto-sizes CSS (WordPress 6.7+) PRO
+    wcbloat_add_checkbox_setting( 'wcbloat_img_auto_sizes_disable', array(
+        'page'        => 'wcbloat-performance',
+        'group'       => 'wcbloat-performance-options',
+        'section'     => 'wcbloat-performance-speed-section',
+        'title'       => __( 'Image auto-sizes CSS', 'disable-dashboard-for-woocommerce' ),
+        'label'       => __( 'Remove the image auto-sizes inline CSS', 'disable-dashboard-for-woocommerce' ),
+        'description' => __( 'Since WordPress 6.7, every page gets an inline style for lazy-loaded images, and those images get sizes="auto". Disable it if your theme or an image optimization plugin already handles image sizes.', 'disable-dashboard-for-woocommerce' ),
+        'pro'         => true,
+    ) );
+    // Global styles on classic themes PRO
+    wcbloat_add_checkbox_setting( 'wcbloat_classic_global_styles_disable', array(
+        'page'        => 'wcbloat-performance',
+        'group'       => 'wcbloat-performance-options',
+        'section'     => 'wcbloat-performance-speed-section',
+        'title'       => __( 'Global styles (classic themes)', 'disable-dashboard-for-woocommerce' ),
+        'label'       => __( 'Remove global styles and classic theme styles', 'disable-dashboard-for-woocommerce' ),
+        'description' => __( 'Removes the global-styles and classic-theme-styles inline CSS that WordPress adds to every page. Only applies to classic (non-block) themes, block themes are left alone. Do not use it if your content uses block editor colors, font sizes or button styles.', 'disable-dashboard-for-woocommerce' ),
+        'pro'         => true,
+    ) );
     // Remove unwanted scripts from header section
     add_settings_section(
         'wcbloat-site-performance-header-section',

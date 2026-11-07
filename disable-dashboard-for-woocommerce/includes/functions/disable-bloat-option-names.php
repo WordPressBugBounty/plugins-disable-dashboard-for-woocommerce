@@ -85,7 +85,19 @@ if ( !function_exists( 'wcbloat_option_names' ) ) {
         'wcbloat_autosave_disable',
         'wcbloat_disable_widget_block_editor',
         'wcbloat_elementor_google_fonts',
-        'wcbloat_flexible_shipping_remove_menu'
+        'wcbloat_flexible_shipping_remove_menu',
+        'wcbloat_wc_payments_menu_disable',
+        'wcbloat_wc_tracking_disable',
+        'wcbloat_wc_visibility_badge_disable',
+        'wcbloat_wc_shipping_label_banner_disable',
+        'wcbloat_wc_order_attribution_disable',
+        'wcbloat_wc_hooked_blocks_disable',
+        'wcbloat_speculative_loading_disable',
+        'wcbloat_img_auto_sizes_disable',
+        'wcbloat_classic_global_styles_disable',
+        'wcbloat_wp_ai_disable',
+        'wcbloat_third_party_notices_disable',
+        'wcbloat_third_party_notices_keep'
      );
      return $options;
   }

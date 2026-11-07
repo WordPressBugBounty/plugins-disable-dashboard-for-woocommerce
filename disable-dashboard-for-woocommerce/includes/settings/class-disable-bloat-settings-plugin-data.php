@@ -151,8 +151,11 @@ function wcbloat_import_export_desc_callback()
                     // Sanitize Option Name and Value based on the option type: multi-checkbox options are arrays of keys,
                     // everything else is a single key (non-scalar values for scalar options are skipped)
                     $option_name = sanitize_key( $option_name );
+                    $text_option_names = wcbloat_text_option_names();
                     if ( in_array( $option_name, $array_option_names, true ) ) {
                         $option_value = wcbloat_sanitize_key_array( $option_value );
+                    } elseif ( isset( $text_option_names[ $option_name ] ) ) {
+                        $option_value = call_user_func( $text_option_names[ $option_name ], $option_value );
                     } elseif ( is_scalar( $option_value ) ) {
                         $option_value = sanitize_key( (string) $option_value );
                     } else {
