@@ -47,13 +47,4 @@ jQuery(document).ready(function ($) {
 
   toggleAdminDisableFeatures();
   $adminDisableRadio.on('change', toggleAdminDisableFeatures);
-
-  // Fix for Plugin data screen - import / export
-
-  const currentUrl = window.location.href;
-
-  const pattern = 'page=disable-bloat&tab=data';
-  if (currentUrl.includes(pattern)) {
-    $('input[type="submit"]').last().hide();
-  }
 });

@@ -1,7 +1,7 @@
 === Disable Bloat for WordPress & WooCommerce – Speed Up & Clean Up Admin ===
 Contributors: disablebloat, ospiotr, mikewire_rocksolid, freemius
 Tags: woocommerce, remove bloat, disable woocommerce admin, performance, admin cleanup
-Stable tag: 4.3.0
+Stable tag: 4.4.0
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 5.6
@@ -207,6 +207,18 @@ No. The plugin does not require installing any additional plugins. There are man
 Some WooCommerce plugins rely heavily on WooCommerce Admin. If you decide to disable this module using our plugin, you may have a problem running these plugins:
 - Google Listings & Ads
 
+= How does Disable Bloat compare to Asset CleanUp? =
+
+They do different jobs and work well together. Asset CleanUp trims the CSS and JavaScript loaded on your front-end pages. Disable Bloat switches off what slows down and clutters your WordPress and WooCommerce admin, such as WooCommerce Admin, Analytics, the Marketing Hub and upsell notices. Full side-by-side: [Disable Bloat vs Asset CleanUp](https://rocksolidplugins.com/compare/disable-bloat-vs-asset-cleanup/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=compare).
+
+= How does Disable Bloat compare to Perfmatters? =
+
+Perfmatters is a paid front-end speed toolkit. Disable Bloat is built for WooCommerce stores: it switches off WooCommerce Admin, Analytics, the Marketing Hub, guide emails and admin clutter, which Perfmatters doesn't cover, and it has a free version. Full side-by-side: [Disable Bloat vs Perfmatters](https://rocksolidplugins.com/compare/disable-bloat-vs-perfmatters/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=compare).
+
+= Is Disable Bloat available in my language? =
+
+Yes, if you use Dutch, German, French, Spanish, Russian or Simplified Chinese: complete translations come with the plugin and are used automatically when your WordPress or profile language is set to one of them. Other languages use the community translations from [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/disable-dashboard-for-woocommerce/), where you're welcome to help.
+
 = I have a feature request =
 
 Great! If you need a specific feature, please add a new thread in the plugin support forum. Then, your idea will be analyzed by the plugin team and may be introduced as a new feature in one of the upcoming releases.
@@ -228,6 +240,13 @@ Great! If you need a specific feature, please add a new thread in the plugin sup
 7. Plugin data section - Delete, Export, Import configuration
 
 == Changelog ==
+= [4.4.0] - 2026-11-12 =
+
+- New: Complete translations included for Dutch, German, French, Spanish, Russian and Simplified Chinese. They're used instead of the less complete WordPress.org language packs
+- New: Refreshed settings page. Each tab starts with its icon next to the title, settings are grouped in sections, the page has a comfortable maximum width and the Save button stays in view while you scroll
+- Fixed: "Disable Marketing" no longer removed the Marketing menu on WooCommerce 11.1 and later. The menu is removed again, Coupons are back under WooCommerce > Coupons, and links to the Marketing page go to the coupons list
+- Fixed: corrected help texts for theme auto-updates, sidebar widgets, RSS feeds and the WordPress logo option
+
 = [4.3.0] - 2026-11-07 =
 
 - New PRO: Hide admin notices from other plugins and themes (Admin panel tab). Removes the banners, nags and promos other plugins and your theme add to the top of admin screens. WordPress, WooCommerce and Disable Bloat notices still show.

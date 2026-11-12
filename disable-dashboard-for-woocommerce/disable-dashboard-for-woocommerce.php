@@ -4,7 +4,7 @@
  * Plugin Name: Disable Bloat for WordPress & WooCommerce
  * Plugin URI: https://disablebloat.com/
  * Description: All-in-One solution to speed up your WordPress & WooCommerce. Remove unnecessary features and make your site faster and cleaner.
- * Version: 4.3.0
+ * Version: 4.4.0
  * Author: Disable Bloat
  * Developer: Disable Bloat
  * Author URI: https://disablebloat.com/
@@ -22,7 +22,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 if ( !defined( 'WCBLOAT_VERSION' ) ) {
-    define( 'WCBLOAT_VERSION', '4.3.0' );
+    define( 'WCBLOAT_VERSION', '4.4.0' );
 }
 if ( !defined( 'WCBLOAT_PLUGIN_FILE' ) ) {
     define( 'WCBLOAT_PLUGIN_FILE', __FILE__ );
@@ -111,6 +111,23 @@ if ( function_exists( 'wcbloat_fs' ) ) {
 
         // Load the text domain on init: loading it on plugins_loaded triggers _load_textdomain_just_in_time notices since WP 6.7
         add_action( 'init', 'wcbloat_init' );
+        // Prefer the translations bundled in /languages over WordPress.org language packs, which WordPress
+        // loads first and which are less complete. Locales without a bundled file keep using the language pack.
+        // Since WP 6.5 the .l10n.php file next to the filtered .mo is tried first.
+        function wcbloat_prefer_bundled_translations(  $mofile, $domain  ) {
+            if ( 'disable-dashboard-for-woocommerce' !== $domain ) {
+                return $mofile;
+            }
+            $bundled = __DIR__ . '/languages/' . basename( $mofile );
+            return ( is_readable( $bundled ) ? $bundled : $mofile );
+        }
+
+        add_filter(
+            'load_textdomain_mofile',
+            'wcbloat_prefer_bundled_translations',
+            10,
+            2
+        );
         // Links on Plugins screen
         function wcbloat_action_links(  $links  ) {
             $custom_links = ['<a href="' . admin_url( 'options-general.php?page=disable-bloat' ) . '">' . __( 'Settings' ) . '</a>'];

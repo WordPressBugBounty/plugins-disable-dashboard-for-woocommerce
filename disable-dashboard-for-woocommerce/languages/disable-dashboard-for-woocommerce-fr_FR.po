@@ -1,0 +1,2702 @@
+# Translation of Plugins - Disable Bloat for WordPress &amp; WooCommerce – Speed Up &amp; Clean Up Admin - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Disable Bloat for WordPress &amp; WooCommerce – Speed Up &amp; Clean Up Admin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Disable Bloat for WordPress &amp; WooCommerce "
+"– Speed Up &amp; Clean Up Admin - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-dashboard-"
+"for-woocommerce\n"
+"POT-Creation-Date: 2026-11-12T00:54:48+00:00\n"
+"PO-Revision-Date: 2026-11-12\n"
+"Last-Translator: Rock Solid Plugins\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Plugin Name of the plugin
+#: disable-dashboard-for-woocommerce.php
+#: includes/settings/class-disable-bloat-settings.php:19
+msgid "Disable Bloat for WordPress & WooCommerce"
+msgstr "Disable Bloat for WordPress & WooCommerce"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: disable-dashboard-for-woocommerce.php
+msgid "https://disablebloat.com/"
+msgstr "https://disablebloat.com/"
+
+#. Description of the plugin
+#: disable-dashboard-for-woocommerce.php
+msgid ""
+"All-in-One solution to speed up your WordPress & WooCommerce. Remove "
+"unnecessary features and make your site faster and cleaner."
+msgstr ""
+"Solution tout-en-un pour accélérer votre site WordPress & WooCommerce. "
+"Retirez les fonctionnalités inutiles et rendez votre site plus rapide et "
+"plus épuré."
+
+#. Author of the plugin
+#: disable-dashboard-for-woocommerce.php
+#: includes/settings/class-disable-bloat-settings.php:10
+msgid "Disable Bloat"
+msgstr "Disable Bloat"
+
+#: disable-dashboard-for-woocommerce.php:151
+msgid "Upgrade"
+msgstr "Mettre à niveau"
+
+#: disable-dashboard-for-woocommerce.php:154
+msgid "My Account"
+msgstr "Mon compte"
+
+#. translators: link to plugin configuration screen
+#: includes/functions/disable-bloat-functions_free.php:119
+#, php-format
+msgid ""
+"The WooCommerce Admin module is turned off. The Stripe plugin needs the "
+"WooCommerce Admin module to be on when setting up API keys. To do this, "
+"please temporarily enable the WooCommerce Admin in the <a "
+"href=\"%s\">Disable Bloat plugin settings</a>. You can switch it back off "
+"after configuring Stripe API keys."
+msgstr ""
+"Le module WooCommerce Admin est désactivé. L’extension Stripe a besoin que "
+"le module WooCommerce Admin soit actif lors de la configuration des clés "
+"API. Pour cela, veuillez activer temporairement WooCommerce Admin dans les "
+"<a href=\"%s\">réglages de l’extension Disable Bloat</a>. Vous pourrez le "
+"désactiver à nouveau après avoir configuré les clés API Stripe."
+
+#: includes/functions/disable-bloat-review-notice.php:35
+msgid "Enjoying Disable Bloat?"
+msgstr "Vous appréciez Disable Bloat ?"
+
+#: includes/functions/disable-bloat-review-notice.php:36
+msgid ""
+"A quick review on WordPress.org helps other site owners find it, and it "
+"really makes our day. Thank you!"
+msgstr ""
+"Un petit avis sur WordPress.org aide d’autres propriétaires de sites à la "
+"découvrir, et cela nous fait vraiment plaisir. Merci !"
+
+#: includes/functions/disable-bloat-review-notice.php:40
+msgid "Leave a review"
+msgstr "Laisser un avis"
+
+#: includes/functions/disable-bloat-review-notice.php:43
+msgid "Maybe later"
+msgstr "Peut-être plus tard"
+
+#: includes/functions/disable-bloat-review-notice.php:46
+msgid "I already did"
+msgstr "C’est déjà fait"
+
+#: includes/functions/disable-bloat-review-notice.php:68
+msgid "Sorry, you are not allowed to do that."
+msgstr "Désolé, vous n’avez pas l’autorisation de faire cela."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:22
+#: includes/settings/class-disable-bloat-settings.php:23
+msgid "Admin panel optimization"
+msgstr "Optimisation du panneau d’administration"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:30
+msgid "Clean admin interface"
+msgstr "Nettoyer l’interface d’administration"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:38
+#: includes/settings/class-disable-bloat-settings-admin.php:226
+#: includes/settings/class-disable-bloat-settings-block.php:38
+msgid "Hide update notice for non-admin users"
+msgstr ""
+"Masquer la notification de mise à jour pour les utilisateurs non "
+"administrateurs"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:52
+msgid "Disable Autosave"
+msgstr "Désactiver l’enregistrement automatique"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:69
+msgid "Notices from other plugins"
+msgstr "Notifications des autres extensions"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:70
+msgid "Hide admin notices from other plugins and themes"
+msgstr ""
+"Masquer les notifications d’administration des autres extensions et thèmes"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:71
+msgid ""
+"Removes the banners, nags and promotions that other plugins and your theme "
+"add to the top of admin screens. Notices from WordPress itself (such as "
+"update and error messages), from WooCommerce and from Disable Bloat stay "
+"visible, and so do notices that contain one of the words below."
+msgstr ""
+"Retire les bannières, relances et promotions que les autres extensions et "
+"votre thème ajoutent en haut des écrans d’administration. Les notifications "
+"de WordPress lui-même (comme les messages de mise à jour et d’erreur), de "
+"WooCommerce et de Disable Bloat restent visibles, tout comme les "
+"notifications contenant l’un des mots ci-dessous."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:77
+msgid "Always show notices containing"
+msgstr "Toujours afficher les notifications contenant"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:91
+msgid "Disable WordPress Dashboard widgets"
+msgstr "Désactiver les widgets du tableau de bord WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:105
+msgid "WordPress logo in the admin bar"
+msgstr "Logo WordPress dans la barre d’administration"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:119
+msgid "Admin footer text"
+msgstr "Texte du pied de page de l’administration"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:133
+msgid "WordPress login page"
+msgstr "Page de connexion WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:141
+msgid "Hide WordPress logo on the Login Page"
+msgstr "Masquer le logo WordPress sur la page de connexion"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:155
+msgid "Change the Logo Link"
+msgstr "Modifier le lien du logo"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:169
+msgid "Change the Logo title parameter"
+msgstr "Modifier le paramètre de titre du logo"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:183
+#: includes/settings/class-disable-bloat-settings-admin.php:391
+msgid "Disable WordPress Login Language Switcher"
+msgstr "Désactiver le sélecteur de langue de connexion WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:210
+msgid ""
+"By default, the WordPress admin panel is cluttered with preinstalled "
+"elements that may distract you from your work. You can simplify your "
+"WordPress admin panel by hiding or turning them off."
+msgstr ""
+"Par défaut, le panneau d’administration de WordPress est encombré d’éléments "
+"préinstallés qui peuvent vous distraire de votre travail. Vous pouvez "
+"simplifier votre panneau d’administration WordPress en les masquant ou en "
+"les désactivant."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:217
+msgid ""
+"If you love a simple and flexible interface, use the options below to "
+"maximize your performance while browsing through the WordPress admin panel. "
+"By removing unnecessary elements, you will be 100% focused on your tasks."
+msgstr ""
+"Si vous aimez une interface simple et flexible, utilisez les options ci-"
+"dessous pour optimiser vos performances lorsque vous naviguez dans le "
+"panneau d’administration WordPress. En retirant les éléments inutiles, vous "
+"serez concentré à 100 % sur vos tâches."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:227
+msgid ""
+"The next time any user with the Role set as Subscriber, Contributor, Author, "
+"or Editor access the WordPress back-end, they will not be prompted to update "
+"the WordPress core. The notification will continue to display for admin "
+"users."
+msgstr ""
+"La prochaine fois qu’un utilisateur ayant le rôle Abonné, Contributeur, "
+"Auteur ou Éditeur accédera à l’administration de WordPress, il ne sera pas "
+"invité à mettre à jour le cœur de WordPress. La notification continuera de "
+"s’afficher pour les administrateurs."
+
+#. translators: %s: default keyword list
+#: includes/settings/class-disable-bloat-settings-admin.php:240
+#, php-format
+msgid ""
+"Comma-separated words. A notice from another plugin stays visible when its "
+"text contains one of them (not case-sensitive, and part of a word counts: "
+"<code>payment</code> also matches \"WooPayments\"), so important messages "
+"such as \"Settings saved\" or a failed payment are not hidden. Default: "
+"<code>%s</code>. Leave empty to hide all notices from other plugins."
+msgstr ""
+"Mots séparés par des virgules. Une notification d’une autre extension reste "
+"visible lorsque son texte contient l’un d’eux (sans distinction de casse, et "
+"une partie de mot suffit : <code>payment</code> correspond aussi à "
+"« WooPayments »), afin que les messages importants comme « Réglages "
+"enregistrés » ou un paiement échoué ne soient pas masqués. Par défaut : "
+"<code>%s</code>. Laissez vide pour masquer toutes les notifications des "
+"autres extensions."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:251
+msgid "Disable WordPress editor Autosave feature"
+msgstr ""
+"Désactiver la fonctionnalité d’enregistrement automatique de l’éditeur "
+"WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:252
+msgid ""
+"WordPress saves everything you write on the editor after an interval of 60 "
+"seconds. It can use excessive server resources and may cause performance "
+"issues. Enabling this option will turn off the autosave feature."
+msgstr ""
+"WordPress enregistre tout ce que vous écrivez dans l’éditeur toutes les 60 "
+"secondes. Cela peut consommer des ressources serveur excessives et provoquer "
+"des problèmes de performances. L’activation de cette option désactivera la "
+"fonctionnalité d’enregistrement automatique."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:265
+#: includes/settings/class-disable-bloat-settings-main.php:560
+#: includes/settings/class-disable-bloat-settings-performance.php:418
+msgid "Select / Deselect All"
+msgstr "Sélectionner/désélectionner tout"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:274
+msgid "Site Health Status"
+msgstr "État de santé du site"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:279
+msgid "At a Glance"
+msgstr "D’un coup d’œil"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:286
+msgid "Activity"
+msgstr "Activité"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:291
+msgid "Quick Draft"
+msgstr "Brouillon rapide"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:298
+msgid "WordPress Events and News"
+msgstr "Événements et nouvelles de WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:303
+msgid "Welcome panel"
+msgstr "Panneau d’accueil"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:308
+msgid ""
+"WordPress by default comes with a lot of Dashboard widgets installed. They "
+"often are not used at all, but can add backend load and front-end load. "
+"Choose which of the WordPress Dashboard Widgets should be disabled. The "
+"<strong>ones you choose will be disabled</strong>, and the <strong>ones that "
+"had not been selected</strong> will stay <strong>active</strong>."
+msgstr ""
+"WordPress est livré par défaut avec de nombreux widgets de tableau de bord. "
+"Ils ne sont souvent pas utilisés du tout, mais peuvent alourdir "
+"l’administration et l’interface publique. Choisissez les widgets du tableau "
+"de bord WordPress à désactiver. <strong>Ceux que vous choisissez seront "
+"désactivés</strong>, et <strong>ceux qui n’ont pas été sélectionnés</strong> "
+"resteront <strong>actifs</strong>."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:320
+msgid "Remove the WordPress logo (“W”) from the admin bar"
+msgstr "Retirer le logo WordPress (« W ») de la barre d’administration"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:322
+msgid ""
+"This option will hide the WordPress logo in the upper left corner. The logo "
+"won't be visible in your admin panel and in your site (on the admin bar "
+"visible on the front-end after logging in)."
+msgstr ""
+"Cette option masquera le logo WordPress dans le coin supérieur gauche. Le "
+"logo ne sera plus visible dans votre panneau d’administration ni sur votre "
+"site (dans la barre d’administration visible sur l’interface publique après "
+"la connexion)."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:333
+msgid "Remove admin footer text"
+msgstr "Retirer le texte du pied de page de l’administration"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:335
+msgid ""
+"This option hides the text at the bottom of the WordPress admin: <code>Thank "
+"you for creating with WordPress</code> on the bottom left, and the WordPress "
+"version on the bottom right."
+msgstr ""
+"Cette option masque le texte en bas de l’administration WordPress : "
+"<code>Thank you for creating with WordPress</code> en bas à gauche, et la "
+"version de WordPress en bas à droite."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:342
+msgid ""
+"There are situations when you may prefer to hide or change the standard "
+"WordPress branding on the Login Page."
+msgstr ""
+"Il existe des situations où vous pourriez préférer masquer ou modifier "
+"l’image de marque WordPress standard sur la page de connexion."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:352
+msgid "Hide WordPress logo on the WordPress Login Page"
+msgstr "Masquer le logo WordPress sur la page de connexion WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:354
+msgid "Hide standard WordPress Logo from Login Page"
+msgstr "Masquer le logo WordPress standard de la page de connexion"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:365
+msgid "Change the Logo Link on the WordPress Login Page"
+msgstr "Modifier le lien du logo sur la page de connexion WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:367
+msgid ""
+"By default, the WordPress login page displays the WordPress logo which is "
+"linking to WordPress.org site. After activating this option, the logo on the "
+"login page will be linking to your site's homepage."
+msgstr ""
+"Par défaut, la page de connexion WordPress affiche le logo WordPress qui "
+"renvoie vers le site WordPress.org. Après l’activation de cette option, le "
+"logo de la page de connexion renverra vers la page d’accueil de votre site."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:378
+msgid "Change the Logo title parameter on the WordPress Login Page"
+msgstr ""
+"Modifiez le paramètre de titre du logo sur la page de connexion WordPress"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:380
+msgid ""
+"By default, the WordPress Logo displayed on the WordPress Login Page has a "
+"title parameter that says <code>Powered by WordPress</code>. After "
+"activating this option, it will match your Site Name."
+msgstr ""
+"Par défaut, le logo WordPress affiché sur la page de connexion WordPress "
+"possède un paramètre de titre indiquant <code>Powered by WordPress</code>. "
+"Après l’activation de cette option, il correspondra au nom de votre site."
+
+#: includes/settings/class-disable-bloat-settings-admin.php:393
+msgid ""
+"This option will disable the language selector which allows users to switch "
+"languages from a dropdown on the login screen if more than one language is "
+"enabled on your WordPress installation."
+msgstr ""
+"Cette option désactivera le sélecteur de langue qui permet aux utilisateurs "
+"de changer de langue à partir d’une liste déroulante sur l’écran de "
+"connexion si plusieurs langues sont activées sur votre installation "
+"WordPress."
+
+#: includes/settings/class-disable-bloat-settings-block.php:22
+#: includes/settings/class-disable-bloat-settings.php:26
+msgid "Block Editor"
+msgstr "Éditeur de blocs"
+
+#: includes/settings/class-disable-bloat-settings-block.php:30
+#: includes/settings/class-disable-bloat-settings-block.php:171
+msgid "Disable Gutenberg"
+msgstr "Désactiver Gutenberg"
+
+#: includes/settings/class-disable-bloat-settings-block.php:52
+msgid "Disable Gutenberg features"
+msgstr "Désactiver les fonctionnalités de Gutenberg"
+
+#: includes/settings/class-disable-bloat-settings-block.php:60
+#: includes/settings/class-disable-bloat-settings-block.php:188
+msgid "Disable Gutenberg Widget Block Editor"
+msgstr "Désactiver l’éditeur de blocs des widgets Gutenberg"
+
+#: includes/settings/class-disable-bloat-settings-block.php:74
+msgid "Welcome Guide"
+msgstr "Guide de bienvenue"
+
+#: includes/settings/class-disable-bloat-settings-block.php:88
+msgid "WordPress Block Directory"
+msgstr "Répertoire de blocs WordPress"
+
+#: includes/settings/class-disable-bloat-settings-block.php:102
+#: includes/settings/class-disable-bloat-settings-block.php:226
+msgid "Remove the default block patterns"
+msgstr "Retirer les compositions de blocs par défaut"
+
+#: includes/settings/class-disable-bloat-settings-block.php:116
+#: includes/settings/class-disable-bloat-settings-block.php:239
+msgid "Auto-exit the Fullscreen Mode on editor load"
+msgstr ""
+"Quitter automatiquement le mode plein écran lors du chargement de l’éditeur"
+
+#: includes/settings/class-disable-bloat-settings-block.php:130
+#: includes/settings/class-disable-bloat-settings-block.php:252
+msgid "Deactivate the Template Editor"
+msgstr "Désactiver l’éditeur de modèles"
+
+#: includes/settings/class-disable-bloat-settings-block.php:156
+msgid ""
+"Using Block Editor can significantly slow down your page during editing "
+"posts and while browsing through your site. You can decide to either turn "
+"Gutenberg (WordPress built-in Block Editor) off completely or keep it on and "
+"only disable unnecessary features.<hr>"
+msgstr ""
+"L’utilisation de l’éditeur de blocs peut ralentir considérablement votre "
+"page pendant l’édition des publications et la navigation sur votre site. "
+"Vous pouvez choisir de désactiver complètement Gutenberg (l’éditeur de blocs "
+"intégré à WordPress) ou de le conserver et de ne désactiver que les "
+"fonctionnalités inutiles.<hr>"
+
+#: includes/settings/class-disable-bloat-settings-block.php:162
+msgid ""
+"By enabling this option, you will turn off Gutenberg Block Editor for all "
+"supported post types (including pages). All Gutenberg action and filter "
+"hooks will be deactivated, and Gutenberg frontend scripts won’t load on your "
+"site too."
+msgstr ""
+"En activant cette option, vous désactiverez l’éditeur de blocs Gutenberg "
+"pour tous les types de publication pris en charge (y compris les pages). "
+"Tous les crochets d’action et de filtre de Gutenberg seront désactivés, et "
+"les scripts Gutenberg de l’interface publique ne seront plus chargés sur "
+"votre site."
+
+#: includes/settings/class-disable-bloat-settings-block.php:172
+msgid ""
+"By enabling this option, you will turn off Gutenberg Block Editor for all "
+"supported post types (including pages). All Gutenberg action and filter "
+"hooks will be deactivated, and Gutenberg frontend scripts won't load on your "
+"site too."
+msgstr ""
+"En activant cette option, vous désactiverez l’éditeur de blocs Gutenberg "
+"pour tous les types de publication pris en charge (y compris les pages). "
+"Tous les crochets d’action et de filtre de Gutenberg seront désactivés, et "
+"les scripts Gutenberg de l’interface publique ne seront plus chargés sur "
+"votre site."
+
+#: includes/settings/class-disable-bloat-settings-block.php:179
+msgid ""
+"If you decide to keep Gutenberg on, you can at least maximize your "
+"experience by tweaking its features to match your needs."
+msgstr ""
+"Si vous décidez de conserver Gutenberg, vous pouvez au moins optimiser votre "
+"expérience en ajustant ses fonctionnalités à vos besoins."
+
+#: includes/settings/class-disable-bloat-settings-block.php:189
+msgid ""
+"Check this option to disable the new widget block editor page. By doing so, "
+"you'll restore the familiar \"classic\" WordPress widgets screen and "
+"deactivate the block editor's widget management functionality. This allows "
+"you to continue managing widgets in the traditional way, providing a more "
+"familiar and comfortable experience for users used to the classic widget "
+"interface."
+msgstr ""
+"Cochez cette option pour désactiver la nouvelle page de l’éditeur de blocs "
+"des widgets. Vous retrouverez ainsi l’écran des widgets WordPress "
+"« classique » habituel et désactiverez la gestion des widgets par l’éditeur "
+"de blocs. Vous pourrez continuer à gérer les widgets de manière "
+"traditionnelle, une expérience plus familière et plus confortable pour les "
+"utilisateurs habitués à l’interface classique des widgets."
+
+#: includes/settings/class-disable-bloat-settings-block.php:200
+msgid "Auto-close Welcome Guide"
+msgstr "Fermer automatiquement le guide de bienvenue"
+
+#: includes/settings/class-disable-bloat-settings-block.php:202
+msgid ""
+"Turn off the annoying pop-up Welcome Guide Modal. Users will still be able "
+"to open it manually via the context menu."
+msgstr ""
+"Désactivez la fenêtre modale agaçante du guide de bienvenue. Les "
+"utilisateurs pourront toujours l’ouvrir manuellement via le menu contextuel."
+
+#: includes/settings/class-disable-bloat-settings-block.php:213
+msgid "Disable WordPress Block Directory"
+msgstr "Désactiver le répertoire de blocs WordPress"
+
+#: includes/settings/class-disable-bloat-settings-block.php:215
+msgid ""
+"As Blocks are in fact plugins, it's a potential security threat to use Block "
+"Directory. New Blocks are added to the Directory automatically, without "
+"human review."
+msgstr ""
+"Comme les blocs sont en réalité des extensions, l’utilisation du répertoire "
+"de blocs représente une menace potentielle pour la sécurité. Les nouveaux "
+"blocs sont ajoutés automatiquement au répertoire, sans vérification humaine."
+
+#: includes/settings/class-disable-bloat-settings-block.php:228
+msgid ""
+"Patterns is a feature in the Block editor that lets you save and reuse "
+"patterns of many blocks. It is similar to reusable blocks, but they are not "
+"global by default."
+msgstr ""
+"Les compositions sont une fonctionnalité de l’éditeur de blocs qui vous "
+"permet d’enregistrer et de réutiliser des ensembles de blocs. Elles sont "
+"similaires aux blocs réutilisables, mais ne sont pas globales par défaut."
+
+#: includes/settings/class-disable-bloat-settings-block.php:241
+msgid "Users will still be able to enter it manually via the context menu."
+msgstr ""
+"Les utilisateurs/utilisatrices pourront toujours le saisir manuellement via "
+"le menu contextuel."
+
+#: includes/settings/class-disable-bloat-settings-block.php:254
+msgid ""
+"The Template Editor allows users to edit their theme's templates from within "
+"the Block Editor. Only applies to classic themes: block themes need the "
+"Template Editor to display your site, so this setting is ignored when a "
+"block theme is active."
+msgstr ""
+"L’éditeur de modèles permet aux utilisateurs de modifier les modèles de leur "
+"thème depuis l’éditeur de blocs. S’applique uniquement aux thèmes "
+"classiques : les thèmes de blocs ont besoin de l’éditeur de modèles pour "
+"afficher votre site, ce réglage est donc ignoré lorsqu’un thème de blocs est "
+"actif."
+
+#: includes/settings/class-disable-bloat-settings-main.php:21
+msgid "Disable WooCommerce Bloat"
+msgstr "Désactiver le superflu de WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:29
+#: includes/settings/class-disable-bloat-settings-main.php:37
+msgid "WooCommerce Admin"
+msgstr "WooCommerce Admin"
+
+#: includes/settings/class-disable-bloat-settings-main.php:51
+msgid "Disable WooCommerce Admin features"
+msgstr "Désactiver les fonctionnalités de WooCommerce Admin"
+
+#: includes/settings/class-disable-bloat-settings-main.php:68
+msgid "Marketing Hub"
+msgstr "Marketing Hub"
+
+#: includes/settings/class-disable-bloat-settings-main.php:82
+msgid "WooCommerce promotions"
+msgstr "Promotions WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:90
+msgid "WooCommerce.com notice"
+msgstr "Notification WooCommerce.com"
+
+#: includes/settings/class-disable-bloat-settings-main.php:104
+msgid "Marketplace Suggestions"
+msgstr "Suggestions de la place de marché"
+
+#: includes/settings/class-disable-bloat-settings-main.php:118
+msgid "Extensions & My Subscriptions submenus"
+msgstr "Sous-menus Extensions & Mes abonnements"
+
+#: includes/settings/class-disable-bloat-settings-main.php:132
+msgid "Recommended shipping solutions metabox"
+msgstr "Boîte méta des solutions de livraison recommandées"
+
+#: includes/settings/class-disable-bloat-settings-main.php:146
+msgid "Recommended payments solutions metabox"
+msgstr "Boîte méta des solutions de paiement recommandées"
+
+#: includes/settings/class-disable-bloat-settings-main.php:160
+msgid "Hide marketplace link on the Payments Settings screen"
+msgstr ""
+"Masquer le lien vers la place de marché sur l’écran des réglages de paiement"
+
+#: includes/settings/class-disable-bloat-settings-main.php:176
+msgid "Payments menu"
+msgstr "Menu Paiements"
+
+#: includes/settings/class-disable-bloat-settings-main.php:177
+msgid "Remove the top-level \"Payments\" menu item"
+msgstr "Retirer l’élément de menu principal « Paiements »"
+
+#: includes/settings/class-disable-bloat-settings-main.php:178
+msgid ""
+"Recent WooCommerce versions add a \"Payments\" item to the main admin menu "
+"that promotes WooPayments, sometimes with a notification badge. It only "
+"links to WooCommerce > Settings > Payments, which stays available. When "
+"WooPayments is set up, its own Payments menu is kept."
+msgstr ""
+"Les versions récentes de WooCommerce ajoutent au menu d’administration "
+"principal un élément « Paiements » qui fait la promotion de WooPayments, "
+"parfois avec un badge de notification. Il renvoie uniquement vers "
+"WooCommerce > Réglages > Paiements, qui reste accessible. Lorsque "
+"WooPayments est configuré, son propre menu Paiements est conservé."
+
+#: includes/settings/class-disable-bloat-settings-main.php:184
+msgid "WooCommerce emails"
+msgstr "E-mails WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:192
+msgid "Disable WooCommerce guide emails"
+msgstr "Désactiver les e-mails de guide WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:206
+msgid "Remove the \"Get the app\" footer from emails"
+msgstr "Retirer le pied de page « Obtenir l’application » des e-mails"
+
+#: includes/settings/class-disable-bloat-settings-main.php:220
+msgid "WooCommerce back-end scripts"
+msgstr "Scripts WooCommerce de l’administration"
+
+#: includes/settings/class-disable-bloat-settings-main.php:228
+msgid "WooCommerce Status Meta Box"
+msgstr "Boîte méta d’état de WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:242
+msgid "WooCommerce Dashboard Setup Widget"
+msgstr "Widget de configuration du tableau de bord WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:256
+#: includes/settings/class-disable-bloat-settings-main.php:739
+msgid "Disable new WooCommerce product editor"
+msgstr "Désactiver le nouvel éditeur de produits WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:270
+#: includes/settings/class-disable-bloat-settings-main.php:284
+msgid "WooCommerce Blocks (back-end)"
+msgstr "Blocs WooCommerce (administration)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:300
+msgid "Usage tracking and remote logging"
+msgstr "Suivi d’utilisation et journalisation à distance"
+
+#: includes/settings/class-disable-bloat-settings-main.php:301
+msgid "Disable WooCommerce usage tracking and remote logging"
+msgstr ""
+"Désactiver le suivi d’utilisation et la journalisation à distance de "
+"WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:302
+msgid ""
+"Stops WooCommerce from sending usage data, admin click tracking (Tracks), "
+"the weekly tracker report and error logs to WooCommerce.com. Fewer remote "
+"requests from your admin, and nothing is lost for your store."
+msgstr ""
+"Empêche WooCommerce d’envoyer à WooCommerce.com les données d’utilisation, "
+"le suivi des clics dans l’administration (Tracks), le rapport hebdomadaire "
+"du tracker et les journaux d’erreurs. Moins de requêtes distantes depuis "
+"votre administration, sans aucune perte pour votre boutique."
+
+#: includes/settings/class-disable-bloat-settings-main.php:310
+msgid "Store visibility badge"
+msgstr "Badge de visibilité de la boutique"
+
+#: includes/settings/class-disable-bloat-settings-main.php:311
+msgid "Hide the \"Live\" / \"Coming soon\" badge in the admin bar"
+msgstr ""
+"Masquer le badge « En ligne » / « Bientôt disponible » dans la barre "
+"d’administration"
+
+#: includes/settings/class-disable-bloat-settings-main.php:312
+msgid ""
+"Removes the store visibility badge WooCommerce adds next to your site name "
+"in the admin bar. Coming soon mode itself is not affected and can still be "
+"set in WooCommerce > Settings > Site visibility."
+msgstr ""
+"Retire le badge de visibilité de la boutique que WooCommerce ajoute à côté "
+"du nom de votre site dans la barre d’administration. Le mode « Bientôt "
+"disponible » lui-même n’est pas affecté et peut toujours être réglé dans "
+"WooCommerce > Réglages > Visibilité du site."
+
+#: includes/settings/class-disable-bloat-settings-main.php:320
+msgid "Shipping Label meta box"
+msgstr "Boîte méta Étiquette d’expédition"
+
+#: includes/settings/class-disable-bloat-settings-main.php:321
+msgid "Remove the \"Shipping Label\" promo box from the order edit screen"
+msgstr ""
+"Retirer la boîte promotionnelle « Étiquette d’expédition » de l’écran de "
+"modification de commande"
+
+#: includes/settings/class-disable-bloat-settings-main.php:322
+msgid ""
+"Removes the box promoting WooCommerce Shipping on the order edit screen. "
+"Keep it if you print labels with WooCommerce Shipping."
+msgstr ""
+"Retire la boîte faisant la promotion de WooCommerce Shipping sur l’écran de "
+"modification de commande. Conservez-la si vous imprimez des étiquettes avec "
+"WooCommerce Shipping."
+
+#: includes/settings/class-disable-bloat-settings-main.php:328
+msgid "Your Store's Front-end"
+msgstr "Interface publique de votre boutique"
+
+#: includes/settings/class-disable-bloat-settings-main.php:336
+msgid "WooCommerce Widgets"
+msgstr "Widgets WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:350
+msgid "WooCommerce scripts and styles"
+msgstr "Scripts et styles WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:364
+msgid "WooCommerce Cart Fragments"
+msgstr "Fragments de panier WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:378
+msgid "WooCommerce Blocks (front-end)"
+msgstr "Blocs WooCommerce (interface publique)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:392
+msgid "Stripe scripts"
+msgstr "Scripts Stripe"
+
+#: includes/settings/class-disable-bloat-settings-main.php:408
+msgid "Order Attribution tracking"
+msgstr "Suivi de l’attribution des commandes"
+
+#: includes/settings/class-disable-bloat-settings-main.php:409
+msgid "Disable Order Attribution tracking"
+msgstr "Désactiver le suivi de l’attribution des commandes"
+
+#: includes/settings/class-disable-bloat-settings-main.php:410
+msgid ""
+"WooCommerce loads two tracking scripts (sourcebuster.js and order-"
+"attribution.js) on every page of your site and sets sbjs_* cookies to record "
+"where each customer came from. Disabling it removes both scripts and the "
+"cookies. You lose the \"Origin\" column on orders, so keep it if you rely on "
+"that data."
+msgstr ""
+"WooCommerce charge deux scripts de suivi (sourcebuster.js et order-"
+"attribution.js) sur chaque page de votre site et définit des cookies sbjs_* "
+"pour enregistrer la provenance de chaque client. La désactivation retire les "
+"deux scripts et les cookies. Vous perdez la colonne « Origine » des "
+"commandes, conservez-la donc si vous utilisez ces données."
+
+#: includes/settings/class-disable-bloat-settings-main.php:419
+msgid "Auto-inserted blocks"
+msgstr "Blocs insérés automatiquement"
+
+#: includes/settings/class-disable-bloat-settings-main.php:420
+msgid "Stop WooCommerce adding blocks to your block theme"
+msgstr "Empêcher WooCommerce d’ajouter des blocs à votre thème de blocs"
+
+#: includes/settings/class-disable-bloat-settings-main.php:421
+msgid ""
+"On block themes, WooCommerce automatically inserts the Mini-Cart and "
+"Customer account blocks into your header (and Product details into product "
+"templates), together with their scripts. Enable this if you placed these "
+"blocks yourself or do not want them. Classic themes are not affected."
+msgstr ""
+"Sur les thèmes de blocs, WooCommerce insère automatiquement les blocs Mini-"
+"panier et Compte client dans votre en-tête (et Détails du produit dans les "
+"modèles de produit), avec leurs scripts. Activez cette option si vous avez "
+"placé ces blocs vous-même ou si vous n’en voulez pas. Les thèmes classiques "
+"ne sont pas affectés."
+
+#: includes/settings/class-disable-bloat-settings-main.php:440
+msgid ""
+"Using options from this tab, you will be able to turn off general "
+"WooCommerce functionalities which are not required to run your store. These "
+"features cannot be disabled using standard WooCommerce configuration options."
+msgstr ""
+"Grâce aux options de cet onglet, vous pourrez désactiver des fonctionnalités "
+"générales de WooCommerce qui ne sont pas nécessaires au fonctionnement de "
+"votre boutique. Ces fonctionnalités ne peuvent pas être désactivées avec les "
+"options de configuration standard de WooCommerce."
+
+#: includes/settings/class-disable-bloat-settings-main.php:447
+msgid ""
+"WooCommerce Admin is a built-in feature in WooCommerce. It is a javascript-"
+"driven dashboard. WooCommerce Admin's features continue to become "
+"increasingly blended into the merchant experience in WooCommerce. It can "
+"cause performance issues and slow down your website. Disabling the feature "
+"can help speed up your website and improve the user experience for your "
+"customers. Using the options below, you can effectively disable WooCommerce "
+"Admin, Analytics, Home screen and other features that are making your admin "
+"panel slower."
+msgstr ""
+"WooCommerce Admin est une fonctionnalité intégrée à WooCommerce. Il s’agit "
+"d’un tableau de bord piloté par JavaScript. Les fonctionnalités de "
+"WooCommerce Admin sont de plus en plus intégrées à l’expérience marchand de "
+"WooCommerce. Cela peut provoquer des problèmes de performances et ralentir "
+"votre site. Désactiver cette fonctionnalité peut aider à accélérer votre "
+"site et à améliorer l’expérience de vos clients. Grâce aux options ci-"
+"dessous, vous pouvez désactiver efficacement WooCommerce Admin, les "
+"statistiques, l’écran d’accueil et d’autres fonctionnalités qui ralentissent "
+"votre panneau d’administration."
+
+#: includes/settings/class-disable-bloat-settings-main.php:457
+msgid "Disable WooCommerce Admin completely"
+msgstr "Désactiver complètement WooCommerce Admin"
+
+#: includes/settings/class-disable-bloat-settings-main.php:458
+msgid "Choose which WooCommerce Admin features to disable"
+msgstr "Choisir les fonctionnalités de WooCommerce Admin à désactiver"
+
+#: includes/settings/class-disable-bloat-settings-main.php:459
+msgid "Keep WooCommerce Admin enabled (do nothing)"
+msgstr "Garder WooCommerce Admin activé (ne rien faire)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:462
+msgid ""
+"You can either completely disable the whole WooCommerce Admin (Analytics "
+"menu, Notification bar, Home screen and more) or choose to keep it enabled, "
+"but disable its particular features. If you choose the third option, no "
+"changes will be applied."
+msgstr ""
+"Vous pouvez soit désactiver complètement WooCommerce Admin (menu "
+"Statistiques, barre de notifications, écran d’accueil et plus), soit le "
+"garder activé mais désactiver certaines de ses fonctionnalités. Si vous "
+"choisissez la troisième option, aucune modification ne sera appliquée."
+
+#: includes/settings/class-disable-bloat-settings-main.php:470
+msgid "Activity panels"
+msgstr "Panneaux d’activité"
+
+#: includes/settings/class-disable-bloat-settings-main.php:471
+msgid "Analytics"
+msgstr "Statistiques"
+
+#: includes/settings/class-disable-bloat-settings-main.php:472
+msgid "Analytics scheduled import"
+msgstr "Importation planifiée des statistiques"
+
+#: includes/settings/class-disable-bloat-settings-main.php:473
+msgid "Coming soon newsletter template"
+msgstr "Modèle de newsletter « Bientôt disponible »"
+
+#: includes/settings/class-disable-bloat-settings-main.php:474
+msgid "Core profiler (setup wizard)"
+msgstr "Profileur principal (assistant de configuration)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:475
+msgid "Coupons"
+msgstr "Codes promo"
+
+#: includes/settings/class-disable-bloat-settings-main.php:476
+msgid "Customer Effort Score"
+msgstr "Customer Effort Score"
+
+#: includes/settings/class-disable-bloat-settings-main.php:477
+msgid "Customize your store"
+msgstr "Personnaliser votre boutique"
+
+#: includes/settings/class-disable-bloat-settings-main.php:478
+msgid "Experimental blocks"
+msgstr "Blocs expérimentaux"
+
+#: includes/settings/class-disable-bloat-settings-main.php:479
+msgid "Use new sample products CSV file"
+msgstr "Utiliser le nouveau fichier CSV de produits d’exemple"
+
+#: includes/settings/class-disable-bloat-settings-main.php:480
+msgid "Interactivity API mini cart"
+msgstr "Mini-panier Interactivity API"
+
+#: includes/settings/class-disable-bloat-settings-main.php:481
+msgid "Homescreen"
+msgstr "Écran d’accueil"
+
+#: includes/settings/class-disable-bloat-settings-main.php:482
+msgid "Import sample products"
+msgstr "Importer des produits d’exemple"
+
+#: includes/settings/class-disable-bloat-settings-main.php:483
+msgid "Launch your store"
+msgstr "Lancer votre boutique"
+
+#: includes/settings/class-disable-bloat-settings-main.php:484
+msgid "Marketing"
+msgstr "Marketing"
+
+#: includes/settings/class-disable-bloat-settings-main.php:485
+msgid "Minified JS"
+msgstr "JS minifié"
+
+#: includes/settings/class-disable-bloat-settings-main.php:486
+msgid "Mobile App Banner"
+msgstr "Bannière App Mobile"
+
+#: includes/settings/class-disable-bloat-settings-main.php:487
+msgid "Multichannel Marketing"
+msgstr "Marketing multicanal"
+
+#: includes/settings/class-disable-bloat-settings-main.php:488
+msgid "Navigation"
+msgstr "Navigation"
+
+#: includes/settings/class-disable-bloat-settings-main.php:489
+msgid "New product editor"
+msgstr "Nouvel éditeur de produits"
+
+#: includes/settings/class-disable-bloat-settings-main.php:490
+msgid "Onboarding"
+msgstr "Intégration"
+
+#: includes/settings/class-disable-bloat-settings-main.php:491
+msgid "Onboarding tasks"
+msgstr "Tâches d’intégration"
+
+#: includes/settings/class-disable-bloat-settings-main.php:492
+msgid "Order details redesign"
+msgstr "Refonte des détails de commande"
+
+#: includes/settings/class-disable-bloat-settings-main.php:493
+msgid "Pattern toolkit full composability"
+msgstr "Composabilité complète de la boîte à outils de compositions"
+
+#: includes/settings/class-disable-bloat-settings-main.php:494
+msgid "Payment gateway suggestions"
+msgstr "Suggestions de passerelles de paiement"
+
+#: includes/settings/class-disable-bloat-settings-main.php:495
+msgid "Printful"
+msgstr "Printful"
+
+#: includes/settings/class-disable-bloat-settings-main.php:496
+msgid "New product editor (block-based)"
+msgstr "Nouvel éditeur de produits (basé sur les blocs)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:497
+msgid "Product custom fields"
+msgstr "Champs personnalisés de produit"
+
+#: includes/settings/class-disable-bloat-settings-main.php:498
+msgid "Product data views"
+msgstr "Vues de données des produits"
+
+#: includes/settings/class-disable-bloat-settings-main.php:499
+msgid "Product variation management"
+msgstr "Gestion des variations de produits"
+
+#: includes/settings/class-disable-bloat-settings-main.php:500
+msgid "Product variations classic redesign"
+msgstr "Refonte classique des variations de produits"
+
+#: includes/settings/class-disable-bloat-settings-main.php:501
+msgid "Products catalog API"
+msgstr "API du catalogue de produits"
+
+#: includes/settings/class-disable-bloat-settings-main.php:502
+msgid "Remote free extensions"
+msgstr "Extensions gratuites distantes"
+
+#: includes/settings/class-disable-bloat-settings-main.php:503
+msgid "Remote inbox notifications"
+msgstr "Notifications distantes de la boîte de réception"
+
+#: includes/settings/class-disable-bloat-settings-main.php:504
+msgid "REST API v4"
+msgstr "API REST v4"
+
+#: includes/settings/class-disable-bloat-settings-main.php:505
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/settings/class-disable-bloat-settings-main.php:506
+msgid "New settings UI"
+msgstr "Nouvelle interface des réglages"
+
+#: includes/settings/class-disable-bloat-settings-main.php:507
+msgid "Shipping label banner"
+msgstr "Bannière d’étiquette d’expédition"
+
+#: includes/settings/class-disable-bloat-settings-main.php:508
+msgid "Shipping setting tour"
+msgstr "Visite guidée des réglages d’expédition"
+
+#: includes/settings/class-disable-bloat-settings-main.php:509
+msgid "Shipping smart defaults"
+msgstr "Valeurs par défaut intelligentes pour l’expédition"
+
+#: includes/settings/class-disable-bloat-settings-main.php:510
+msgid "Store alerts"
+msgstr "Alertes de la boutique"
+
+#: includes/settings/class-disable-bloat-settings-main.php:511
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+#: includes/settings/class-disable-bloat-settings-main.php:512
+msgid "Transient notices"
+msgstr "Notifications temporaires"
+
+#: includes/settings/class-disable-bloat-settings-main.php:513
+msgid "Use WP Horizon"
+msgstr "Utiliser WP Horizon"
+
+#: includes/settings/class-disable-bloat-settings-main.php:514
+msgid "WooCommerce Payments promotion"
+msgstr "Promotion de WooCommerce Payments"
+
+#: includes/settings/class-disable-bloat-settings-main.php:515
+msgid "WooCommerce Payments welcome page"
+msgstr "Page d’accueil de WooCommerce Payments"
+
+#: includes/settings/class-disable-bloat-settings-main.php:516
+msgid "Woo mobile welcome"
+msgstr "Bienvenue mobile Woo"
+
+#: includes/settings/class-disable-bloat-settings-main.php:584
+msgid ""
+"Choose which of the WooCommerce Admin features should be disabled. The ones "
+"you choose will be <strong>disabled</strong>, and the ones that had not been "
+"selected will stay <strong>active</strong>.<br />This list comes from "
+"WooCommerce itself. Since WooCommerce 11, WooCommerce only lets plugins "
+"switch off a few of its admin features this way (often just Store alerts), "
+"so the list may be short. WooCommerce Analytics can be turned off under "
+"WooCommerce > Settings > Advanced > Features, and the Marketing hub with the "
+"Marketing Hub option below."
+msgstr ""
+"Choisissez les fonctionnalités de WooCommerce Admin à désactiver. Celles que "
+"vous choisissez seront <strong>désactivées</strong>, et celles qui n’ont pas "
+"été sélectionnées resteront <strong>actives</strong>.<br />Cette liste "
+"provient de WooCommerce lui-même. Depuis WooCommerce 11, WooCommerce ne "
+"permet aux extensions de désactiver que quelques-unes de ses fonctionnalités "
+"d’administration de cette manière (souvent uniquement les alertes de la "
+"boutique), la liste peut donc être courte. Les statistiques WooCommerce "
+"peuvent être désactivées dans WooCommerce > Réglages > Avancé > "
+"Fonctionnalités, et le Marketing Hub avec l’option Marketing Hub ci-dessous."
+
+#: includes/settings/class-disable-bloat-settings-main.php:595
+msgid "Disable Marketing"
+msgstr "Désactiver le marketing"
+
+#: includes/settings/class-disable-bloat-settings-main.php:596
+msgid ""
+"This option will completely disable WooCommerce Marketing Hub. Coupon menu "
+"entry will stay accessible the old way (WooCommerce -> Coupons)."
+msgstr ""
+"Cette option désactivera complètement le Marketing Hub de WooCommerce. "
+"L’entrée de menu Codes promo restera accessible comme auparavant "
+"(WooCommerce -> Codes promo)."
+
+#: includes/settings/class-disable-bloat-settings-main.php:603
+msgid ""
+"WooCommerce is constantly trying to promote and advertise add-ons by adding "
+"nags to your admin panel. Now you can turn off or hide them."
+msgstr ""
+"WooCommerce essaie constamment de promouvoir et de faire la publicité de "
+"modules complémentaires en ajoutant des relances à votre panneau "
+"d’administration. Vous pouvez désormais les désactiver ou les masquer."
+
+#: includes/settings/class-disable-bloat-settings-main.php:612
+msgid "Disable WooCommerce.com notice"
+msgstr "Désactiver la notification WooCommerce.com"
+
+#: includes/settings/class-disable-bloat-settings-main.php:613
+msgid ""
+"Disables notice from WooCommerce.com plugins: <code>Connect your store to "
+"WooCommerce.com to receive extensions updates and support</code>."
+msgstr ""
+"Désactive la notification des extensions WooCommerce.com : <code>Connectez "
+"votre boutique à WooCommerce.com pour recevoir les mises à jour et le "
+"support des extensions</code>."
+
+#: includes/settings/class-disable-bloat-settings-main.php:623
+msgid "Disable WooCommerce Marketplace Suggestions"
+msgstr "Désactiver les suggestions de la place de marché WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:624
+msgid ""
+"This option will disable Marketplace Suggestions and promotions. Suggestions "
+"are visible on the product edit page and on the Orders pages. It also turns "
+"off the \"Show suggestions\" setting in WooCommerce > Settings > Advanced > "
+"WooCommerce.com, which stops payment, shipping and extension recommendations "
+"and remote inbox notes from being fetched."
+msgstr ""
+"Cette option désactivera les suggestions et promotions de la place de "
+"marché. Les suggestions sont visibles sur la page de modification des "
+"produits et sur les pages des commandes. Elle désactive également le réglage "
+"« Afficher les suggestions » dans WooCommerce > Réglages > Avancé > "
+"WooCommerce.com, ce qui empêche la récupération des recommandations de "
+"paiement, d’expédition et d’extensions ainsi que des notes distantes de la "
+"boîte de réception."
+
+#: includes/settings/class-disable-bloat-settings-main.php:634
+msgid "Disable Extensions & My Subscriptions submenus"
+msgstr "Désactiver les sous-menus Extensions & Mes abonnements"
+
+#: includes/settings/class-disable-bloat-settings-main.php:635
+msgid ""
+"Hide Extensions & My Subscriptions submenus in the WooCommerce menu in your "
+"admin panel menu. <strong>Reload the page after saving changes to see the "
+"results.</strong>"
+msgstr ""
+"Masquer les sous-menus Extensions & Mes abonnements du menu WooCommerce dans "
+"le menu de votre panneau d’administration. <strong>Rechargez la page après "
+"avoir enregistré les modifications pour voir le résultat.</strong>"
+
+#: includes/settings/class-disable-bloat-settings-main.php:645
+msgid "Disable Recommended shipping solutions metabox"
+msgstr "Désactiver la boîte méta des solutions de livraison recommandées"
+
+#: includes/settings/class-disable-bloat-settings-main.php:646
+msgid ""
+"Recommended shipping solutions metabox is appearing on Shipping "
+"configurations pages in WooCommerce and is primarily used for advertisement."
+msgstr ""
+"La boîte méta des solutions de livraison recommandées apparaît sur les pages "
+"de configuration de l’expédition de WooCommerce et sert principalement à la "
+"publicité."
+
+#: includes/settings/class-disable-bloat-settings-main.php:656
+msgid "Disable Recommended payments solutions metabox"
+msgstr "Désactiver la boîte méta des solutions de paiement recommandées"
+
+#: includes/settings/class-disable-bloat-settings-main.php:657
+msgid ""
+"Recommended payments solutions metabox is appearing on Payments "
+"configurations pages in WooCommerce and is primarily used for advertisement."
+msgstr ""
+"La boîte méta des solutions de paiement recommandées apparaît sur les pages "
+"de configuration des paiements de WooCommerce et sert principalement à la "
+"publicité."
+
+#: includes/settings/class-disable-bloat-settings-main.php:667
+msgid ""
+"Hide Discover other payment providers link on the Payments Settings screen\n"
+msgstr ""
+"Masquer le lien « Découvrir d’autres prestataires de paiement » sur l’écran "
+"des réglages de paiement\n"
+
+#: includes/settings/class-disable-bloat-settings-main.php:669
+msgid ""
+"<i>Discover other payment providers</i> link is displayed below your payment "
+"gateways and directs the user to the external marketplace with paid "
+"extensions."
+msgstr ""
+"Le lien <i>Découvrir d’autres prestataires de paiement</i> s’affiche sous "
+"vos passerelles de paiement et dirige l’utilisateur vers la place de marché "
+"externe proposant des extensions payantes."
+
+#: includes/settings/class-disable-bloat-settings-main.php:676
+msgid ""
+"The company behind WooCommerce actively promotes its add-ons, plugins, and "
+"extensions. They also affect the emails you receive from your webshop. This "
+"behavior can be seen as annoying or nagging by some users. Use the option "
+"below to stay balanced."
+msgstr ""
+"L’entreprise derrière WooCommerce fait activement la promotion de ses "
+"modules, extensions et add-ons. Cela touche aussi les e-mails que vous "
+"recevez de votre boutique en ligne. Certains utilisateurs peuvent trouver ce "
+"comportement agaçant ou insistant. Utilisez l’option ci-dessous pour garder "
+"l’équilibre."
+
+#: includes/settings/class-disable-bloat-settings-main.php:687
+msgid "Remove the \"Get the app\" from WooCommerce emails footer"
+msgstr ""
+"Retirer « Obtenir l’application » du pied de page des e-mails WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:689
+msgid ""
+"WooCommerce is adding its own prompts to the footer of emails sent to the "
+"shop's admin. Enable this option to get rid of the annoying text in your "
+"emails."
+msgstr ""
+"WooCommerce ajoute ses propres incitations dans le pied de page des e-mails "
+"envoyés à l’administrateur de la boutique. Activez cette option pour vous "
+"débarrasser de ce texte agaçant dans vos e-mails."
+
+#: includes/settings/class-disable-bloat-settings-main.php:699
+msgid "Disable WooCommerce guide email notifications"
+msgstr "Désactiver les notifications par e-mail du guide WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:700
+msgid ""
+"WooCommerce sends email notifications with additional guidance to complete "
+"the Store Setup. Enable this option to block this behavior and stop sending "
+"these emails."
+msgstr ""
+"WooCommerce envoie des notifications par e-mail avec des conseils "
+"supplémentaires pour terminer la configuration de la boutique. Activez cette "
+"option pour bloquer ce comportement et arrêter l’envoi de ces e-mails."
+
+#: includes/settings/class-disable-bloat-settings-main.php:707
+msgid ""
+"Speed up your site by turning off unwanted scripts that are being loaded in "
+"the background in admin panel."
+msgstr ""
+"Accélérez votre site en désactivant les scripts indésirables chargés en "
+"arrière-plan dans le panneau d’administration."
+
+#: includes/settings/class-disable-bloat-settings-main.php:716
+msgid "Disable WooCommerce Status Meta Box"
+msgstr "Désactiver la boîte méta d’état de WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:717
+msgid ""
+"Enabling this option will remove WooCommerce Status Meta Box from WordPress "
+"Dashboard."
+msgstr ""
+"L’activation de cette option retirera la boîte méta d’état de WooCommerce du "
+"tableau de bord WordPress."
+
+#: includes/settings/class-disable-bloat-settings-main.php:727
+msgid "Disable WooCommerce Dashboard Setup Widget"
+msgstr "Désactiver le widget de configuration du tableau de bord WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:728
+msgid ""
+"Enabling this option will remove WooCommerce Dashboard Setup Widget from "
+"WordPress Dashboard."
+msgstr ""
+"L’activation de cette option retirera le widget de configuration du tableau "
+"de bord WooCommerce du tableau de bord WordPress."
+
+#: includes/settings/class-disable-bloat-settings-main.php:740
+msgid ""
+"This option allows you to disable the new WooCommerce product editor, which "
+"is currently in beta and disabled by default (opt-in)."
+msgstr ""
+"Cette option vous permet de désactiver le nouvel éditeur de produits "
+"WooCommerce, actuellement en bêta et désactivé par défaut (sur activation)."
+
+#: includes/settings/class-disable-bloat-settings-main.php:751
+msgid "Disable WooCommerce Blocks (back-end)"
+msgstr "Désactiver les blocs WooCommerce (administration)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:753
+msgid ""
+"Activating this option will disable WooCommerce Blocks scripts from loading "
+"in the admin panel. The WordPress Block Editor will load and run faster, but "
+"WooCommerce Blocks won't be available to add from the Block Editor level."
+msgstr ""
+"L’activation de cette option empêchera le chargement des scripts des blocs "
+"WooCommerce dans le panneau d’administration. L’éditeur de blocs WordPress "
+"se chargera et fonctionnera plus rapidement, mais les blocs WooCommerce ne "
+"pourront plus être ajoutés depuis l’éditeur de blocs."
+
+#: includes/settings/class-disable-bloat-settings-main.php:760
+msgid ""
+"By default, quite a lot of scripts and styles are automatically loading "
+"while browsing the front-end of your shop. Use the options below to disable "
+"them."
+msgstr ""
+"Par défaut, de nombreux scripts et styles sont chargés automatiquement lors "
+"de la navigation sur l’interface publique de votre boutique. Utilisez les "
+"options ci-dessous pour les désactiver."
+
+#: includes/settings/class-disable-bloat-settings-main.php:769
+msgid "Disable WooCommerce Widgets"
+msgstr "Désactiver les widgets WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:770
+msgid ""
+"WooCommerce by default comes with a lot of widgets installed. They often are "
+"not used at all, but can add backend load and front-end load. Use this "
+"option to disable the WooCommerce widgets. <strong>Warning:</strong> Please "
+"make sure that you are not using any of WooCommerce Widgets anywhere in your "
+"site."
+msgstr ""
+"WooCommerce est livré par défaut avec de nombreux widgets. Ils ne sont "
+"souvent pas utilisés du tout, mais peuvent alourdir l’administration et "
+"l’interface publique. Utilisez cette option pour désactiver les widgets "
+"WooCommerce. <strong>Avertissement :</strong> assurez-vous de n’utiliser "
+"aucun widget WooCommerce sur votre site."
+
+#: includes/settings/class-disable-bloat-settings-main.php:780
+msgid "Disable WooCommerce scripts and styles"
+msgstr "Désactiver les scripts et les styles WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:781
+msgid ""
+"Use this option to disable WooCommerce scripts (javascript) and styles (CSS) "
+"everywhere except on product, cart and checkout pages."
+msgstr ""
+"Utilisez cette option pour désactiver les scripts (JavaScript) et les styles "
+"(CSS) WooCommerce partout sauf sur les pages produit, panier et validation "
+"de commande."
+
+#: includes/settings/class-disable-bloat-settings-main.php:791
+msgid "Disable WooCommerce Cart Fragments"
+msgstr "Désactiver les fragments de panier WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-main.php:792
+msgid ""
+"The cart fragments feature is used to update the cart total without "
+"refreshing the page. <strong>Warning:</strong> Disabling it will speed up "
+"your store, but may result in wrong calculations in mini cart. Use with "
+"caution."
+msgstr ""
+"La fonctionnalité de fragments de panier sert à mettre à jour le total du "
+"panier sans recharger la page. <strong>Avertissement :</strong> la "
+"désactiver accélérera votre boutique, mais peut entraîner des calculs "
+"erronés dans le mini-panier. À utiliser avec prudence."
+
+#: includes/settings/class-disable-bloat-settings-main.php:803
+msgid "Disable WooCommerce Blocks (front-end)"
+msgstr "Désactiver les blocs WooCommerce (interface publique)"
+
+#: includes/settings/class-disable-bloat-settings-main.php:805
+msgid ""
+"WooCommerce Blocks module loads tons of CSS files (200 KB) in your site "
+"front-end. Activating this option will turn off loading the WooCommerce "
+"Blocks in your store and should improve page loading speed. If you are using "
+"any of the Blocks, they won't display correctly after enabling this option. "
+"The Cart and Checkout pages always keep their block styles, so your store "
+"can still take orders."
+msgstr ""
+"Le module des blocs WooCommerce charge des tonnes de fichiers CSS (200 Ko) "
+"sur l’interface publique de votre site. L’activation de cette option "
+"désactivera le chargement des blocs WooCommerce dans votre boutique et "
+"devrait améliorer la vitesse de chargement des pages. Si vous utilisez "
+"certains de ces blocs, ils ne s’afficheront plus correctement après "
+"l’activation de cette option. Les pages Panier et Validation de commande "
+"conservent toujours leurs styles de blocs, afin que votre boutique puisse "
+"toujours recevoir des commandes."
+
+#: includes/settings/class-disable-bloat-settings-main.php:816
+msgid "Disable unnecessary Stripe scripts"
+msgstr "Désactiver les scripts Stripe inutiles"
+
+#: includes/settings/class-disable-bloat-settings-main.php:818
+msgid ""
+"Enabling this option will disable Stripe Payment Request Button on all "
+"product pages. The Stripe scripts won't be loaded on the product pages so "
+"the pages should be loading faster."
+msgstr ""
+"L’activation de cette option désactivera le bouton de demande de paiement "
+"Stripe sur toutes les pages de produits. Les scripts Stripe ne seront pas "
+"chargés sur les pages de produits, les pages devraient donc se charger plus "
+"rapidement."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:22
+#: includes/settings/class-disable-bloat-settings.php:24
+msgid "Site performance"
+msgstr "Performances du site"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:30
+msgid "Speed up your site"
+msgstr "Accélérez votre site"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:38
+msgid "Password Strength Meter"
+msgstr "Indicateur de force du mot de passe"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:52
+msgid "Comments scripts"
+msgstr "Scripts des commentaires"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:66
+msgid "Auto-linking URLs in comments"
+msgstr "Liaison automatique des URL dans les commentaires"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:80
+msgid "Disable Dashicons"
+msgstr "Désactiver les Dashicons"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:94
+msgid "DNS prefetch to s.w.org"
+msgstr "Préchargement DNS vers s.w.org"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:108
+#: includes/settings/class-disable-bloat-settings-performance.php:390
+msgid "Disable jQuery Migrate"
+msgstr "Désactiver jQuery Migrate"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:122
+msgid "Disable Sidebar WordPress Widgets"
+msgstr "Désactiver les widgets de barre latérale WordPress"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:136
+msgid "WordPress & WooCommerce Meta Generator Tag"
+msgstr "Balise meta generator de WordPress & WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:150
+msgid "Emoji styles and scripts"
+msgstr "Styles et scripts des emoji"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:164
+#: includes/settings/class-disable-bloat-settings-performance.php:565
+msgid "Disable wp-embed"
+msgstr "Désactiver wp-embed"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:180
+msgid "Speculative loading"
+msgstr "Chargement spéculatif"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:181
+msgid "Disable speculative loading"
+msgstr "Désactiver le chargement spéculatif"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:182
+msgid ""
+"Since WordPress 6.8, browsers are told to prefetch pages when a visitor "
+"hovers over a link. On a store this can mean extra requests to cart, account "
+"and product pages that are never opened, adding server load and noise in "
+"your analytics. This option removes the speculation rules script."
+msgstr ""
+"Depuis WordPress 6.8, les navigateurs sont invités à précharger les pages "
+"lorsqu’un visiteur survole un lien. Sur une boutique, cela peut entraîner "
+"des requêtes supplémentaires vers les pages panier, compte et produit qui ne "
+"sont jamais ouvertes, augmentant la charge du serveur et le bruit dans vos "
+"statistiques. Cette option retire le script des règles de spéculation."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:191
+msgid "Image auto-sizes CSS"
+msgstr "CSS de taille automatique des images"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:192
+msgid "Remove the image auto-sizes inline CSS"
+msgstr "Retirer le CSS en ligne de taille automatique des images"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:193
+msgid ""
+"Since WordPress 6.7, every page gets an inline style for lazy-loaded images, "
+"and those images get sizes=\"auto\". Disable it if your theme or an image "
+"optimization plugin already handles image sizes."
+msgstr ""
+"Depuis WordPress 6.7, chaque page reçoit un style en ligne pour les images "
+"en chargement différé, et ces images reçoivent sizes=\"auto\". Désactivez-le "
+"si votre thème ou une extension d’optimisation d’images gère déjà la taille "
+"des images."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:202
+msgid "Global styles (classic themes)"
+msgstr "Styles globaux (thèmes classiques)"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:203
+msgid "Remove global styles and classic theme styles"
+msgstr "Retirer les styles globaux et les styles de thème classique"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:204
+msgid ""
+"Removes the global-styles and classic-theme-styles inline CSS that WordPress "
+"adds to every page. Only applies to classic (non-block) themes, block themes "
+"are left alone. Do not use it if your content uses block editor colors, font "
+"sizes or button styles."
+msgstr ""
+"Retire le CSS en ligne global-styles et classic-theme-styles que WordPress "
+"ajoute à chaque page. S’applique uniquement aux thèmes classiques (non basés "
+"sur les blocs), les thèmes de blocs ne sont pas modifiés. Ne l’utilisez pas "
+"si votre contenu utilise les couleurs, tailles de police ou styles de bouton "
+"de l’éditeur de blocs."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:211
+msgid "Remove scripts from Header"
+msgstr "Retirer des scripts de l’en-tête"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:219
+msgid "RSS Feed Links"
+msgstr "Liens des flux RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:233
+msgid "RSS feeds"
+msgstr "Flux RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:247
+msgid "Feed Generator Tag"
+msgstr "Balise generator des flux"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:261
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:275
+#: includes/settings/class-disable-bloat-settings-performance.php:289
+msgid "RSD Link"
+msgstr "Lien RSD"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:303
+msgid "Shortlink"
+msgstr "Lien court"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:329
+msgid ""
+"Page load time is very important for your visitors. To improve page load "
+"time, try to disable scripts, features, and unnecessary queries:"
+msgstr ""
+"Le temps de chargement des pages est très important pour vos visiteurs. Pour "
+"l’améliorer, essayez de désactiver les scripts, fonctionnalités et requêtes "
+"inutiles :"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:335
+msgid ""
+"Use the settings from this section to reduce page load time on the front-end "
+"of your WordPress site. Before disabling them, please make sure that you "
+"will not use any of these features - so they can be safely turned off."
+msgstr ""
+"Utilisez les réglages de cette section pour réduire le temps de chargement "
+"des pages sur l’interface publique de votre site WordPress. Avant de les "
+"désactiver, assurez-vous de ne pas utiliser ces fonctionnalités, afin "
+"qu’elles puissent être désactivées en toute sécurité."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:345
+msgid "Disable Password Strength Meter"
+msgstr "Désactiver l’indicateur de force du mot de passe"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:346
+msgid ""
+"Removes the WordPress and WooCommerce password strength meter scripts (over "
+"400 KB) from non-essential pages."
+msgstr ""
+"Retire les scripts d’indicateur de force du mot de passe de WordPress et "
+"WooCommerce (plus de 400 Ko) des pages non essentielles."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:356
+msgid "Load Comments script only when needed"
+msgstr ""
+"Charger le script de commentaires uniquement lorsque cela est nécessaire"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:357
+msgid ""
+"By default, WordPress Comments javascript files are loaded everywhere on "
+"your site. This option will load the Comments script only when needed (on "
+"single posts and pages with existing comments)."
+msgstr ""
+"Par défaut, les fichiers javascript des commentaires WordPress sont chargés "
+"partout sur votre site. Cette option chargera le script Commentaires "
+"uniquement en cas de besoin (sur des articles uniques et des pages avec des "
+"commentaires existants)."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:367
+msgid "Prevent auto-linking URLs in comments"
+msgstr "Empêcher la liaison automatique des URL dans les commentaires"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:368
+msgid ""
+"In a standard WordPress installation, adding clickable links to the comments "
+"is made on the fly while generating the page which may be time- and resource-"
+"consuming. This option will prevent auto-linking URLs in comments."
+msgstr ""
+"Dans une installation WordPress standard, l’ajout de liens cliquables aux "
+"commentaires se fait à la volée tout en générant la page, ce qui peut "
+"prendre beaucoup de temps et de ressources. Cette option empêchera la "
+"liaison automatique d’URL dans les commentaires."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:378
+msgid "Disable WordPress Dashicons on the front-end"
+msgstr "Désactiver les Dashicons WordPress sur l’interface publique"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:379
+msgid ""
+"Dashicons add additional overhead to your site, slowing it down, especially "
+"on slower computers or mobile devices. Disabling dashicons can help reduce "
+"the total size of your page and improve your site's performance."
+msgstr ""
+"Les Dashicons alourdissent votre site et le ralentissent, en particulier sur "
+"les ordinateurs lents ou les appareils mobiles. Les désactiver peut aider à "
+"réduire la taille totale de votre page et à améliorer les performances de "
+"votre site."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:392
+msgid ""
+"The jQuery Migrate was introduced in WordPress to provide backward "
+"compatibility for older jQuery code. However, in recent versions of "
+"WordPress, many of the compatibility issues have been resolved, so it is no "
+"longer necessary in most cases. Disabling jQuery Migrate can improve the "
+"performance of your WordPress website by reducing the amount of JavaScript "
+"code that needs to be loaded, and by reducing the number of warnings and "
+"error messages that are output to the browser console. Additionally, by "
+"disabling the plugin, you can avoid potential security vulnerabilities that "
+"may arise from using outdated and unsupported code."
+msgstr ""
+"jQuery Migrate a été introduit dans WordPress pour assurer la "
+"rétrocompatibilité avec l’ancien code jQuery. Cependant, dans les versions "
+"récentes de WordPress, beaucoup des problèmes de compatibilité ont été "
+"résolus, il n’est donc plus nécessaire dans la plupart des cas. Désactiver "
+"jQuery Migrate peut améliorer les performances de votre site WordPress en "
+"réduisant la quantité de code JavaScript à charger, ainsi que le nombre "
+"d’avertissements et de messages d’erreur affichés dans la console du "
+"navigateur. De plus, en le désactivant, vous pouvez éviter d’éventuelles "
+"failles de sécurité liées à l’utilisation de code obsolète et non maintenu."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:403
+msgid "Remove DNS prefetch to s.w.org"
+msgstr "Retirer le préchargement DNS vers s.w.org"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:405
+msgid ""
+"DNS prefetching is an attempt to resolve domain names before a user tries to "
+"follow a link. Activating this option will remove DNS prefetch to s.w.org "
+"and may result in page load optimization."
+msgstr ""
+"Le préchargement DNS consiste à résoudre les noms de domaine avant qu’un "
+"utilisateur ne suive un lien. L’activation de cette option retirera le "
+"préchargement DNS vers s.w.org et peut optimiser le chargement des pages."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:427
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:432
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:437
+msgid "Block"
+msgstr "Bloc"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:444
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:449
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:454
+msgid "Custom HTML"
+msgstr "HTML personnalisé"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:461
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:466
+msgid "Image"
+msgstr "Image"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:471
+msgid "Meta"
+msgstr "Méta"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:478
+msgid "Navigation Menu"
+msgstr "Menu de navigation"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:483
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:488
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:495
+msgid "Recent Comments"
+msgstr "Commentaires récents"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:500
+msgid "Recent Posts"
+msgstr "Publications récentes"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:505
+msgid "Search"
+msgstr "Rechercher"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:512
+msgid "Tag Cloud"
+msgstr "Nuage d’étiquettes"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:517
+msgid "Text"
+msgstr "Texte"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:522
+msgid "Video"
+msgstr "Vidéo"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:527
+msgid ""
+"WordPress by default comes with a lot of sidebar widgets installed. They "
+"often are not used at all, but can add backend load and front-end load. "
+"Choose which sidebar widgets you would like to disable for this site. The "
+"<strong>ones you choose will be disabled</strong>, and the <strong>ones that "
+"had not been selected will stay active</strong>."
+msgstr ""
+"WordPress est livré par défaut avec de nombreux widgets de barre latérale. "
+"Ils ne sont souvent pas utilisés du tout, mais peuvent alourdir "
+"l’administration et l’interface publique. Choisissez les widgets de barre "
+"latérale que vous souhaitez désactiver pour ce site. <strong>Ceux que vous "
+"choisissez seront désactivés</strong>, et <strong>ceux qui n’ont pas été "
+"sélectionnés resteront actifs</strong>."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:539
+msgid "Remove WordPress & WooCommerce Meta Generator Tag"
+msgstr "Retirer la balise meta generator de WordPress & WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:541
+msgid ""
+"Meta Generator Tag displays the WordPress & WooCommerce version number. "
+"Removing the meta generator tag protects you against attacks and may reduce "
+"your web page's size. Use this option to disable the Meta Tag generated by "
+"WordPress, WooCommerce, and many other plugins that hook up with the "
+"wp_generator action."
+msgstr ""
+"La balise meta generator affiche le numéro de version de WordPress & "
+"WooCommerce. La retirer vous protège contre certaines attaques et peut "
+"réduire la taille de vos pages. Utilisez cette option pour désactiver la "
+"balise meta générée par WordPress, WooCommerce et de nombreuses autres "
+"extensions qui se greffent sur l’action wp_generator."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:552
+msgid "Remove emoji styles and scripts"
+msgstr "Retirer les styles et scripts emoji"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:554
+msgid ""
+"Remove the code bloat used to add support for emojis in older browsers. "
+"Emoticons and emojis will still work in browsers that have built-in support "
+"for them."
+msgstr ""
+"Retirez le code superflu servant à prendre en charge les emoji dans les "
+"anciens navigateurs. Les émoticônes et les emoji fonctionneront toujours "
+"dans les navigateurs qui les prennent en charge nativement."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:567
+msgid ""
+"Prevents the WordPress core feature known as wp-embed from loading on your "
+"website. The wp-embed feature allows you to embed videos, images, tweets, "
+"and other types of content from various platforms by pasting a URL into the "
+"WordPress editor. While this feature can be useful, it can also slow down "
+"your site's loading times, increase your server resources usage, and pose "
+"potential security risks."
+msgstr ""
+"Empêche le chargement sur votre site de la fonctionnalité du cœur de "
+"WordPress appelée wp-embed. La fonctionnalité wp-embed vous permet "
+"d’intégrer des vidéos, images, tweets et autres types de contenu provenant "
+"de diverses plateformes en collant une URL dans l’éditeur WordPress. Bien "
+"que cette fonctionnalité puisse être utile, elle peut aussi ralentir le "
+"chargement de votre site, augmenter l’utilisation des ressources de votre "
+"serveur et présenter des risques potentiels pour la sécurité."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:574
+msgid ""
+"Remove unwanted scripts from the Header section of your site. The header "
+"section is used on all of your subpages and in most cases you do not need to "
+"load all the default scripts. Use the option below to turn them off."
+msgstr ""
+"Retirez les scripts indésirables de la section d’en-tête de votre site. La "
+"section d’en-tête est utilisée sur toutes vos sous-pages et, dans la plupart "
+"des cas, vous n’avez pas besoin de charger tous les scripts par défaut. "
+"Utilisez les options ci-dessous pour les désactiver."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:584
+msgid "Remove RSS Feed Links"
+msgstr "Retirer les liens des flux RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:586
+msgid ""
+"If you do not use RSS feeds, you can safely turn them off without losing any "
+"functionality. Links to RSS Feeds will be removed from the site header, but "
+"the process of generating RSS feeds will still be active."
+msgstr ""
+"Si vous n’utilisez pas les flux RSS, vous pouvez les désactiver en toute "
+"sécurité sans perdre aucune fonctionnalité. Les liens vers les flux RSS "
+"seront retirés de l’en-tête, mais le processus de génération des flux RSS "
+"restera actif."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:597
+msgid "Disable all RSS feeds"
+msgstr "Désactiver tous les flux RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:599
+msgid ""
+"You can also completely disable the RSS generation process by activating "
+"this option. If it is a feature that you do not plan to use, you can disable "
+"RSS Feeds."
+msgstr ""
+"Vous pouvez également désactiver complètement le processus de génération des "
+"flux RSS en activant cette option. S’il s’agit d’une fonctionnalité que vous "
+"ne prévoyez pas d’utiliser, vous pouvez désactiver les flux RSS."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:610
+msgid "Remove the Generator Tag From RSS Feeds"
+msgstr "Retirer la balise generator des flux RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:612
+msgid "This option will Remove the Generator Tag From RSS Feeds"
+msgstr "Cette option retirera la balise generator des flux RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:623
+msgid "Remove Link to the Windows Live Writer Manifest File"
+msgstr "Retirer le lien vers le fichier manifeste de Windows Live Writer"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:625
+msgid ""
+"If are not using software called Windows Live Writer, you can safely turn "
+"off this feature that is added to your header by default."
+msgstr ""
+"Si vous n’utilisez pas un logiciel appelé Windows Live Writer, vous pouvez "
+"désactiver en toute sécurité cette fonctionnalité ajoutée à votre en-tête "
+"par défaut."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:636
+msgid "Remove RSD link"
+msgstr "Retirer le lien RSD"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:638
+msgid ""
+"RSD link is a tag that is added to your Header by default. The RSD link is "
+"used by software blog clients. If you access your site admin panel from the "
+"browser then it is safe for you to remove the RSD Link."
+msgstr ""
+"Le lien RSD est une balise ajoutée par défaut à votre en-tête. Le lien RSD "
+"est utilisé par les logiciels clients de blog. Si vous accédez au panneau "
+"d’administration de votre site depuis le navigateur, vous pouvez retirer le "
+"lien RSD en toute sécurité."
+
+#: includes/settings/class-disable-bloat-settings-performance.php:649
+msgid "Remove Shortlink From HTTP Header"
+msgstr "Retirer le lien court de l’en-tête HTTP"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:651
+msgid ""
+"Shortlink is the shorter version of the post or page URL. Shortlink (enabled "
+"in WordPress by default) creates a separate request on every page."
+msgstr ""
+"Le lien court est une version plus courte de l’URL de la publication ou de "
+"la page. Le lien court (activé par défaut dans WordPress) crée une requête "
+"distincte sur chaque page."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:22
+#: includes/settings/class-disable-bloat-settings.php:28
+msgid "Plugin data"
+msgstr "Données de l’extension"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:30
+msgid "Plugin data cleanup"
+msgstr "Nettoyage des données de l’extension"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:38
+msgid "Plugin data cleanup during uninstallation"
+msgstr "Nettoyage des données de l’extension lors de la désinstallation"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:52
+msgid "Export settings to file"
+msgstr "Exporter les réglages dans un fichier"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:73
+msgid ""
+"Here you can manage your plugin settings. Import, export, or reset settings. "
+"Use it for backup or testing purposes."
+msgstr ""
+"Ici, vous pouvez gérer les réglages de votre extension. Importez, exportez "
+"ou réinitialisez les réglages. Utilisez cette fonctionnalité à des fins de "
+"sauvegarde ou de test."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:79
+msgid ""
+"If you decide to uninstall the plugin using the standard WordPress <i>Delete "
+"plugin</i> option, you can automatically erase the plugin settings from the "
+"database."
+msgstr ""
+"Si vous décidez de désinstaller l’extension à l’aide de l’option WordPress "
+"standard <i>Supprimer l’extension</i>, vous pouvez effacer automatiquement "
+"les réglages de l’extension de la base de données."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:89
+msgid "Clear plugin settings while deleting the plugin"
+msgstr "Effacer les réglages de l’extension lors de sa suppression"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:90
+msgid "Clear plugin data from the database during the uninstallation."
+msgstr ""
+"Effacez les données de l’extension de la base de données lors de la "
+"désinstallation."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:98
+msgid ""
+"With the Export feature, you can securely save your settings as a "
+"downloadable JSON file. Click the Export button, and your personalized "
+"settings will be ready for backup or future use. You can use the config file "
+"in other plugin installations."
+msgstr ""
+"Grâce à la fonctionnalité d’exportation, vous pouvez enregistrer vos "
+"réglages en toute sécurité dans un fichier JSON téléchargeable. Cliquez sur "
+"le bouton Exporter, et vos réglages personnalisés seront prêts pour une "
+"sauvegarde ou une utilisation future. Vous pouvez utiliser le fichier de "
+"configuration dans d’autres installations de l’extension."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:110
+msgid "Export and download plugin configuration"
+msgstr "Exporter et télécharger la configuration de l’extension"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:121
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:245
+msgid "Invalid nonce. Please try again."
+msgstr "Nonce non valide. Veuillez réessayer."
+
+#. translators: number of imported options
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:174
+#, php-format
+msgid "The import was successful. %d options were imported."
+msgstr "L’importation a réussi. %d options ont été importées."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:176
+msgid ""
+"No valid options found for update. Please check your JSON file and make sure "
+"it was correctly exported."
+msgstr ""
+"Aucune option valide n’a été trouvée pour la mise à jour. Vérifiez votre "
+"fichier JSON et assurez-vous qu’il a été correctement exporté."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:179
+msgid ""
+"Invalid JSON file format. Please make sure that you are uploading a right "
+"file."
+msgstr ""
+"Format de fichier JSON non valide. Assurez-vous de téléverser le bon fichier."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:182
+msgid "There is a problem with reading your file. Please try again."
+msgstr ""
+"Il y a un problème avec la lecture de votre fichier. Veuillez réessayer."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:190
+msgid "Invalid file format or size."
+msgstr "Format ou taille de fichier non valide."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:203
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Avant de pouvoir téléverser votre fichier d’importation, vous devez corriger "
+"l’erreur suivante :"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:208
+msgid "Import configuration file"
+msgstr "Importer le fichier de configuration"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:209
+msgid ""
+"Import the configuration file in JSON format. All settings from the file "
+"will be saved in the database."
+msgstr ""
+"Importez le fichier de configuration au format JSON. Tous les réglages du "
+"fichier seront enregistrés dans la base de données."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:212
+msgid "Import Settings"
+msgstr "Importer les réglages"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:214
+msgid ""
+"Import feature: browse, select your JSON file, and activate the import "
+"process by clicking a button below. Existing data will be overwritten."
+msgstr ""
+"Fonctionnalité d’importation : parcourez, sélectionnez votre fichier JSON et "
+"lancez l’importation en cliquant sur le bouton ci-dessous. Les données "
+"existantes seront écrasées."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:217
+msgid "Choose a JSON file from your computer:"
+msgstr "Choisir un fichier JSON sur votre ordinateur :"
+
+#. translators: maximum upload size
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:221
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Taille maximale : %s"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:227
+msgid "Upload file and import"
+msgstr "Téléverser un fichier et l’importer"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:249
+msgid ""
+"Permission denied. Please contact your site administrator to run the export "
+"process."
+msgstr ""
+"Autorisation refusée. Veuillez contacter l’administrateur de votre site pour "
+"lancer l’exportation."
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:273
+msgid ""
+"No options to export. You are probably using a fresh install of Disable "
+"Bloat plugin. Please save the plugin settings to write the configuration to "
+"the database"
+msgstr ""
+"Aucune option à exporter. Vous utilisez probablement une nouvelle "
+"installation de l’extension Disable Bloat. Veuillez enregistrer les réglages "
+"de l’extension pour écrire la configuration dans la base de données"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:22
+#: includes/settings/class-disable-bloat-settings.php:27
+msgid "Third-party plugins bloat"
+msgstr "Superflu des extensions tierces"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:30
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:38
+msgid "Jetpack installation notice"
+msgstr "Notification d’installation de Jetpack"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:52
+msgid "Jetpack promotions"
+msgstr "Promotions Jetpack"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:66
+msgid "Disable Jetpack Blaze"
+msgstr "Désactiver Jetpack Blaze"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:80
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:88
+msgid "Elementor Dashboard widget"
+msgstr "Widget du tableau de bord Elementor"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:102
+msgid "Elementor Google Fonts"
+msgstr "Google Fonts d’Elementor"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:116
+msgid "SkyVerge"
+msgstr "SkyVerge"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:124
+msgid "SkyVerge Dashboard"
+msgstr "Tableau de bord SkyVerge"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:138
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:146
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:160
+msgid "Ads, Premium nags, Premium menu"
+msgstr "Publicités, relances Premium, menu Premium"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:174
+msgid "Remove HTML Comments from the Front-end"
+msgstr "Retirer les commentaires HTML de l’interface publique"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:188
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:486
+msgid "Remove Yoast SEO Dashboard widget"
+msgstr "Retirer le widget de tableau de bord Yoast SEO"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:202
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:210
+msgid "Contact Form 7 JavaScript and CSS"
+msgstr "JavaScript et CSS de Contact Form 7"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:224
+msgid "UpDraftPlus"
+msgstr "UpDraftPlus"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:232
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:525
+msgid "Hide \"UpdraftPlus\" on admin toolbar"
+msgstr "Masquer « UpdraftPlus » dans la barre d’outils d’administration"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:246
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:254
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:545
+msgid "Hide Advanced Custom Fields admin menu"
+msgstr "Masquer le menu d’administration Advanced Custom Fields"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:268
+msgid "WPML"
+msgstr "WPML"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:276
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:564
+msgid "Remove WPML Meta Generator Tag"
+msgstr "Retirer la balise meta generator de WPML"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:290
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:298
+msgid "Disable WP Desk dashboard widget"
+msgstr "Désactiver le widget de tableau de bord WP Desk"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:312
+msgid "Flexible Shipping"
+msgstr "Flexible Shipping"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:320
+msgid "\"Shipping Extensions\" menu entry"
+msgstr "Entrée de menu « Shipping Extensions »"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:346
+msgid ""
+"The plugin integrates with third-party plugins. Using the options from this "
+"section, you can hide or turn off unwanted User Interface elements that "
+"these plugins add to your admin panel by default. Options for the supported "
+"plugin will be always presented on this screen - the plugin does not detect "
+"if you have a specific plugin installed."
+msgstr ""
+"L’extension s’intègre à des extensions tierces. Grâce aux options de cette "
+"section, vous pouvez masquer ou désactiver les éléments d’interface "
+"indésirables que ces extensions ajoutent par défaut à votre panneau "
+"d’administration. Les options des extensions prises en charge sont toujours "
+"présentées sur cet écran : l’extension ne détecte pas si une extension "
+"spécifique est installée."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:352
+msgid ""
+"WordPress often encourages you to install Jetpack and connect your site to "
+"WordPress.com. If you do not want Jetpack, you can remove the installation "
+"notice. If you are using Jetpack, you can disable Jetpack promotions."
+msgstr ""
+"WordPress vous incite souvent à installer Jetpack et à connecter votre site "
+"à WordPress.com. Si vous ne voulez pas de Jetpack, vous pouvez retirer la "
+"notification d’installation. Si vous utilisez Jetpack, vous pouvez "
+"désactiver les promotions Jetpack."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:361
+msgid "Remove Jetpack installation notice"
+msgstr "Retirer la notification d’installation de Jetpack"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:362
+msgid "This option will remove Jetpack installation notice."
+msgstr "Cette option retirera la notification d’installation de Jetpack."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:372
+msgid "Disable Jetpack Blaze feature"
+msgstr "Désactiver la fonctionnalité Jetpack Blaze"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:373
+msgid ""
+"Use this option to disable the Jetpack Blaze feature. Blaze is a paid "
+"feature that helps you promote your content across WordPress.com and Tumblr "
+"networks."
+msgstr ""
+"Utilisez cette option pour désactiver la fonctionnalité Jetpack Blaze. Blaze "
+"est une fonctionnalité payante qui vous aide à promouvoir votre contenu sur "
+"les réseaux WordPress.com et Tumblr."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:383
+msgid "Disable Jetpack promotions"
+msgstr "Désactiver les promotions Jetpack"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:384
+msgid ""
+"This option will disable Jetpack-related notices that promote services like "
+"the backup services VaultPress or WordPress Apps. Works only if you have "
+"Jetpack installed."
+msgstr ""
+"Cette option désactivera les notifications liées à Jetpack qui font la "
+"promotion de services comme le service de sauvegarde VaultPress ou les "
+"applications WordPress. Fonctionne uniquement si Jetpack est installé."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:391
+msgid ""
+"Elementor is a great tool, but it may also lead to cluttering your WordPress "
+"Dashboard. The options below will only be effective if you have Elementor "
+"installed and activated."
+msgstr ""
+"Elementor est un excellent outil, mais il peut aussi encombrer votre tableau "
+"de bord WordPress. Les options ci-dessous ne seront effectives que si "
+"Elementor est installé et activé."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:400
+msgid "Disable Elementor Dashboard widget"
+msgstr "Désactiver le widget Tableau de bord Elementor"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:401
+msgid ""
+"This option will disable Elementor overview widget shown in WordPress "
+"Dashboard."
+msgstr ""
+"Cette option désactivera le widget de vue d’ensemble Elementor affiché dans "
+"le tableau de bord WordPress."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:411
+msgid "Disable Elementor Google Fonts package"
+msgstr "Désactiver le paquet Google Fonts d’Elementor"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:412
+msgid ""
+"Enable this option to prevent Elementor from loading Google Fonts on your "
+"website's frontend. This can help improve website speed and reduce external "
+"requests to Google's servers."
+msgstr ""
+"Activez cette option pour empêcher Elementor de charger Google Fonts sur "
+"l’interface publique de votre site. Cela peut aider à améliorer la vitesse "
+"du site et à réduire les requêtes externes vers les serveurs de Google."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:419
+msgid ""
+"SkyVerge plugins are adding their own top-level admin menu item with their "
+"Dashboard. You may not want to use it."
+msgstr ""
+"Les extensions SkyVerge ajoutent leur propre élément de menu "
+"d’administration principal avec leur tableau de bord. Vous ne souhaitez peut-"
+"être pas l’utiliser."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:428
+msgid "Disable SkyVerge Dashboard"
+msgstr "Désactiver le tableau de bord SkyVerge"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:429
+msgid ""
+"This option will disable SkyVerge Dashboard. Works only if you are using "
+"SkyVerge plugins."
+msgstr ""
+"Cette option désactivera le tableau de bord SkyVerge. Fonctionne uniquement "
+"si vous utilisez des extensions SkyVerge."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:436
+msgid ""
+"Yoast is a very handy plugin, but it may add to your admin panel some "
+"elements that would not be your first choice."
+msgstr ""
+"Yoast est une extension très pratique, mais elle peut ajouter à votre "
+"panneau d’administration des éléments qui ne seraient pas votre premier "
+"choix."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:447
+msgid "Disable Ads, Premium nags, Premium menu"
+msgstr "Désactiver les publicités, relances Premium et le menu Premium"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:449
+msgid ""
+"If you do not want Yoast to scream about the premium version at all times, "
+"use this option. This option will disable Ads, Premium nags, Premium menu."
+msgstr ""
+"Si vous ne voulez pas que Yoast vous rappelle sans cesse sa version premium, "
+"utilisez cette option. Cette option désactivera les publicités, les relances "
+"Premium et le menu Premium."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:460
+msgid "Disable Yoast SEO Admin bar item"
+msgstr "Désactiver l’élément de la barre d’administration Yoast SEO"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:462
+msgid "This option will hide Yoast SEO item from WordPress Admin bar."
+msgstr ""
+"Cette option masquera l’élément Yoast SEO de la barre d’administration "
+"WordPress."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:473
+msgid "Remove Yoast HTML Comments from the Front-end"
+msgstr "Retirer les commentaires HTML de Yoast de l’interface publique"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:475
+msgid ""
+"Yoast SEO does include some HTML commented-out code on your site's front. It "
+"may lead to weaker page performance."
+msgstr ""
+"Yoast SEO ajoute du code HTML en commentaire sur l’interface publique de "
+"votre site. Cela peut réduire les performances des pages."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:488
+msgid ""
+"This option will Remove the Yoast SEO widget from your WordPress Dashboard."
+msgstr ""
+"Cette option retirera le widget Yoast SEO de votre tableau de bord WordPress."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:495
+msgid ""
+"We all love Contact Form 7 for flexibility, but loading tons of CSS and "
+"javascript on every subpage of your WordPress frontend may be frustrating "
+"for you and for your visitors. Why don't disable it globally and load it "
+"manually only where it is needed?"
+msgstr ""
+"Nous aimons tous Contact Form 7 pour sa flexibilité, mais charger des tonnes "
+"de CSS et de javascript sur chaque sous-page de votre interface WordPress "
+"peut être frustrant pour vous et pour vos visiteurs. Pourquoi ne pas le "
+"désactiver globalement et le charger manuellement uniquement là où il est "
+"nécessaire ?"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:505
+msgid "Disable Contact Form 7 JavaScript and CSS"
+msgstr "Désactiver le JavaScript et le CSS de Contact Form 7"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:507
+msgid ""
+"This option will disable Contact Form 7 JavaScript and CSS files from "
+"loading on every page. Works only if you are using Contact Form 7. Please "
+"remember to add the scripts manually to your contact page."
+msgstr ""
+"Cette option désactivera le chargement des fichiers JavaScript et CSS "
+"Contact Form 7 sur chaque page. Fonctionne uniquement si vous utilisez "
+"Contact Form 7. N’oubliez pas d’ajouter les scripts manuellement à votre "
+"page de contact."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:527
+msgid ""
+"This option will hide \"UpdraftPlus\" on admin toolbar. Works only if you "
+"are using “UpdraftPlus”."
+msgstr ""
+"Cette option masquera « UpdraftPlus » dans la barre d’outils "
+"d’administration. Fonctionne uniquement si vous utilisez « UpdraftPlus »."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:547
+msgid ""
+"This option will hide Advanced Custom Fields admin interface. Custom Fields "
+"admin menu item won't be available."
+msgstr ""
+"Cette option masquera l’interface d’administration d’Advanced Custom Fields. "
+"L’élément de menu d’administration des champs personnalisés ne sera plus "
+"disponible."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:554
+msgid ""
+"Some users of the WPML plugin have reported that it can cause bloat on their "
+"website, meaning that it can slow down the website's performance due to the "
+"increased amount of data and code that the plugin adds to the site. This can "
+"result in a slower page load time and decreased user experience. To reduce "
+"the effects of WPML bloat, you may want to disable certain features of the "
+"plugin:"
+msgstr ""
+"Certains utilisateurs de l’extension WPML ont signalé qu’elle pouvait "
+"alourdir leur site, c’est-à-dire ralentir ses performances en raison de la "
+"quantité accrue de données et de code que l’extension ajoute au site. Cela "
+"peut entraîner un temps de chargement des pages plus long et une moins bonne "
+"expérience utilisateur. Pour réduire les effets du superflu de WPML, vous "
+"pouvez désactiver certaines fonctionnalités de l’extension :"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:566
+msgid "This option will remove WPML Meta Generator Tag from WordPress Header."
+msgstr ""
+"Cette option retirera la balise meta generator de WPML de l’en-tête "
+"WordPress."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:573
+msgid ""
+"WP Desk plugins, such as Flexible Checkout Fields, Flexible Invoices, "
+"Shopmagic, and Flexible Product Fields add a \"Grow your business with WP "
+"Desk\" widget to the WordPress dashboard. Disabling an unwanted dashboard "
+"widget can help to improve the user experience by decluttering the dashboard "
+"and making it easier to navigate:"
+msgstr ""
+"Les extensions WP Desk, comme Flexible Checkout Fields, Flexible Invoices, "
+"Shopmagic et Flexible Product Fields, ajoutent un widget « Grow your "
+"business with WP Desk » au tableau de bord WordPress. Désactiver un widget "
+"de tableau de bord indésirable peut aider à améliorer l’expérience "
+"utilisateur en désencombrant le tableau de bord et en facilitant la "
+"navigation :"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:582
+msgid "Disable \"Grow your business with WP Desk\" dashboard widget"
+msgstr ""
+"Désactiver le widget de tableau de bord « Développez votre entreprise avec "
+"WP Desk »"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:583
+msgid ""
+"Check this option to disable \"Grow your business with WP Desk\" dashboard "
+"widget which comes with WP Desk plugins"
+msgstr ""
+"Cochez cette option pour désactiver le widget de tableau de bord « Grow your "
+"business with WP Desk » fourni avec les extensions WP Desk"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:590
+msgid ""
+"Octolize plugins, such as Flexible Shipping, add a new WooCommerce menu "
+"entry."
+msgstr ""
+"Les extensions Octolize, comme Flexible Shipping, ajoutent une nouvelle "
+"entrée au menu WooCommerce."
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:599
+msgid "Remove the \"Shipping Extensions\" WooCommerce menu entry"
+msgstr "Retirer l’entrée de menu WooCommerce « Shipping Extensions »"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:600
+msgid ""
+"Tick this option to remove the annoying \"Shipping Extensions\" submenu from "
+"top-level WooCommerce menu. Enabling this option simplifies your menu by "
+"removing the unnecessary submenu, offering a simpler navigation experience"
+msgstr ""
+"Cochez cette option pour retirer l’agaçant sous-menu « Shipping Extensions » "
+"du menu principal WooCommerce. L’activation de cette option simplifie votre "
+"menu en retirant ce sous-menu inutile, pour une navigation plus simple"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:22
+#: includes/settings/class-disable-bloat-settings.php:25
+msgid "WordPress Core"
+msgstr "Cœur de WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:30
+msgid "Updates"
+msgstr "Mises à jour"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:38
+msgid "Themes auto-updates"
+msgstr "Mises à jour automatiques des thèmes"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:52
+msgid "Plugins auto-updates"
+msgstr "Mises à jour automatiques des extensions"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:66
+msgid "WordPress core updates"
+msgstr "Mises à jour du cœur de WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:80
+msgid "Speed and security"
+msgstr "Rapidité et sécurité"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:88
+msgid "File Editor"
+msgstr "Éditeur de fichiers"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:102
+msgid "Post revisions"
+msgstr "Révisions de publication"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:116
+msgid "Application Passwords"
+msgstr "Mots de passe d’application"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:130
+#: includes/settings/class-disable-bloat-settings-wpcore.php:314
+msgid "Remove script/style version parameter"
+msgstr "Retirer le paramètre de version de script/style"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:146
+msgid "AI features"
+msgstr "Fonctionnalités d’IA"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:147
+msgid "Disable the built-in WordPress AI features"
+msgstr "Désactiver les fonctionnalités d’IA intégrées à WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:148
+msgid ""
+"WordPress 7.0 added an AI client and AI provider connectors (Settings > "
+"Connectors). This option switches them off, for WordPress core and for "
+"plugins that use the core AI client. Other connectors, such as Akismet, keep "
+"working. Has no effect on older WordPress versions."
+msgstr ""
+"WordPress 7.0 a ajouté un client d’IA et des connecteurs de fournisseurs "
+"d’IA (Réglages > Connecteurs). Cette option les désactive, pour le cœur de "
+"WordPress et pour les extensions qui utilisent le client d’IA du cœur. Les "
+"autres connecteurs, comme Akismet, continuent de fonctionner. Sans effet sur "
+"les versions plus anciennes de WordPress."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:154
+msgid "WordPress API"
+msgstr "API WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:162
+msgid "XML-RPC API"
+msgstr "API XML-RPC"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:176
+msgid "WordPress Heartbeat API"
+msgstr "API Heartbeat de WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:190
+msgid "REST API"
+msgstr "API REST"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:217
+msgid ""
+"WordPress by default comes with a lot of powerful features. In fact, you "
+"will probably never use some of them. Disabling them will not only improve "
+"performance but will also give your site a higher security level. Disabling "
+"them can prevent attacks and make your WordPress site and admin panel faster."
+msgstr ""
+"WordPress est livré par défaut avec de nombreuses fonctionnalités "
+"puissantes. En réalité, vous n’utiliserez probablement jamais certaines "
+"d’entre elles. Les désactiver améliorera non seulement les performances, "
+"mais renforcera aussi la sécurité de votre site. Leur désactivation peut "
+"prévenir des attaques et rendre votre site WordPress et votre panneau "
+"d’administration plus rapides."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:223
+msgid ""
+"Keeping your website updated is important. But some people prefer to do it "
+"manually. In these cases, using a built-in update system is not recommended, "
+"as it is highly resource-consuming.\t"
+msgstr ""
+"Maintenir votre site à jour est important. Mais certaines personnes "
+"préfèrent le faire manuellement. Dans ce cas, l’utilisation du système de "
+"mise à jour intégré n’est pas recommandée, car il consomme beaucoup de "
+"ressources.\t"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:233
+msgid "Disable themes auto-updates"
+msgstr "Désactiver les mises à jour automatiques des thèmes"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:234
+msgid ""
+"This option will disable the automatic updates feature for themes. You will "
+"still be able to update the themes by manually clicking the <code>Update</"
+"code> button on the Themes screen, but themes will never be updated "
+"automatically."
+msgstr ""
+"Cette option désactivera la fonctionnalité de mises à jour automatiques des "
+"thèmes. Vous pourrez toujours mettre à jour les thèmes en cliquant "
+"manuellement sur le bouton <code>Update</code> sur l’écran des thèmes, mais "
+"les thèmes ne seront jamais mis à jour automatiquement."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:244
+msgid "Disable plugins auto-updates"
+msgstr "Désactiver les mises à jour automatiques des extensions"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:245
+msgid ""
+"This option will disable the automatic updates feature for plugins. You will "
+"still be able to update the plugins by manually clicking the <code>Update</"
+"code> button on the Plugins list, but plugins will never be updated "
+"automatically."
+msgstr ""
+"Cette option désactivera la fonctionnalité de mises à jour automatiques des "
+"extensions. Vous pourrez toujours mettre à jour les extensions en cliquant "
+"manuellement sur le bouton <code>Update</code> dans la liste des extensions, "
+"mais les extensions ne seront jamais mises à jour automatiquement."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:256
+msgid "Disable all WordPress core updates"
+msgstr "Désactiver toutes les mises à jour du cœur de WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:258
+msgid ""
+"This allows you to disable all WordPress core updates, including automatic "
+"updates. WordPress will not check for core updates and will not notify the "
+"users about the update availability."
+msgstr ""
+"Cette option vous permet de désactiver toutes les mises à jour du cœur de "
+"WordPress, y compris les mises à jour automatiques. WordPress ne vérifiera "
+"plus la disponibilité des mises à jour du cœur et n’en informera plus les "
+"utilisateurs."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:265
+msgid ""
+"If you leave some of the core WordPress features active, they may result in "
+"a bloated database, lower security level, and lack of website speed "
+"optimization. Use the options below to disable some of the core features "
+"that are enabled in the default WordPress installation."
+msgstr ""
+"Si vous laissez actives certaines fonctionnalités du cœur de WordPress, "
+"elles peuvent entraîner une base de données surchargée, un niveau de "
+"sécurité plus faible et un manque d’optimisation de la vitesse du site. "
+"Utilisez les options ci-dessous pour désactiver certaines des "
+"fonctionnalités du cœur activées dans l’installation WordPress par défaut."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:275
+msgid "Disable File Editor"
+msgstr "Désactiver l’éditeur de fichiers"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:277
+msgid ""
+"This option will disable the file editing tool in your WordPress admin "
+"panel. This disables the plugin and theme editors. Since editing plugin and "
+"theme files can be safely done manually over FTP and are not recommended to "
+"be done in the admin panel, you can safely disable this feature."
+msgstr ""
+"Cette option désactivera l’outil de modification de fichiers dans votre "
+"panneau d’administration WordPress. Cela désactive les éditeurs d’extensions "
+"et de thèmes. Comme la modification des fichiers d’extensions et de thèmes "
+"peut se faire en toute sécurité manuellement par FTP et n’est pas "
+"recommandée depuis le panneau d’administration, vous pouvez désactiver cette "
+"fonctionnalité en toute sécurité."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:288
+msgid "Disable post revisions"
+msgstr "Désactiver les révisions de publication"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:290
+msgid ""
+"By default, WordPress uses post revisions to save each post revision in your "
+"database. It cannot be turned off using standard WordPress settings. You may "
+"want to disable revisions to reduce the WordPress database size."
+msgstr ""
+"Par défaut, WordPress utilise les révisions de publication pour enregistrer "
+"chaque révision de publication dans votre base de données. Il ne peut pas "
+"être désactivé à l’aide des réglages WordPress standard. Vous souhaiterez "
+"peut-être désactiver les révisions pour réduire la taille de la base de "
+"données WordPress."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:301
+msgid "Disable Application Passwords"
+msgstr "Désactiver les mots de passe d’application"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:303
+msgid ""
+"Application Passwords feature allows external applications to request some "
+"permissions on your website. Not every website needs APIs, and granting "
+"permission for an external application can lead to security issues. "
+"Activating this option will turn the Application Passwords feature off."
+msgstr ""
+"La fonctionnalité des mots de passe d’application permet à des applications "
+"externes de demander certaines autorisations sur votre site. Tous les sites "
+"n’ont pas besoin d’API, et accorder des autorisations à une application "
+"externe peut entraîner des problèmes de sécurité. L’activation de cette "
+"option désactivera la fonctionnalité des mots de passe d’application."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:316
+msgid ""
+"Exposing your scripts' versions to the public may not be a good idea and may "
+"be a potential security threat. This option will remove the script/style "
+"version parameter for your site front-end."
+msgstr ""
+"Exposer publiquement les versions de vos scripts n’est pas forcément une "
+"bonne idée et peut représenter une menace potentielle pour la sécurité. "
+"Cette option retirera le paramètre de version des scripts et styles sur "
+"l’interface publique de votre site."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:323
+msgid ""
+"WordPress API refers to a set of functions and tools that allow developers "
+"to interact with the WordPress platform and its data. You may not need them "
+"at all and prefer to turn them off. The WordPress API includes a variety of "
+"different APIs:"
+msgstr ""
+"L’API WordPress désigne un ensemble de fonctions et d’outils qui permettent "
+"aux développeurs d’interagir avec la plateforme WordPress et ses données. "
+"Vous n’en avez peut-être pas besoin du tout et préférez les désactiver. "
+"L’API WordPress comprend plusieurs API différentes :"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:333
+msgid "Disable XML-RPC API"
+msgstr "Désactiver l’API XML-RPC"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:335
+msgid ""
+"This option will disable the XML-RPC API functionality. XML-RPC is a "
+"specification that enables the communication between WordPress and other "
+"systems. If you disable XML-RPC, you will not be able to receive pingbacks "
+"and trackbacks."
+msgstr ""
+"Cette option désactivera la fonctionnalité de l’API XML-RPC. XML-RPC est une "
+"spécification qui permet la communication entre WordPress et d’autres "
+"systèmes. Si vous désactivez XML-RPC, vous ne pourrez plus recevoir de "
+"pingbacks et de trackbacks."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:346
+msgid "Disable WordPress Heartbeat API"
+msgstr "Désactiver l’API Heartbeat de WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:348
+msgid ""
+"The WordPress Heartbeat API is a feature that provides real-time "
+"communication between the server and the browser when you are logged into "
+"your admin panel. Unfortunately, the AJAX requests from the API can pile up "
+"and generate high CPU usage, leading to server performance issues."
+msgstr ""
+"L’API Heartbeat de WordPress est une fonctionnalité qui assure une "
+"communication en temps réel entre le serveur et le navigateur lorsque vous "
+"êtes connecté à votre panneau d’administration. Malheureusement, les "
+"requêtes AJAX de cette API peuvent s’accumuler et générer une forte "
+"utilisation du processeur, entraînant des problèmes de performances du "
+"serveur."
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:359
+msgid "Disable WordPress REST API"
+msgstr "Désactiver l’API REST WordPress"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:361
+msgid ""
+"Prevent access to the API endpoints that allow external applications to "
+"interact with a website. This can be done for security reasons, to prevent "
+"unauthorized access or protect sensitive data, or for performance reasons: "
+"to reduce server load. The REST API stays available to logged-in users (the "
+"block editor and WooCommerce admin need it) and for the WooCommerce Cart and "
+"Checkout blocks. <br /><strong>Note:</strong> Disabling the REST API can "
+"impact functionality of certain themes and plugins that rely on it, such as "
+"contact forms submitted by visitors."
+msgstr ""
+"Empêchez l’accès aux points de terminaison de l’API qui permettent à des "
+"applications externes d’interagir avec un site. Cela peut se faire pour des "
+"raisons de sécurité, afin d’empêcher les accès non autorisés ou de protéger "
+"des données sensibles, ou pour des raisons de performances : réduire la "
+"charge du serveur. L’API REST reste disponible pour les utilisateurs "
+"connectés (l’éditeur de blocs et l’administration de WooCommerce en ont "
+"besoin) ainsi que pour les blocs Panier et Validation de commande de "
+"WooCommerce. <br /><strong>Remarque :</strong> la désactivation de l’API "
+"REST peut affecter le fonctionnement de certains thèmes et extensions qui en "
+"dépendent, comme les formulaires de contact envoyés par les visiteurs."
+
+#: includes/settings/class-disable-bloat-settings.php:22
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings.php:137
+msgid ""
+"You need to <strong>activate WooCommerce</strong> to make the options below "
+"effective."
+msgstr ""
+"Vous devez <strong>activer WooCommerce</strong> pour que les options ci-"
+"dessous prennent effet."
+
+#. translators: link to external plugin homepage
+#: includes/settings/class-disable-bloat-settings.php:147
+#, php-format
+msgid ""
+"Get <a href=\"%s\" target=\"_blank\">Disable Bloat for WordPress & "
+"WooCommerce PRO</a> to unlock the <span class=\"wcbloat-pro-label\">PRO</"
+"span> options."
+msgstr ""
+"Obtenez <a href=\"%s\" target=\"_blank\">Disable Bloat for WordPress & "
+"WooCommerce PRO</a> pour débloquer les options <span class=\"wcbloat-pro-"
+"label\">PRO</span>."
+
+#~ msgid "Export Settings"
+#~ msgstr "Exporter les réglages"
+
+#~ msgid "<span class=\"wcbloat-pro-label\">PRO</span>"
+#~ msgstr "<span class=\"wcbloat-pro-label\">PRO</span>"

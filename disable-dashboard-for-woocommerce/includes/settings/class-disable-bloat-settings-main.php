@@ -697,7 +697,7 @@ function wcbloat_woo_merchant_email_notifications_callback()
   ?>
     <input type='hidden' name='woocommerce_merchant_email_notifications' value='yes'>
     <label><input type='checkbox' name='woocommerce_merchant_email_notifications' <?php checked( esc_attr( $value ), 'no' ); ?> value='no'> <?php esc_attr_e( 'Disable WooCommerce guide email notifications', 'disable-dashboard-for-woocommerce' );  ?></label>
-    <p><?php _e( 'WooComerce sends email notifications with additional guidance to complete the Store Setup. Enable this option to block this behavior and stop sending these emails.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'WooCommerce sends email notifications with additional guidance to complete the Store Setup. Enable this option to block this behavior and stop sending these emails.', 'disable-dashboard-for-woocommerce' ); ?></p>
   <?php
 }
 

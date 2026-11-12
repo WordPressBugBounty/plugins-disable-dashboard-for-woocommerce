@@ -583,7 +583,7 @@ function wcbloat_wp_sidebar_widgets_disable_callback() {
 </table>
     <p><?php 
     echo wcbloat_is_pro_badge();
-    _e( 'WordPress by default comes with a lot of Dashboard widgets installed. They often are not used at all, but can add backend load and front-end load. Choose Dashboard Widgets you would like to disable for this site. The <strong>ones you choose will be disabled</strong>, and the <strong>ones that had not been selected will stay active</strong>.', 'disable-dashboard-for-woocommerce' );
+    _e( 'WordPress by default comes with a lot of sidebar widgets installed. They often are not used at all, but can add backend load and front-end load. Choose which sidebar widgets you would like to disable for this site. The <strong>ones you choose will be disabled</strong>, and the <strong>ones that had not been selected will stay active</strong>.', 'disable-dashboard-for-woocommerce' );
     ?></p>
 
     <?php 
@@ -661,7 +661,7 @@ function wcbloat_remove_rss_links_callback() {
     echo wcbloat_is_pro_badge();
     ?></label>
     <p><?php 
-    _e( 'If you do not use RSS feeds, you can safely turn them off without losing any functionality. Links to RSS Feeds will be removed from the plugin header, but the process of generating RSS feeds will still be active.', 'disable-dashboard-for-woocommerce' );
+    _e( 'If you do not use RSS feeds, you can safely turn them off without losing any functionality. Links to RSS Feeds will be removed from the site header, but the process of generating RSS feeds will still be active.', 'disable-dashboard-for-woocommerce' );
     ?></p>
   <?php 
 }

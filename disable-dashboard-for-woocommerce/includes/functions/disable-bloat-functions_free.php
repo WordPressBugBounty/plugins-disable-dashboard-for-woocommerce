@@ -168,6 +168,54 @@ if ( wcbloat_is_woo_active() ) {
       }
         return array_values( $features );
     }
+
+    /*
+     * WooCommerce 11.1 deprecated "marketing" as a WooCommerce Admin feature, and the
+     * Marketing menu and the Coupons move are now registered regardless of the features
+     * list, so the filters above no longer remove anything. Remove the menu directly,
+     * put Coupons back under WooCommerce and send direct visits to the coupons list.
+     */
+      add_action( 'admin_menu', 'wcbloat_remove_marketing_menu', 999 );
+      add_filter( 'woocommerce_register_post_type_shop_coupon', 'wcbloat_coupons_under_woocommerce', 20 );
+      add_filter( 'wc_admin_show_legacy_coupon_menu', '__return_false' );
+      add_action( 'admin_head', 'wcbloat_coupons_menu_highlight', 100 );
+      add_action( 'admin_init', 'wcbloat_redirect_marketing_page' );
+
+    function wcbloat_remove_marketing_menu()
+    {
+        remove_menu_page( 'woocommerce-marketing' );
+    }
+
+    function wcbloat_coupons_under_woocommerce( $args )
+    {
+      if ( current_user_can( 'manage_woocommerce' ) ) {
+          $args['show_in_menu'] = 'woocommerce';
+      }
+        return $args;
+    }
+
+    function wcbloat_coupons_menu_highlight()
+    {
+        global $parent_file, $submenu_file, $post_type;
+
+      if ( 'shop_coupon' === $post_type ) {
+          $parent_file  = 'woocommerce'; // phpcs:ignore WordPress.WP.GlobalVariablesOverride
+          $submenu_file = 'edit.php?post_type=shop_coupon'; // phpcs:ignore WordPress.WP.GlobalVariablesOverride
+      }
+    }
+
+    function wcbloat_redirect_marketing_page()
+    {
+        // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $page = isset( $_GET['page'] ) ? sanitize_text_field( wp_unslash( $_GET['page'] ) ) : '';
+        // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $path = isset( $_GET['path'] ) ? sanitize_text_field( wp_unslash( $_GET['path'] ) ) : '';
+
+      if ( 'woocommerce-marketing' === $page || ( 'wc-admin' === $page && 0 === strpos( $path, '/marketing' ) ) ) {
+          wp_safe_redirect( admin_url( 'edit.php?post_type=shop_coupon' ) );
+          exit;
+      }
+    }
   }
 
 

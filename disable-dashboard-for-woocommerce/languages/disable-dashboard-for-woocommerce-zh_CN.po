@@ -1,0 +1,2444 @@
+# Translation of Plugins - Disable Bloat for WordPress &amp; WooCommerce – Speed Up &amp; Clean Up Admin - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Disable Bloat for WordPress &amp; WooCommerce – Speed Up &amp; Clean Up Admin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Disable Bloat for WordPress &amp; WooCommerce "
+"– Speed Up &amp; Clean Up Admin - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-dashboard-"
+"for-woocommerce\n"
+"POT-Creation-Date: 2026-11-12T00:54:48+00:00\n"
+"PO-Revision-Date: 2026-11-12\n"
+"Last-Translator: Rock Solid Plugins\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Plugin Name of the plugin
+#: disable-dashboard-for-woocommerce.php
+#: includes/settings/class-disable-bloat-settings.php:19
+msgid "Disable Bloat for WordPress & WooCommerce"
+msgstr "Disable Bloat for WordPress & WooCommerce"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: disable-dashboard-for-woocommerce.php
+msgid "https://disablebloat.com/"
+msgstr "https://disablebloat.com/"
+
+#. Description of the plugin
+#: disable-dashboard-for-woocommerce.php
+msgid ""
+"All-in-One solution to speed up your WordPress & WooCommerce. Remove "
+"unnecessary features and make your site faster and cleaner."
+msgstr ""
+"一站式加速 WordPress 和 WooCommerce 的解决方案。移除不必要的功能，让您的站点"
+"更快、更简洁。"
+
+#. Author of the plugin
+#: disable-dashboard-for-woocommerce.php
+#: includes/settings/class-disable-bloat-settings.php:10
+msgid "Disable Bloat"
+msgstr "Disable Bloat"
+
+#: disable-dashboard-for-woocommerce.php:151
+msgid "Upgrade"
+msgstr "升级"
+
+#: disable-dashboard-for-woocommerce.php:154
+msgid "My Account"
+msgstr "我的账户"
+
+#. translators: link to plugin configuration screen
+#: includes/functions/disable-bloat-functions_free.php:119
+#, php-format
+msgid ""
+"The WooCommerce Admin module is turned off. The Stripe plugin needs the "
+"WooCommerce Admin module to be on when setting up API keys. To do this, "
+"please temporarily enable the WooCommerce Admin in the <a "
+"href=\"%s\">Disable Bloat plugin settings</a>. You can switch it back off "
+"after configuring Stripe API keys."
+msgstr ""
+"WooCommerce Admin 模块已关闭。Stripe 插件在设置 API 密钥时需要开启 "
+"WooCommerce Admin 模块。为此，请在 <a href=\"%s\">Disable Bloat 插件设置</a>"
+"中临时启用 WooCommerce Admin。配置好 Stripe API 密钥后，您可以再将其关闭。"
+
+#: includes/functions/disable-bloat-review-notice.php:35
+msgid "Enjoying Disable Bloat?"
+msgstr "喜欢 Disable Bloat 吗？"
+
+#: includes/functions/disable-bloat-review-notice.php:36
+msgid ""
+"A quick review on WordPress.org helps other site owners find it, and it "
+"really makes our day. Thank you!"
+msgstr ""
+"在 WordPress.org 上留下简短的评价，可以帮助其他站点所有者找到它，也会让我们开"
+"心一整天。谢谢！"
+
+#: includes/functions/disable-bloat-review-notice.php:40
+msgid "Leave a review"
+msgstr "留下评价"
+
+#: includes/functions/disable-bloat-review-notice.php:43
+msgid "Maybe later"
+msgstr "以后再说"
+
+#: includes/functions/disable-bloat-review-notice.php:46
+msgid "I already did"
+msgstr "我已经评价过了"
+
+#: includes/functions/disable-bloat-review-notice.php:68
+msgid "Sorry, you are not allowed to do that."
+msgstr "抱歉，您无权执行此操作。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:22
+#: includes/settings/class-disable-bloat-settings.php:23
+msgid "Admin panel optimization"
+msgstr "后台面板优化"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:30
+msgid "Clean admin interface"
+msgstr "简洁的后台界面"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:38
+#: includes/settings/class-disable-bloat-settings-admin.php:226
+#: includes/settings/class-disable-bloat-settings-block.php:38
+msgid "Hide update notice for non-admin users"
+msgstr "对非管理员用户隐藏更新通知"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:52
+msgid "Disable Autosave"
+msgstr "禁用自动保存"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:69
+msgid "Notices from other plugins"
+msgstr "来自其他插件的通知"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:70
+msgid "Hide admin notices from other plugins and themes"
+msgstr "隐藏来自其他插件和主题的后台通知"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:71
+msgid ""
+"Removes the banners, nags and promotions that other plugins and your theme "
+"add to the top of admin screens. Notices from WordPress itself (such as "
+"update and error messages), from WooCommerce and from Disable Bloat stay "
+"visible, and so do notices that contain one of the words below."
+msgstr ""
+"移除其他插件和主题在后台页面顶部添加的横幅、提醒和推广信息。来自 WordPress 本"
+"身（例如更新和错误消息）、WooCommerce 以及 Disable Bloat 的通知会保持可见，包"
+"含下列任一词语的通知也会保持可见。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:77
+msgid "Always show notices containing"
+msgstr "始终显示包含以下内容的通知"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:91
+msgid "Disable WordPress Dashboard widgets"
+msgstr "禁用 WordPress 仪表盘小工具"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:105
+msgid "WordPress logo in the admin bar"
+msgstr "工具栏中的 WordPress 徽标"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:119
+msgid "Admin footer text"
+msgstr "后台页脚文字"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:133
+msgid "WordPress login page"
+msgstr "WordPress 登录页面"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:141
+msgid "Hide WordPress logo on the Login Page"
+msgstr "在登录页面隐藏 WordPress 徽标"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:155
+msgid "Change the Logo Link"
+msgstr "更改徽标链接"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:169
+msgid "Change the Logo title parameter"
+msgstr "更改徽标 title 参数"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:183
+#: includes/settings/class-disable-bloat-settings-admin.php:391
+msgid "Disable WordPress Login Language Switcher"
+msgstr "禁用 WordPress 登录页语言切换器"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:210
+msgid ""
+"By default, the WordPress admin panel is cluttered with preinstalled "
+"elements that may distract you from your work. You can simplify your "
+"WordPress admin panel by hiding or turning them off."
+msgstr ""
+"默认情况下，WordPress 后台面板中充斥着各种预装元素，可能会分散您的注意力。您"
+"可以通过隐藏或关闭这些元素来简化 WordPress 后台面板。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:217
+msgid ""
+"If you love a simple and flexible interface, use the options below to "
+"maximize your performance while browsing through the WordPress admin panel. "
+"By removing unnecessary elements, you will be 100% focused on your tasks."
+msgstr ""
+"如果您喜欢简洁灵活的界面，请使用下面的选项，在浏览 WordPress 后台面板时获得最"
+"佳性能。移除不必要的元素后，您可以 100% 专注于手头的任务。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:227
+msgid ""
+"The next time any user with the Role set as Subscriber, Contributor, Author, "
+"or Editor access the WordPress back-end, they will not be prompted to update "
+"the WordPress core. The notification will continue to display for admin "
+"users."
+msgstr ""
+"此后，角色为订阅者、投稿者、作者或编辑的用户访问 WordPress 后台时，将不会再收"
+"到更新 WordPress 核心的提示。管理员用户仍会看到该通知。"
+
+#. translators: %s: default keyword list
+#: includes/settings/class-disable-bloat-settings-admin.php:240
+#, php-format
+msgid ""
+"Comma-separated words. A notice from another plugin stays visible when its "
+"text contains one of them (not case-sensitive, and part of a word counts: "
+"<code>payment</code> also matches \"WooPayments\"), so important messages "
+"such as \"Settings saved\" or a failed payment are not hidden. Default: "
+"<code>%s</code>. Leave empty to hide all notices from other plugins."
+msgstr ""
+"以英文逗号分隔的词语。当来自其他插件的通知文本中包含其中任一词语时，该通知将"
+"保持可见（不区分大小写，且匹配部分词语：<code>payment</code> 也会匹"
+"配“WooPayments”），这样诸如“设置已保存”或付款失败之类的重要消息就不会被隐藏。"
+"默认值：<code>%s</code>。留空则隐藏来自其他插件的所有通知。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:251
+msgid "Disable WordPress editor Autosave feature"
+msgstr "禁用 WordPress 编辑器自动保存功能"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:252
+msgid ""
+"WordPress saves everything you write on the editor after an interval of 60 "
+"seconds. It can use excessive server resources and may cause performance "
+"issues. Enabling this option will turn off the autosave feature."
+msgstr ""
+"WordPress 会每隔 60 秒自动保存您在编辑器中撰写的所有内容。这可能会占用过多的"
+"服务器资源并导致性能问题。启用此选项将关闭自动保存功能。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:265
+#: includes/settings/class-disable-bloat-settings-main.php:560
+#: includes/settings/class-disable-bloat-settings-performance.php:418
+msgid "Select / Deselect All"
+msgstr "全选 / 取消全选"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:274
+msgid "Site Health Status"
+msgstr "站点健康状态"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:279
+msgid "At a Glance"
+msgstr "概览"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:286
+msgid "Activity"
+msgstr "活动"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:291
+msgid "Quick Draft"
+msgstr "快速草稿"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:298
+msgid "WordPress Events and News"
+msgstr "WordPress 活动及新闻"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:303
+msgid "Welcome panel"
+msgstr "欢迎面板"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:308
+msgid ""
+"WordPress by default comes with a lot of Dashboard widgets installed. They "
+"often are not used at all, but can add backend load and front-end load. "
+"Choose which of the WordPress Dashboard Widgets should be disabled. The "
+"<strong>ones you choose will be disabled</strong>, and the <strong>ones that "
+"had not been selected</strong> will stay <strong>active</strong>."
+msgstr ""
+"WordPress 默认安装了许多仪表盘小工具。这些小工具通常根本用不到，却会增加后台"
+"和前台的负载。请选择要禁用哪些 WordPress 仪表盘小工具。<strong>您选中的小工具"
+"将被禁用</strong>，<strong>未选中的小工具</strong>将保持<strong>启用</"
+"strong>。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:320
+msgid "Remove the WordPress logo (“W”) from the admin bar"
+msgstr "从工具栏中移除 WordPress 徽标（“W”）"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:322
+msgid ""
+"This option will hide the WordPress logo in the upper left corner. The logo "
+"won't be visible in your admin panel and in your site (on the admin bar "
+"visible on the front-end after logging in)."
+msgstr ""
+"此选项将隐藏左上角的 WordPress 徽标。该徽标将不会出现在您的后台面板和站点中"
+"（即登录后在前台显示的工具栏上）。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:333
+msgid "Remove admin footer text"
+msgstr "移除后台页脚文字"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:335
+msgid ""
+"This option hides the text at the bottom of the WordPress admin: <code>Thank "
+"you for creating with WordPress</code> on the bottom left, and the WordPress "
+"version on the bottom right."
+msgstr ""
+"此选项将隐藏 WordPress 后台底部的文字：左下角的 <code>Thank you for creating "
+"with WordPress</code> 以及右下角的 WordPress 版本号。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:342
+msgid ""
+"There are situations when you may prefer to hide or change the standard "
+"WordPress branding on the Login Page."
+msgstr ""
+"在某些情况下，您可能希望隐藏或更改登录页面上的标准 WordPress 品牌标识。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:352
+msgid "Hide WordPress logo on the WordPress Login Page"
+msgstr "在 WordPress 登录页面隐藏 WordPress 徽标"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:354
+msgid "Hide standard WordPress Logo from Login Page"
+msgstr "在登录页面隐藏标准 WordPress 徽标"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:365
+msgid "Change the Logo Link on the WordPress Login Page"
+msgstr "更改 WordPress 登录页面上的徽标链接"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:367
+msgid ""
+"By default, the WordPress login page displays the WordPress logo which is "
+"linking to WordPress.org site. After activating this option, the logo on the "
+"login page will be linking to your site's homepage."
+msgstr ""
+"默认情况下，WordPress 登录页面显示的 WordPress 徽标链接到 WordPress.org 网"
+"站。启用此选项后，登录页面上的徽标将链接到您站点的首页。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:378
+msgid "Change the Logo title parameter on the WordPress Login Page"
+msgstr "更改 WordPress 登录页面上的徽标 title 参数"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:380
+msgid ""
+"By default, the WordPress Logo displayed on the WordPress Login Page has a "
+"title parameter that says <code>Powered by WordPress</code>. After "
+"activating this option, it will match your Site Name."
+msgstr ""
+"默认情况下，WordPress 登录页面上显示的 WordPress 徽标带有内容为 "
+"<code>Powered by WordPress</code> 的 title 参数。启用此选项后，它将与您的站点"
+"名称一致。"
+
+#: includes/settings/class-disable-bloat-settings-admin.php:393
+msgid ""
+"This option will disable the language selector which allows users to switch "
+"languages from a dropdown on the login screen if more than one language is "
+"enabled on your WordPress installation."
+msgstr ""
+"如果您的 WordPress 安装启用了多种语言，登录页面上会显示一个下拉式语言选择器供"
+"用户切换语言。此选项将禁用该语言选择器。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:22
+#: includes/settings/class-disable-bloat-settings.php:26
+msgid "Block Editor"
+msgstr "区块编辑器"
+
+#: includes/settings/class-disable-bloat-settings-block.php:30
+#: includes/settings/class-disable-bloat-settings-block.php:171
+msgid "Disable Gutenberg"
+msgstr "禁用 Gutenberg"
+
+#: includes/settings/class-disable-bloat-settings-block.php:52
+msgid "Disable Gutenberg features"
+msgstr "禁用 Gutenberg 功能"
+
+#: includes/settings/class-disable-bloat-settings-block.php:60
+#: includes/settings/class-disable-bloat-settings-block.php:188
+msgid "Disable Gutenberg Widget Block Editor"
+msgstr "禁用 Gutenberg 小工具区块编辑器"
+
+#: includes/settings/class-disable-bloat-settings-block.php:74
+msgid "Welcome Guide"
+msgstr "欢迎指南"
+
+#: includes/settings/class-disable-bloat-settings-block.php:88
+msgid "WordPress Block Directory"
+msgstr "WordPress 区块目录"
+
+#: includes/settings/class-disable-bloat-settings-block.php:102
+#: includes/settings/class-disable-bloat-settings-block.php:226
+msgid "Remove the default block patterns"
+msgstr "移除默认区块样板"
+
+#: includes/settings/class-disable-bloat-settings-block.php:116
+#: includes/settings/class-disable-bloat-settings-block.php:239
+msgid "Auto-exit the Fullscreen Mode on editor load"
+msgstr "加载编辑器时自动退出全屏模式"
+
+#: includes/settings/class-disable-bloat-settings-block.php:130
+#: includes/settings/class-disable-bloat-settings-block.php:252
+msgid "Deactivate the Template Editor"
+msgstr "停用模板编辑器"
+
+#: includes/settings/class-disable-bloat-settings-block.php:156
+msgid ""
+"Using Block Editor can significantly slow down your page during editing "
+"posts and while browsing through your site. You can decide to either turn "
+"Gutenberg (WordPress built-in Block Editor) off completely or keep it on and "
+"only disable unnecessary features.<hr>"
+msgstr ""
+"使用区块编辑器可能会显著拖慢编辑文章以及浏览站点时的页面速度。您可以选择完全"
+"关闭 Gutenberg（WordPress 内置的区块编辑器），或者保持开启并仅禁用不必要的功"
+"能。<hr>"
+
+#: includes/settings/class-disable-bloat-settings-block.php:162
+msgid ""
+"By enabling this option, you will turn off Gutenberg Block Editor for all "
+"supported post types (including pages). All Gutenberg action and filter "
+"hooks will be deactivated, and Gutenberg frontend scripts won’t load on your "
+"site too."
+msgstr ""
+"启用此选项后，将为所有受支持的文章类型（包括页面）关闭 Gutenberg 区块编辑器。"
+"所有 Gutenberg 动作和过滤器钩子都将被停用，Gutenberg 前端脚本也不会在您的站点"
+"上加载。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:172
+msgid ""
+"By enabling this option, you will turn off Gutenberg Block Editor for all "
+"supported post types (including pages). All Gutenberg action and filter "
+"hooks will be deactivated, and Gutenberg frontend scripts won't load on your "
+"site too."
+msgstr ""
+"启用此选项后，将为所有受支持的文章类型（包括页面）关闭 Gutenberg 区块编辑器。"
+"所有 Gutenberg 动作和过滤器钩子都将被停用，Gutenberg 前端脚本也不会在您的站点"
+"上加载。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:179
+msgid ""
+"If you decide to keep Gutenberg on, you can at least maximize your "
+"experience by tweaking its features to match your needs."
+msgstr ""
+"如果您决定保留 Gutenberg，至少可以调整其功能以满足您的需求，从而获得最佳体"
+"验。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:189
+msgid ""
+"Check this option to disable the new widget block editor page. By doing so, "
+"you'll restore the familiar \"classic\" WordPress widgets screen and "
+"deactivate the block editor's widget management functionality. This allows "
+"you to continue managing widgets in the traditional way, providing a more "
+"familiar and comfortable experience for users used to the classic widget "
+"interface."
+msgstr ""
+"勾选此选项可禁用新的小工具区块编辑器页面。这样将恢复熟悉的“经典”WordPress 小"
+"工具界面，并停用区块编辑器的小工具管理功能。您可以继续以传统方式管理小工具，"
+"为习惯经典小工具界面的用户提供更熟悉、更舒适的体验。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:200
+msgid "Auto-close Welcome Guide"
+msgstr "自动关闭欢迎指南"
+
+#: includes/settings/class-disable-bloat-settings-block.php:202
+msgid ""
+"Turn off the annoying pop-up Welcome Guide Modal. Users will still be able "
+"to open it manually via the context menu."
+msgstr "关闭烦人的欢迎指南弹出窗口。用户仍可通过上下文菜单手动打开它。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:213
+msgid "Disable WordPress Block Directory"
+msgstr "禁用 WordPress 区块目录"
+
+#: includes/settings/class-disable-bloat-settings-block.php:215
+msgid ""
+"As Blocks are in fact plugins, it's a potential security threat to use Block "
+"Directory. New Blocks are added to the Directory automatically, without "
+"human review."
+msgstr ""
+"由于区块实际上就是插件，使用区块目录存在潜在的安全威胁。新区块会被自动添加到"
+"目录中，未经人工审核。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:228
+msgid ""
+"Patterns is a feature in the Block editor that lets you save and reuse "
+"patterns of many blocks. It is similar to reusable blocks, but they are not "
+"global by default."
+msgstr ""
+"样板是区块编辑器中的一项功能，可让您保存并重复使用由多个区块组成的样板。它与"
+"可重用区块类似，但默认不是全局的。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:241
+msgid "Users will still be able to enter it manually via the context menu."
+msgstr "用户仍可通过上下文菜单手动进入。"
+
+#: includes/settings/class-disable-bloat-settings-block.php:254
+msgid ""
+"The Template Editor allows users to edit their theme's templates from within "
+"the Block Editor. Only applies to classic themes: block themes need the "
+"Template Editor to display your site, so this setting is ignored when a "
+"block theme is active."
+msgstr ""
+"模板编辑器允许用户在区块编辑器中编辑主题的模板。仅适用于经典主题：区块主题需"
+"要模板编辑器来显示您的站点，因此启用区块主题时将忽略此设置。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:21
+msgid "Disable WooCommerce Bloat"
+msgstr "Disable WooCommerce Bloat"
+
+#: includes/settings/class-disable-bloat-settings-main.php:29
+#: includes/settings/class-disable-bloat-settings-main.php:37
+msgid "WooCommerce Admin"
+msgstr "WooCommerce Admin"
+
+#: includes/settings/class-disable-bloat-settings-main.php:51
+msgid "Disable WooCommerce Admin features"
+msgstr "禁用 WooCommerce Admin 功能"
+
+#: includes/settings/class-disable-bloat-settings-main.php:68
+msgid "Marketing Hub"
+msgstr "营销中心"
+
+#: includes/settings/class-disable-bloat-settings-main.php:82
+msgid "WooCommerce promotions"
+msgstr "WooCommerce 推广"
+
+#: includes/settings/class-disable-bloat-settings-main.php:90
+msgid "WooCommerce.com notice"
+msgstr "WooCommerce.com通知"
+
+#: includes/settings/class-disable-bloat-settings-main.php:104
+msgid "Marketplace Suggestions"
+msgstr "市场建议"
+
+#: includes/settings/class-disable-bloat-settings-main.php:118
+msgid "Extensions & My Subscriptions submenus"
+msgstr "“扩展”和“我的订阅”子菜单"
+
+#: includes/settings/class-disable-bloat-settings-main.php:132
+msgid "Recommended shipping solutions metabox"
+msgstr "推荐配送解决方案元框"
+
+#: includes/settings/class-disable-bloat-settings-main.php:146
+msgid "Recommended payments solutions metabox"
+msgstr "推荐付款解决方案元框"
+
+#: includes/settings/class-disable-bloat-settings-main.php:160
+msgid "Hide marketplace link on the Payments Settings screen"
+msgstr "在付款设置页面隐藏市场链接"
+
+#: includes/settings/class-disable-bloat-settings-main.php:176
+msgid "Payments menu"
+msgstr "“付款”菜单"
+
+#: includes/settings/class-disable-bloat-settings-main.php:177
+msgid "Remove the top-level \"Payments\" menu item"
+msgstr "移除顶级“付款”菜单项"
+
+#: includes/settings/class-disable-bloat-settings-main.php:178
+msgid ""
+"Recent WooCommerce versions add a \"Payments\" item to the main admin menu "
+"that promotes WooPayments, sometimes with a notification badge. It only "
+"links to WooCommerce > Settings > Payments, which stays available. When "
+"WooPayments is set up, its own Payments menu is kept."
+msgstr ""
+"较新版本的 WooCommerce 会在后台主菜单中添加一个推广 WooPayments 的“付款”菜单"
+"项，有时还带有通知徽章。它仅链接到 WooCommerce > 设置 > 付款，该页面仍然可以"
+"访问。如果已设置 WooPayments，则会保留其自身的“付款”菜单。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:184
+msgid "WooCommerce emails"
+msgstr "WooCommerce 电子邮件"
+
+#: includes/settings/class-disable-bloat-settings-main.php:192
+msgid "Disable WooCommerce guide emails"
+msgstr "禁用 WooCommerce 指南电子邮件"
+
+#: includes/settings/class-disable-bloat-settings-main.php:206
+msgid "Remove the \"Get the app\" footer from emails"
+msgstr "从电子邮件中移除“获取应用”页脚"
+
+#: includes/settings/class-disable-bloat-settings-main.php:220
+msgid "WooCommerce back-end scripts"
+msgstr "WooCommerce 后台脚本"
+
+#: includes/settings/class-disable-bloat-settings-main.php:228
+msgid "WooCommerce Status Meta Box"
+msgstr "WooCommerce状态元数据盒子"
+
+#: includes/settings/class-disable-bloat-settings-main.php:242
+msgid "WooCommerce Dashboard Setup Widget"
+msgstr "WooCommerce 仪表盘设置小工具"
+
+#: includes/settings/class-disable-bloat-settings-main.php:256
+#: includes/settings/class-disable-bloat-settings-main.php:739
+msgid "Disable new WooCommerce product editor"
+msgstr "禁用新版 WooCommerce 产品编辑器"
+
+#: includes/settings/class-disable-bloat-settings-main.php:270
+#: includes/settings/class-disable-bloat-settings-main.php:284
+msgid "WooCommerce Blocks (back-end)"
+msgstr "WooCommerce 区块（后台）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:300
+msgid "Usage tracking and remote logging"
+msgstr "使用情况跟踪和远程日志记录"
+
+#: includes/settings/class-disable-bloat-settings-main.php:301
+msgid "Disable WooCommerce usage tracking and remote logging"
+msgstr "禁用 WooCommerce 使用情况跟踪和远程日志记录"
+
+#: includes/settings/class-disable-bloat-settings-main.php:302
+msgid ""
+"Stops WooCommerce from sending usage data, admin click tracking (Tracks), "
+"the weekly tracker report and error logs to WooCommerce.com. Fewer remote "
+"requests from your admin, and nothing is lost for your store."
+msgstr ""
+"阻止 WooCommerce 向 WooCommerce.com 发送使用数据、后台点击跟踪（Tracks）、每"
+"周跟踪报告和错误日志。这样可以减少后台的远程请求，而且您的商店不会因此丢失任"
+"何功能。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:310
+msgid "Store visibility badge"
+msgstr "商店可见性徽章"
+
+#: includes/settings/class-disable-bloat-settings-main.php:311
+msgid "Hide the \"Live\" / \"Coming soon\" badge in the admin bar"
+msgstr "隐藏工具栏中的“上线”/“即将推出”徽章"
+
+#: includes/settings/class-disable-bloat-settings-main.php:312
+msgid ""
+"Removes the store visibility badge WooCommerce adds next to your site name "
+"in the admin bar. Coming soon mode itself is not affected and can still be "
+"set in WooCommerce > Settings > Site visibility."
+msgstr ""
+"移除 WooCommerce 在工具栏中站点名称旁添加的商店可见性徽章。“即将推出”模式本身"
+"不受影响，仍可在 WooCommerce > 设置 > 站点可见性中进行设置。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:320
+msgid "Shipping Label meta box"
+msgstr "“配送标签”元框"
+
+#: includes/settings/class-disable-bloat-settings-main.php:321
+msgid "Remove the \"Shipping Label\" promo box from the order edit screen"
+msgstr "从订单编辑页面移除“配送标签”推广框"
+
+#: includes/settings/class-disable-bloat-settings-main.php:322
+msgid ""
+"Removes the box promoting WooCommerce Shipping on the order edit screen. "
+"Keep it if you print labels with WooCommerce Shipping."
+msgstr ""
+"移除订单编辑页面上推广 WooCommerce Shipping 的框。如果您使用 WooCommerce "
+"Shipping 打印标签，请保留它。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:328
+msgid "Your Store's Front-end"
+msgstr "您商店的前台"
+
+#: includes/settings/class-disable-bloat-settings-main.php:336
+msgid "WooCommerce Widgets"
+msgstr "WooCommerc小工具"
+
+#: includes/settings/class-disable-bloat-settings-main.php:350
+msgid "WooCommerce scripts and styles"
+msgstr "WooCommerce脚本和样式"
+
+#: includes/settings/class-disable-bloat-settings-main.php:364
+msgid "WooCommerce Cart Fragments"
+msgstr "WooCommerce购物车片段"
+
+#: includes/settings/class-disable-bloat-settings-main.php:378
+msgid "WooCommerce Blocks (front-end)"
+msgstr "WooCommerce 区块（前台）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:392
+msgid "Stripe scripts"
+msgstr "Stripe 脚本"
+
+#: includes/settings/class-disable-bloat-settings-main.php:408
+msgid "Order Attribution tracking"
+msgstr "订单来源跟踪"
+
+#: includes/settings/class-disable-bloat-settings-main.php:409
+msgid "Disable Order Attribution tracking"
+msgstr "禁用订单来源跟踪"
+
+#: includes/settings/class-disable-bloat-settings-main.php:410
+msgid ""
+"WooCommerce loads two tracking scripts (sourcebuster.js and order-"
+"attribution.js) on every page of your site and sets sbjs_* cookies to record "
+"where each customer came from. Disabling it removes both scripts and the "
+"cookies. You lose the \"Origin\" column on orders, so keep it if you rely on "
+"that data."
+msgstr ""
+"WooCommerce 会在您站点的每个页面上加载两个跟踪脚本（sourcebuster.js 和 order-"
+"attribution.js），并设置 sbjs_* Cookie 来记录每位客户的来源。禁用后将移除这两"
+"个脚本和这些 Cookie。订单列表中的“来源”列将不再可用，如果您依赖这些数据，请保"
+"留此功能。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:419
+msgid "Auto-inserted blocks"
+msgstr "自动插入的区块"
+
+#: includes/settings/class-disable-bloat-settings-main.php:420
+msgid "Stop WooCommerce adding blocks to your block theme"
+msgstr "阻止 WooCommerce 向您的区块主题添加区块"
+
+#: includes/settings/class-disable-bloat-settings-main.php:421
+msgid ""
+"On block themes, WooCommerce automatically inserts the Mini-Cart and "
+"Customer account blocks into your header (and Product details into product "
+"templates), together with their scripts. Enable this if you placed these "
+"blocks yourself or do not want them. Classic themes are not affected."
+msgstr ""
+"在区块主题中，WooCommerce 会自动将迷你购物车和客户账户区块插入到页眉中（并将"
+"产品详情插入产品模板），同时加载它们的脚本。如果您已自行放置这些区块或不需要"
+"它们，请启用此选项。经典主题不受影响。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:440
+msgid ""
+"Using options from this tab, you will be able to turn off general "
+"WooCommerce functionalities which are not required to run your store. These "
+"features cannot be disabled using standard WooCommerce configuration options."
+msgstr ""
+"使用此选项卡中的选项，您可以关闭运行商店不需要的 WooCommerce 常规功能。这些功"
+"能无法通过标准的 WooCommerce 配置选项禁用。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:447
+msgid ""
+"WooCommerce Admin is a built-in feature in WooCommerce. It is a javascript-"
+"driven dashboard. WooCommerce Admin's features continue to become "
+"increasingly blended into the merchant experience in WooCommerce. It can "
+"cause performance issues and slow down your website. Disabling the feature "
+"can help speed up your website and improve the user experience for your "
+"customers. Using the options below, you can effectively disable WooCommerce "
+"Admin, Analytics, Home screen and other features that are making your admin "
+"panel slower."
+msgstr ""
+"WooCommerce Admin 是 WooCommerce 的内置功能，是一个由 JavaScript 驱动的仪表"
+"盘。WooCommerce Admin 的功能正不断融入 WooCommerce 的商家体验中。它可能会导致"
+"性能问题并拖慢您的网站。禁用此功能有助于提升网站速度，并改善客户的用户体验。"
+"使用下面的选项，您可以有效地禁用 WooCommerce Admin、分析、主屏幕以及其他拖慢"
+"后台面板的功能。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:457
+msgid "Disable WooCommerce Admin completely"
+msgstr "完全禁用 WooCommerce Admin"
+
+#: includes/settings/class-disable-bloat-settings-main.php:458
+msgid "Choose which WooCommerce Admin features to disable"
+msgstr "选择要禁用的 WooCommerce Admin 功能"
+
+#: includes/settings/class-disable-bloat-settings-main.php:459
+msgid "Keep WooCommerce Admin enabled (do nothing)"
+msgstr "保持 WooCommerce Admin 启用（不做任何更改）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:462
+msgid ""
+"You can either completely disable the whole WooCommerce Admin (Analytics "
+"menu, Notification bar, Home screen and more) or choose to keep it enabled, "
+"but disable its particular features. If you choose the third option, no "
+"changes will be applied."
+msgstr ""
+"您可以完全禁用整个 WooCommerce Admin（分析菜单、通知栏、主屏幕等），也可以选"
+"择保持启用但禁用其中的特定功能。如果选择第三个选项，则不会进行任何更改。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:470
+msgid "Activity panels"
+msgstr "活动面板"
+
+#: includes/settings/class-disable-bloat-settings-main.php:471
+msgid "Analytics"
+msgstr "分析"
+
+#: includes/settings/class-disable-bloat-settings-main.php:472
+msgid "Analytics scheduled import"
+msgstr "分析定时导入"
+
+#: includes/settings/class-disable-bloat-settings-main.php:473
+msgid "Coming soon newsletter template"
+msgstr "“即将推出”新闻通讯模板"
+
+#: includes/settings/class-disable-bloat-settings-main.php:474
+msgid "Core profiler (setup wizard)"
+msgstr "核心配置向导（设置向导）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:475
+msgid "Coupons"
+msgstr "优惠券"
+
+#: includes/settings/class-disable-bloat-settings-main.php:476
+msgid "Customer Effort Score"
+msgstr "客户费力度评分"
+
+#: includes/settings/class-disable-bloat-settings-main.php:477
+msgid "Customize your store"
+msgstr "自定义您的商店"
+
+#: includes/settings/class-disable-bloat-settings-main.php:478
+msgid "Experimental blocks"
+msgstr "实验性区块"
+
+#: includes/settings/class-disable-bloat-settings-main.php:479
+msgid "Use new sample products CSV file"
+msgstr "使用新的示例产品 CSV 文件"
+
+#: includes/settings/class-disable-bloat-settings-main.php:480
+msgid "Interactivity API mini cart"
+msgstr "Interactivity API 迷你购物车"
+
+#: includes/settings/class-disable-bloat-settings-main.php:481
+msgid "Homescreen"
+msgstr "主屏幕"
+
+#: includes/settings/class-disable-bloat-settings-main.php:482
+msgid "Import sample products"
+msgstr "导入示例产品"
+
+#: includes/settings/class-disable-bloat-settings-main.php:483
+msgid "Launch your store"
+msgstr "上线您的商店"
+
+#: includes/settings/class-disable-bloat-settings-main.php:484
+msgid "Marketing"
+msgstr "营销"
+
+#: includes/settings/class-disable-bloat-settings-main.php:485
+msgid "Minified JS"
+msgstr "压缩版 JS"
+
+#: includes/settings/class-disable-bloat-settings-main.php:486
+msgid "Mobile App Banner"
+msgstr "移动应用横幅"
+
+#: includes/settings/class-disable-bloat-settings-main.php:487
+msgid "Multichannel Marketing"
+msgstr "多渠道营销"
+
+#: includes/settings/class-disable-bloat-settings-main.php:488
+msgid "Navigation"
+msgstr "导航"
+
+#: includes/settings/class-disable-bloat-settings-main.php:489
+msgid "New product editor"
+msgstr "新版产品编辑器"
+
+#: includes/settings/class-disable-bloat-settings-main.php:490
+msgid "Onboarding"
+msgstr "新手引导"
+
+#: includes/settings/class-disable-bloat-settings-main.php:491
+msgid "Onboarding tasks"
+msgstr "新手引导任务"
+
+#: includes/settings/class-disable-bloat-settings-main.php:492
+msgid "Order details redesign"
+msgstr "订单详情重新设计"
+
+#: includes/settings/class-disable-bloat-settings-main.php:493
+msgid "Pattern toolkit full composability"
+msgstr "样板工具包完全可组合性"
+
+#: includes/settings/class-disable-bloat-settings-main.php:494
+msgid "Payment gateway suggestions"
+msgstr "支付网关建议"
+
+#: includes/settings/class-disable-bloat-settings-main.php:495
+msgid "Printful"
+msgstr "Printful"
+
+#: includes/settings/class-disable-bloat-settings-main.php:496
+msgid "New product editor (block-based)"
+msgstr "新版产品编辑器（基于区块）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:497
+msgid "Product custom fields"
+msgstr "产品自定义字段"
+
+#: includes/settings/class-disable-bloat-settings-main.php:498
+msgid "Product data views"
+msgstr "产品数据视图"
+
+#: includes/settings/class-disable-bloat-settings-main.php:499
+msgid "Product variation management"
+msgstr "产品变体管理"
+
+#: includes/settings/class-disable-bloat-settings-main.php:500
+msgid "Product variations classic redesign"
+msgstr "产品变体经典版重新设计"
+
+#: includes/settings/class-disable-bloat-settings-main.php:501
+msgid "Products catalog API"
+msgstr "产品目录 API"
+
+#: includes/settings/class-disable-bloat-settings-main.php:502
+msgid "Remote free extensions"
+msgstr "远程免费扩展"
+
+#: includes/settings/class-disable-bloat-settings-main.php:503
+msgid "Remote inbox notifications"
+msgstr "远程收件箱通知"
+
+#: includes/settings/class-disable-bloat-settings-main.php:504
+msgid "REST API v4"
+msgstr "REST API v4"
+
+#: includes/settings/class-disable-bloat-settings-main.php:505
+msgid "Settings"
+msgstr "设置"
+
+#: includes/settings/class-disable-bloat-settings-main.php:506
+msgid "New settings UI"
+msgstr "新版设置界面"
+
+#: includes/settings/class-disable-bloat-settings-main.php:507
+msgid "Shipping label banner"
+msgstr "配送标签横幅"
+
+#: includes/settings/class-disable-bloat-settings-main.php:508
+msgid "Shipping setting tour"
+msgstr "配送设置导览"
+
+#: includes/settings/class-disable-bloat-settings-main.php:509
+msgid "Shipping smart defaults"
+msgstr "配送智能默认值"
+
+#: includes/settings/class-disable-bloat-settings-main.php:510
+msgid "Store alerts"
+msgstr "商店提醒"
+
+#: includes/settings/class-disable-bloat-settings-main.php:511
+msgid "Subscriptions"
+msgstr "订阅"
+
+#: includes/settings/class-disable-bloat-settings-main.php:512
+msgid "Transient notices"
+msgstr "临时通知"
+
+#: includes/settings/class-disable-bloat-settings-main.php:513
+msgid "Use WP Horizon"
+msgstr "使用 WP Horizon"
+
+#: includes/settings/class-disable-bloat-settings-main.php:514
+msgid "WooCommerce Payments promotion"
+msgstr "WooCommerce Payments 推广"
+
+#: includes/settings/class-disable-bloat-settings-main.php:515
+msgid "WooCommerce Payments welcome page"
+msgstr "WooCommerce Payments 欢迎页面"
+
+#: includes/settings/class-disable-bloat-settings-main.php:516
+msgid "Woo mobile welcome"
+msgstr "Woo 移动版欢迎"
+
+#: includes/settings/class-disable-bloat-settings-main.php:584
+msgid ""
+"Choose which of the WooCommerce Admin features should be disabled. The ones "
+"you choose will be <strong>disabled</strong>, and the ones that had not been "
+"selected will stay <strong>active</strong>.<br />This list comes from "
+"WooCommerce itself. Since WooCommerce 11, WooCommerce only lets plugins "
+"switch off a few of its admin features this way (often just Store alerts), "
+"so the list may be short. WooCommerce Analytics can be turned off under "
+"WooCommerce > Settings > Advanced > Features, and the Marketing hub with the "
+"Marketing Hub option below."
+msgstr ""
+"请选择要禁用哪些 WooCommerce Admin 功能。您选中的功能将被<strong>禁用</"
+"strong>，未选中的功能将保持<strong>启用</strong>。<br />此列表来自 "
+"WooCommerce 本身。自 WooCommerce 11 起，WooCommerce 只允许插件通过这种方式关"
+"闭少数几项后台功能（通常只有商店提醒），因此列表可能很短。WooCommerce 分析可"
+"以在 WooCommerce > 设置 > 高级 > 功能中关闭，营销中心可以通过下方的营销中心选"
+"项关闭。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:595
+msgid "Disable Marketing"
+msgstr "禁用营销"
+
+#: includes/settings/class-disable-bloat-settings-main.php:596
+msgid ""
+"This option will completely disable WooCommerce Marketing Hub. Coupon menu "
+"entry will stay accessible the old way (WooCommerce -> Coupons)."
+msgstr ""
+"此选项将完全禁用WooCommerce营销中心。优惠券菜单项可以通过旧的方式访问"
+"(WooCommerce->优惠券)。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:603
+msgid ""
+"WooCommerce is constantly trying to promote and advertise add-ons by adding "
+"nags to your admin panel. Now you can turn off or hide them."
+msgstr ""
+"WooCommerce 一直在您的后台面板中添加提醒，试图推广和宣传各种附加组件。现在您"
+"可以关闭或隐藏它们。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:612
+msgid "Disable WooCommerce.com notice"
+msgstr "禁用WooCommerce通知"
+
+#: includes/settings/class-disable-bloat-settings-main.php:613
+msgid ""
+"Disables notice from WooCommerce.com plugins: <code>Connect your store to "
+"WooCommerce.com to receive extensions updates and support</code>."
+msgstr ""
+"禁用来自WooCommerce.com插件的通知：<code>将您的商店连接到WooCommerce.com以接"
+"收扩展更新和支持</code>。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:623
+msgid "Disable WooCommerce Marketplace Suggestions"
+msgstr "禁用WooCommerce市场建议"
+
+#: includes/settings/class-disable-bloat-settings-main.php:624
+msgid ""
+"This option will disable Marketplace Suggestions and promotions. Suggestions "
+"are visible on the product edit page and on the Orders pages. It also turns "
+"off the \"Show suggestions\" setting in WooCommerce > Settings > Advanced > "
+"WooCommerce.com, which stops payment, shipping and extension recommendations "
+"and remote inbox notes from being fetched."
+msgstr ""
+"此选项将禁用市场建议和推广。这些建议会显示在产品编辑页面和订单页面上。它还会"
+"关闭 WooCommerce > 设置 > 高级 > WooCommerce.com 中的“显示建议”设置，从而停止"
+"获取付款、配送和扩展推荐以及远程收件箱通知。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:634
+msgid "Disable Extensions & My Subscriptions submenus"
+msgstr "禁用“扩展”和“我的订阅”子菜单"
+
+#: includes/settings/class-disable-bloat-settings-main.php:635
+msgid ""
+"Hide Extensions & My Subscriptions submenus in the WooCommerce menu in your "
+"admin panel menu. <strong>Reload the page after saving changes to see the "
+"results.</strong>"
+msgstr ""
+"在后台面板菜单的 WooCommerce 菜单中隐藏“扩展”和“我的订阅”子菜单。<strong>保存"
+"更改后请重新加载页面以查看效果。</strong>"
+
+#: includes/settings/class-disable-bloat-settings-main.php:645
+msgid "Disable Recommended shipping solutions metabox"
+msgstr "禁用推荐配送解决方案元框"
+
+#: includes/settings/class-disable-bloat-settings-main.php:646
+msgid ""
+"Recommended shipping solutions metabox is appearing on Shipping "
+"configurations pages in WooCommerce and is primarily used for advertisement."
+msgstr ""
+"推荐配送解决方案元框出现在 WooCommerce 的配送设置页面上，主要用于投放广告。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:656
+msgid "Disable Recommended payments solutions metabox"
+msgstr "禁用推荐付款解决方案元框"
+
+#: includes/settings/class-disable-bloat-settings-main.php:657
+msgid ""
+"Recommended payments solutions metabox is appearing on Payments "
+"configurations pages in WooCommerce and is primarily used for advertisement."
+msgstr ""
+"推荐付款解决方案元框出现在 WooCommerce 的付款设置页面上，主要用于投放广告。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:667
+msgid ""
+"Hide Discover other payment providers link on the Payments Settings screen\n"
+msgstr "在付款设置页面隐藏“发现其他支付服务商”链接\n"
+
+#: includes/settings/class-disable-bloat-settings-main.php:669
+msgid ""
+"<i>Discover other payment providers</i> link is displayed below your payment "
+"gateways and directs the user to the external marketplace with paid "
+"extensions."
+msgstr ""
+"<i>发现其他支付服务商</i>链接显示在您的支付网关下方，会将用户引导至提供付费扩"
+"展的外部市场。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:676
+msgid ""
+"The company behind WooCommerce actively promotes its add-ons, plugins, and "
+"extensions. They also affect the emails you receive from your webshop. This "
+"behavior can be seen as annoying or nagging by some users. Use the option "
+"below to stay balanced."
+msgstr ""
+"WooCommerce 背后的公司积极推广其附加组件、插件和扩展。这些推广还会影响您从网"
+"店收到的电子邮件。一些用户可能会觉得这种行为令人厌烦。使用下面的选项来保持平"
+"衡。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:687
+msgid "Remove the \"Get the app\" from WooCommerce emails footer"
+msgstr "从 WooCommerce 电子邮件页脚中移除“获取应用”"
+
+#: includes/settings/class-disable-bloat-settings-main.php:689
+msgid ""
+"WooCommerce is adding its own prompts to the footer of emails sent to the "
+"shop's admin. Enable this option to get rid of the annoying text in your "
+"emails."
+msgstr ""
+"WooCommerce 会在发送给商店管理员的电子邮件页脚中添加自己的推广提示。启用此选"
+"项可去除电子邮件中这些烦人的文字。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:699
+msgid "Disable WooCommerce guide email notifications"
+msgstr "禁用 WooCommerce 指南电子邮件通知"
+
+#: includes/settings/class-disable-bloat-settings-main.php:700
+msgid ""
+"WooCommerce sends email notifications with additional guidance to complete "
+"the Store Setup. Enable this option to block this behavior and stop sending "
+"these emails."
+msgstr ""
+"WooCommerce 会发送包含额外指导信息的电子邮件通知，以帮助您完成商店设置。启用"
+"此选项可阻止此行为，不再发送这些电子邮件。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:707
+msgid ""
+"Speed up your site by turning off unwanted scripts that are being loaded in "
+"the background in admin panel."
+msgstr "关闭在后台面板中于后台加载的多余脚本，从而加快您的站点速度。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:716
+msgid "Disable WooCommerce Status Meta Box"
+msgstr "禁用WooCommerce状态元数据盒子"
+
+#: includes/settings/class-disable-bloat-settings-main.php:717
+msgid ""
+"Enabling this option will remove WooCommerce Status Meta Box from WordPress "
+"Dashboard."
+msgstr "启用此选项将从 WordPress 仪表盘中移除 WooCommerce 状态元数据盒子。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:727
+msgid "Disable WooCommerce Dashboard Setup Widget"
+msgstr "禁用 WooCommerce 仪表盘设置小工具"
+
+#: includes/settings/class-disable-bloat-settings-main.php:728
+msgid ""
+"Enabling this option will remove WooCommerce Dashboard Setup Widget from "
+"WordPress Dashboard."
+msgstr "启用此选项将从 WordPress 仪表盘中移除 WooCommerce 仪表盘设置小工具。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:740
+msgid ""
+"This option allows you to disable the new WooCommerce product editor, which "
+"is currently in beta and disabled by default (opt-in)."
+msgstr ""
+"此选项允许您禁用新版 WooCommerce 产品编辑器，该编辑器目前处于测试阶段且默认禁"
+"用（需主动选择启用）。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:751
+msgid "Disable WooCommerce Blocks (back-end)"
+msgstr "禁用 WooCommerce 区块（后台）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:753
+msgid ""
+"Activating this option will disable WooCommerce Blocks scripts from loading "
+"in the admin panel. The WordPress Block Editor will load and run faster, but "
+"WooCommerce Blocks won't be available to add from the Block Editor level."
+msgstr ""
+"启用此选项将禁止在后台面板中加载 WooCommerce 区块脚本。WordPress 区块编辑器的"
+"加载和运行速度会更快，但将无法在区块编辑器中添加 WooCommerce 区块。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:760
+msgid ""
+"By default, quite a lot of scripts and styles are automatically loading "
+"while browsing the front-end of your shop. Use the options below to disable "
+"them."
+msgstr ""
+"默认情况下，浏览商店前台时会自动加载相当多的脚本和样式。使用下面的选项可以禁"
+"用它们。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:769
+msgid "Disable WooCommerce Widgets"
+msgstr "禁用WooCommerce小工具"
+
+#: includes/settings/class-disable-bloat-settings-main.php:770
+msgid ""
+"WooCommerce by default comes with a lot of widgets installed. They often are "
+"not used at all, but can add backend load and front-end load. Use this "
+"option to disable the WooCommerce widgets. <strong>Warning:</strong> Please "
+"make sure that you are not using any of WooCommerce Widgets anywhere in your "
+"site."
+msgstr ""
+"WooCommerce 默认安装了许多小工具。这些小工具通常根本用不到，却会增加后台和前"
+"台的负载。使用此选项可禁用 WooCommerce 小工具。<strong>警告：</strong>请确保"
+"您的站点中没有任何地方在使用 WooCommerce 小工具。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:780
+msgid "Disable WooCommerce scripts and styles"
+msgstr "禁用 WooCommerce 脚本和样式"
+
+#: includes/settings/class-disable-bloat-settings-main.php:781
+msgid ""
+"Use this option to disable WooCommerce scripts (javascript) and styles (CSS) "
+"everywhere except on product, cart and checkout pages."
+msgstr ""
+"使用此选项禁用在出了产品页面、购物车和结账页面的其他地方禁用WooCommerce 的脚"
+"本和样式。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:791
+msgid "Disable WooCommerce Cart Fragments"
+msgstr "禁用WooCommerce购物车片段"
+
+#: includes/settings/class-disable-bloat-settings-main.php:792
+msgid ""
+"The cart fragments feature is used to update the cart total without "
+"refreshing the page. <strong>Warning:</strong> Disabling it will speed up "
+"your store, but may result in wrong calculations in mini cart. Use with "
+"caution."
+msgstr ""
+"购物车片段用来实现无需刷新页面更新购物车总数功能。<strong>警告：</strong>禁用"
+"它会加快商店的速度，但可能会导致迷你购物车中的计算错误。请谨慎使用。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:803
+msgid "Disable WooCommerce Blocks (front-end)"
+msgstr "禁用 WooCommerce 区块（前台）"
+
+#: includes/settings/class-disable-bloat-settings-main.php:805
+msgid ""
+"WooCommerce Blocks module loads tons of CSS files (200 KB) in your site "
+"front-end. Activating this option will turn off loading the WooCommerce "
+"Blocks in your store and should improve page loading speed. If you are using "
+"any of the Blocks, they won't display correctly after enabling this option. "
+"The Cart and Checkout pages always keep their block styles, so your store "
+"can still take orders."
+msgstr ""
+"WooCommerce 区块模块会在您站点前台加载大量 CSS 文件（200 KB）。启用此选项将停"
+"止在商店中加载 WooCommerce 区块，应能提升页面加载速度。如果您正在使用任何区"
+"块，启用此选项后它们将无法正确显示。购物车和结账页面始终保留其区块样式，因此"
+"您的商店仍然可以接收订单。"
+
+#: includes/settings/class-disable-bloat-settings-main.php:816
+msgid "Disable unnecessary Stripe scripts"
+msgstr "禁用不必要的 Stripe 脚本"
+
+#: includes/settings/class-disable-bloat-settings-main.php:818
+msgid ""
+"Enabling this option will disable Stripe Payment Request Button on all "
+"product pages. The Stripe scripts won't be loaded on the product pages so "
+"the pages should be loading faster."
+msgstr ""
+"启用此选项将在所有产品页面上禁用 Stripe 付款请求按钮。产品页面上不会加载 "
+"Stripe 脚本，因此页面加载速度应该会更快。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:22
+#: includes/settings/class-disable-bloat-settings.php:24
+msgid "Site performance"
+msgstr "站点健康"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:30
+msgid "Speed up your site"
+msgstr "加速您的站点"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:38
+msgid "Password Strength Meter"
+msgstr "密码强度表"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:52
+msgid "Comments scripts"
+msgstr "评论脚本"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:66
+msgid "Auto-linking URLs in comments"
+msgstr "自动链接评论中的网址"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:80
+msgid "Disable Dashicons"
+msgstr "禁用 Dashicons"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:94
+msgid "DNS prefetch to s.w.org"
+msgstr "对 s.w.org 的 DNS 预取"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:108
+#: includes/settings/class-disable-bloat-settings-performance.php:390
+msgid "Disable jQuery Migrate"
+msgstr "禁用 jQuery Migrate"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:122
+msgid "Disable Sidebar WordPress Widgets"
+msgstr "禁用 WordPress 边栏小工具"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:136
+msgid "WordPress & WooCommerce Meta Generator Tag"
+msgstr "WordPress 和 WooCommerce Meta Generator 标签"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:150
+msgid "Emoji styles and scripts"
+msgstr "Emoji 样式和脚本"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:164
+#: includes/settings/class-disable-bloat-settings-performance.php:565
+msgid "Disable wp-embed"
+msgstr "禁用 wp-embed"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:180
+msgid "Speculative loading"
+msgstr "推测加载"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:181
+msgid "Disable speculative loading"
+msgstr "禁用推测加载"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:182
+msgid ""
+"Since WordPress 6.8, browsers are told to prefetch pages when a visitor "
+"hovers over a link. On a store this can mean extra requests to cart, account "
+"and product pages that are never opened, adding server load and noise in "
+"your analytics. This option removes the speculation rules script."
+msgstr ""
+"自 WordPress 6.8 起，当访客将鼠标悬停在链接上时，浏览器会被告知预取页面。在商"
+"店中，这可能意味着对从未打开的购物车、账户和产品页面产生额外请求，从而增加服"
+"务器负载并干扰您的统计分析数据。此选项将移除推测规则脚本。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:191
+msgid "Image auto-sizes CSS"
+msgstr "图片自动尺寸 CSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:192
+msgid "Remove the image auto-sizes inline CSS"
+msgstr "移除图片自动尺寸内联 CSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:193
+msgid ""
+"Since WordPress 6.7, every page gets an inline style for lazy-loaded images, "
+"and those images get sizes=\"auto\". Disable it if your theme or an image "
+"optimization plugin already handles image sizes."
+msgstr ""
+"自 WordPress 6.7 起，每个页面都会为延迟加载的图片添加一段内联样式，并为这些图"
+"片设置 sizes=\"auto\"。如果您的主题或图片优化插件已经处理了图片尺寸，请禁用"
+"它。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:202
+msgid "Global styles (classic themes)"
+msgstr "全局样式（经典主题）"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:203
+msgid "Remove global styles and classic theme styles"
+msgstr "移除全局样式和经典主题样式"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:204
+msgid ""
+"Removes the global-styles and classic-theme-styles inline CSS that WordPress "
+"adds to every page. Only applies to classic (non-block) themes, block themes "
+"are left alone. Do not use it if your content uses block editor colors, font "
+"sizes or button styles."
+msgstr ""
+"移除 WordPress 添加到每个页面的 global-styles 和 classic-theme-styles 内联 "
+"CSS。仅适用于经典（非区块）主题，区块主题不受影响。如果您的内容使用了区块编辑"
+"器的颜色、字体大小或按钮样式，请勿使用此选项。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:211
+msgid "Remove scripts from Header"
+msgstr "从页眉中移除脚本"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:219
+msgid "RSS Feed Links"
+msgstr "RSS 源链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:233
+msgid "RSS feeds"
+msgstr "RSS 源"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:247
+msgid "Feed Generator Tag"
+msgstr "源 Generator 标签"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:261
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:275
+#: includes/settings/class-disable-bloat-settings-performance.php:289
+msgid "RSD Link"
+msgstr "RSD 链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:303
+msgid "Shortlink"
+msgstr "短链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:329
+msgid ""
+"Page load time is very important for your visitors. To improve page load "
+"time, try to disable scripts, features, and unnecessary queries:"
+msgstr ""
+"页面加载时间对访客来说非常重要。为缩短页面加载时间，请尝试禁用不必要的脚本、"
+"功能和查询："
+
+#: includes/settings/class-disable-bloat-settings-performance.php:335
+msgid ""
+"Use the settings from this section to reduce page load time on the front-end "
+"of your WordPress site. Before disabling them, please make sure that you "
+"will not use any of these features - so they can be safely turned off."
+msgstr ""
+"使用本部分中的设置可以缩短 WordPress 站点前台的页面加载时间。在禁用这些功能之"
+"前，请确保您不会使用其中任何一项，以便可以安全地将其关闭。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:345
+msgid "Disable Password Strength Meter"
+msgstr "禁用密码强度表"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:346
+msgid ""
+"Removes the WordPress and WooCommerce password strength meter scripts (over "
+"400 KB) from non-essential pages."
+msgstr "从非必要页面中删除WordPress和WooCommerce密码强度计脚本（超过400 KB）。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:356
+msgid "Load Comments script only when needed"
+msgstr "仅在需要时加载评论脚本"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:357
+msgid ""
+"By default, WordPress Comments javascript files are loaded everywhere on "
+"your site. This option will load the Comments script only when needed (on "
+"single posts and pages with existing comments)."
+msgstr ""
+"默认情况下，WordPress 评论 JavaScript 文件会在您站点的所有位置加载。此选项将"
+"仅在需要时（在已有评论的单篇文章和页面上）加载评论脚本。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:367
+msgid "Prevent auto-linking URLs in comments"
+msgstr "阻止自动链接评论中的网址"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:368
+msgid ""
+"In a standard WordPress installation, adding clickable links to the comments "
+"is made on the fly while generating the page which may be time- and resource-"
+"consuming. This option will prevent auto-linking URLs in comments."
+msgstr ""
+"在标准 WordPress 安装中，评论中的可点击链接是在生成页面时即时添加的，这可能会"
+"耗费时间和资源。此选项将阻止自动链接评论中的网址。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:378
+msgid "Disable WordPress Dashicons on the front-end"
+msgstr "在前台禁用 WordPress Dashicons"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:379
+msgid ""
+"Dashicons add additional overhead to your site, slowing it down, especially "
+"on slower computers or mobile devices. Disabling dashicons can help reduce "
+"the total size of your page and improve your site's performance."
+msgstr ""
+"Dashicons 会给您的站点带来额外开销并拖慢速度，在较慢的计算机或移动设备上尤其"
+"如此。禁用 Dashicons 有助于减小页面的总体大小，提升站点性能。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:392
+msgid ""
+"The jQuery Migrate was introduced in WordPress to provide backward "
+"compatibility for older jQuery code. However, in recent versions of "
+"WordPress, many of the compatibility issues have been resolved, so it is no "
+"longer necessary in most cases. Disabling jQuery Migrate can improve the "
+"performance of your WordPress website by reducing the amount of JavaScript "
+"code that needs to be loaded, and by reducing the number of warnings and "
+"error messages that are output to the browser console. Additionally, by "
+"disabling the plugin, you can avoid potential security vulnerabilities that "
+"may arise from using outdated and unsupported code."
+msgstr ""
+"WordPress 引入 jQuery Migrate 是为了向后兼容旧版 jQuery 代码。然而，在较新版"
+"本的 WordPress 中，许多兼容性问题已经得到解决，因此在大多数情况下已不再需要"
+"它。禁用 jQuery Migrate 可以减少需要加载的 JavaScript 代码量，并减少输出到浏"
+"览器控制台的警告和错误消息，从而提升 WordPress 网站的性能。此外，禁用该插件还"
+"可以避免使用过时且不受支持的代码可能带来的潜在安全漏洞。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:403
+msgid "Remove DNS prefetch to s.w.org"
+msgstr "移除对 s.w.org 的 DNS 预取"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:405
+msgid ""
+"DNS prefetching is an attempt to resolve domain names before a user tries to "
+"follow a link. Activating this option will remove DNS prefetch to s.w.org "
+"and may result in page load optimization."
+msgstr ""
+"DNS 预取是指在用户点击链接之前预先解析域名。启用此选项将移除对 s.w.org 的 "
+"DNS 预取，可能有助于优化页面加载。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:427
+msgid "Archives"
+msgstr "归档"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:432
+msgid "Audio"
+msgstr "音频"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:437
+msgid "Block"
+msgstr "区块"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:444
+msgid "Calendar"
+msgstr "日历"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:449
+msgid "Categories"
+msgstr "分类"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:454
+msgid "Custom HTML"
+msgstr "自定义 HTML"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:461
+msgid "Gallery"
+msgstr "图库"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:466
+msgid "Image"
+msgstr "图片"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:471
+msgid "Meta"
+msgstr "其他操作"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:478
+msgid "Navigation Menu"
+msgstr "导航菜单"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:483
+msgid "Pages"
+msgstr "页面"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:488
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:495
+msgid "Recent Comments"
+msgstr "近期评论"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:500
+msgid "Recent Posts"
+msgstr "近期文章"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:505
+msgid "Search"
+msgstr "搜索"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:512
+msgid "Tag Cloud"
+msgstr "标签云"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:517
+msgid "Text"
+msgstr "文本"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:522
+msgid "Video"
+msgstr "视频"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:527
+msgid ""
+"WordPress by default comes with a lot of sidebar widgets installed. They "
+"often are not used at all, but can add backend load and front-end load. "
+"Choose which sidebar widgets you would like to disable for this site. The "
+"<strong>ones you choose will be disabled</strong>, and the <strong>ones that "
+"had not been selected will stay active</strong>."
+msgstr ""
+"WordPress 默认安装了许多侧边栏小工具。这些小工具通常根本用不到，却会增加后台"
+"和前台的负载。请选择您想在此站点上禁用的侧边栏小工具。<strong>您选中的小工具"
+"将被禁用</strong>，<strong>未选中的小工具将保持启用</strong>。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:539
+msgid "Remove WordPress & WooCommerce Meta Generator Tag"
+msgstr "移除 WordPress 和 WooCommerce Meta Generator 标签"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:541
+msgid ""
+"Meta Generator Tag displays the WordPress & WooCommerce version number. "
+"Removing the meta generator tag protects you against attacks and may reduce "
+"your web page's size. Use this option to disable the Meta Tag generated by "
+"WordPress, WooCommerce, and many other plugins that hook up with the "
+"wp_generator action."
+msgstr ""
+"Meta Generator 标签会显示 WordPress 和 WooCommerce 的版本号。移除 Meta "
+"Generator 标签可以帮助您防范攻击，并可能减小网页大小。使用此选项可禁用由 "
+"WordPress、WooCommerce 以及许多其他挂载到 wp_generator 动作的插件生成的 Meta "
+"标签。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:552
+msgid "Remove emoji styles and scripts"
+msgstr "移除 Emoji 样式和脚本"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:554
+msgid ""
+"Remove the code bloat used to add support for emojis in older browsers. "
+"Emoticons and emojis will still work in browsers that have built-in support "
+"for them."
+msgstr ""
+"移除为在旧版浏览器中支持 Emoji 而添加的冗余代码。在内置支持表情符号的浏览器"
+"中，表情和 Emoji 仍可正常使用。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:567
+msgid ""
+"Prevents the WordPress core feature known as wp-embed from loading on your "
+"website. The wp-embed feature allows you to embed videos, images, tweets, "
+"and other types of content from various platforms by pasting a URL into the "
+"WordPress editor. While this feature can be useful, it can also slow down "
+"your site's loading times, increase your server resources usage, and pose "
+"potential security risks."
+msgstr ""
+"阻止名为 wp-embed 的 WordPress 核心功能在您的网站上加载。wp-embed 功能允许您"
+"通过在 WordPress 编辑器中粘贴网址来嵌入来自各种平台的视频、图片、推文和其他类"
+"型的内容。虽然此功能可能很有用，但它也可能拖慢站点加载速度、增加服务器资源占"
+"用，并带来潜在的安全风险。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:574
+msgid ""
+"Remove unwanted scripts from the Header section of your site. The header "
+"section is used on all of your subpages and in most cases you do not need to "
+"load all the default scripts. Use the option below to turn them off."
+msgstr ""
+"从站点的页眉部分移除不需要的脚本。页眉部分会在您的所有子页面中使用，而在大多"
+"数情况下，您并不需要加载所有默认脚本。使用下面的选项可以关闭它们。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:584
+msgid "Remove RSS Feed Links"
+msgstr "移除 RSS 源链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:586
+msgid ""
+"If you do not use RSS feeds, you can safely turn them off without losing any "
+"functionality. Links to RSS Feeds will be removed from the site header, but "
+"the process of generating RSS feeds will still be active."
+msgstr ""
+"如果您不使用 RSS 源，可以放心地将其关闭，不会丢失任何功能。RSS 源的链接将从页"
+"眉中移除，但生成 RSS 源的过程仍会保持运行。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:597
+msgid "Disable all RSS feeds"
+msgstr "禁用所有 RSS 源"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:599
+msgid ""
+"You can also completely disable the RSS generation process by activating "
+"this option. If it is a feature that you do not plan to use, you can disable "
+"RSS Feeds."
+msgstr ""
+"启用此选项还可以完全禁用 RSS 生成过程。如果您不打算使用此功能，可以禁用 RSS "
+"源。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:610
+msgid "Remove the Generator Tag From RSS Feeds"
+msgstr "从 RSS 源中移除 Generator 标签"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:612
+msgid "This option will Remove the Generator Tag From RSS Feeds"
+msgstr "此选项将从 RSS 源中移除 Generator 标签"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:623
+msgid "Remove Link to the Windows Live Writer Manifest File"
+msgstr "移除指向 Windows Live Writer 清单文件的链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:625
+msgid ""
+"If are not using software called Windows Live Writer, you can safely turn "
+"off this feature that is added to your header by default."
+msgstr ""
+"如果您不使用名为 Windows Live Writer 的软件，可以放心地关闭这项默认添加到页眉"
+"中的功能。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:636
+msgid "Remove RSD link"
+msgstr "移除 RSD 链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:638
+msgid ""
+"RSD link is a tag that is added to your Header by default. The RSD link is "
+"used by software blog clients. If you access your site admin panel from the "
+"browser then it is safe for you to remove the RSD Link."
+msgstr ""
+"RSD 链接是默认添加到页眉中的标签，供博客客户端软件使用。如果您通过浏览器访问"
+"站点后台面板，则可以放心地移除 RSD 链接。"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:649
+msgid "Remove Shortlink From HTTP Header"
+msgstr "从 HTTP 头中移除短链接"
+
+#: includes/settings/class-disable-bloat-settings-performance.php:651
+msgid ""
+"Shortlink is the shorter version of the post or page URL. Shortlink (enabled "
+"in WordPress by default) creates a separate request on every page."
+msgstr ""
+"短链接是文章或页面网址的缩短版本。短链接（WordPress 默认启用）会在每个页面上"
+"产生一个单独的请求。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:22
+#: includes/settings/class-disable-bloat-settings.php:28
+msgid "Plugin data"
+msgstr "插件数据"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:30
+msgid "Plugin data cleanup"
+msgstr "插件数据清理"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:38
+msgid "Plugin data cleanup during uninstallation"
+msgstr "卸载时清理插件数据"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:52
+msgid "Export settings to file"
+msgstr "将设置导出到文件"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:73
+msgid ""
+"Here you can manage your plugin settings. Import, export, or reset settings. "
+"Use it for backup or testing purposes."
+msgstr "您可以在此管理插件设置：导入、导出或重置设置。可用于备份或测试。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:79
+msgid ""
+"If you decide to uninstall the plugin using the standard WordPress <i>Delete "
+"plugin</i> option, you can automatically erase the plugin settings from the "
+"database."
+msgstr ""
+"如果您决定使用 WordPress 标准的<i>删除插件</i>选项来卸载本插件，可以自动从数"
+"据库中清除插件设置。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:89
+msgid "Clear plugin settings while deleting the plugin"
+msgstr "删除插件时清除插件设置"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:90
+msgid "Clear plugin data from the database during the uninstallation."
+msgstr "卸载时从数据库中清除插件数据。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:98
+msgid ""
+"With the Export feature, you can securely save your settings as a "
+"downloadable JSON file. Click the Export button, and your personalized "
+"settings will be ready for backup or future use. You can use the config file "
+"in other plugin installations."
+msgstr ""
+"使用导出功能，您可以将设置安全地保存为可下载的 JSON 文件。点击“导出”按钮，您"
+"的个性化设置即可用于备份或日后使用。您还可以在其他安装了本插件的站点中使用该"
+"配置文件。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:110
+msgid "Export and download plugin configuration"
+msgstr "导出并下载插件配置"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:121
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:245
+msgid "Invalid nonce. Please try again."
+msgstr "无效的 nonce。请重试。"
+
+#. translators: number of imported options
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:174
+#, php-format
+msgid "The import was successful. %d options were imported."
+msgstr "导入成功。已导入 %d 个选项。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:176
+msgid ""
+"No valid options found for update. Please check your JSON file and make sure "
+"it was correctly exported."
+msgstr "未找到可更新的有效选项。请检查您的 JSON 文件，并确保它是正确导出的。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:179
+msgid ""
+"Invalid JSON file format. Please make sure that you are uploading a right "
+"file."
+msgstr "无效的 JSON 文件格式。请确保您上传的是正确的文件。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:182
+msgid "There is a problem with reading your file. Please try again."
+msgstr "读取您的文件时出现问题。请重试。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:190
+msgid "Invalid file format or size."
+msgstr "无效的文件格式或大小。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:203
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr "在上传导入文件之前，您需要修复以下错误："
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:208
+msgid "Import configuration file"
+msgstr "导入配置文件"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:209
+msgid ""
+"Import the configuration file in JSON format. All settings from the file "
+"will be saved in the database."
+msgstr "导入 JSON 格式的配置文件。文件中的所有设置都将保存到数据库中。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:212
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:214
+msgid ""
+"Import feature: browse, select your JSON file, and activate the import "
+"process by clicking a button below. Existing data will be overwritten."
+msgstr ""
+"导入功能：浏览并选择您的 JSON 文件，然后点击下方的按钮开始导入。现有数据将被"
+"覆盖。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:217
+msgid "Choose a JSON file from your computer:"
+msgstr "从您的计算机中选择一个 JSON 文件："
+
+#. translators: maximum upload size
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:221
+#, php-format
+msgid "Maximum size: %s"
+msgstr "最大大小：%s"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:227
+msgid "Upload file and import"
+msgstr "上传文件并导入"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:249
+msgid ""
+"Permission denied. Please contact your site administrator to run the export "
+"process."
+msgstr "权限被拒绝。请联系您的站点管理员执行导出操作。"
+
+#: includes/settings/class-disable-bloat-settings-plugin-data.php:273
+msgid ""
+"No options to export. You are probably using a fresh install of Disable "
+"Bloat plugin. Please save the plugin settings to write the configuration to "
+"the database"
+msgstr ""
+"没有可导出的选项。您可能使用的是全新安装的 Disable Bloat 插件。请保存插件设"
+"置，以将配置写入数据库"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:22
+#: includes/settings/class-disable-bloat-settings.php:27
+msgid "Third-party plugins bloat"
+msgstr "第三方插件膨胀"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:30
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:38
+msgid "Jetpack installation notice"
+msgstr "Jetpack 安装通知"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:52
+msgid "Jetpack promotions"
+msgstr "Jetpack推广"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:66
+msgid "Disable Jetpack Blaze"
+msgstr "禁用 Jetpack Blaze"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:80
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:88
+msgid "Elementor Dashboard widget"
+msgstr "Elementor 仪表盘小工具"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:102
+msgid "Elementor Google Fonts"
+msgstr "Elementor Google Fonts"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:116
+msgid "SkyVerge"
+msgstr "SkyVerge"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:124
+msgid "SkyVerge Dashboard"
+msgstr "SkyVerg仪表盘"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:138
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:146
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:160
+msgid "Ads, Premium nags, Premium menu"
+msgstr "广告、高级版提醒、高级版菜单"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:174
+msgid "Remove HTML Comments from the Front-end"
+msgstr "从前台移除 HTML 注释"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:188
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:486
+msgid "Remove Yoast SEO Dashboard widget"
+msgstr "移除 Yoast SEO 仪表盘小工具"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:202
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:210
+msgid "Contact Form 7 JavaScript and CSS"
+msgstr "Contact Form 7 JavaScript 和 CSS"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:224
+msgid "UpDraftPlus"
+msgstr "UpDraftPlus"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:232
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:525
+msgid "Hide \"UpdraftPlus\" on admin toolbar"
+msgstr "在后台工具栏中隐藏“UpdraftPlus”"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:246
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:254
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:545
+msgid "Hide Advanced Custom Fields admin menu"
+msgstr "隐藏 Advanced Custom Fields 后台菜单"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:268
+msgid "WPML"
+msgstr "WPML"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:276
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:564
+msgid "Remove WPML Meta Generator Tag"
+msgstr "移除 WPML Meta Generator 标签"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:290
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:298
+msgid "Disable WP Desk dashboard widget"
+msgstr "禁用 WP Desk 仪表盘小工具"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:312
+msgid "Flexible Shipping"
+msgstr "Flexible Shipping"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:320
+msgid "\"Shipping Extensions\" menu entry"
+msgstr "“Shipping Extensions”菜单项"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:346
+msgid ""
+"The plugin integrates with third-party plugins. Using the options from this "
+"section, you can hide or turn off unwanted User Interface elements that "
+"these plugins add to your admin panel by default. Options for the supported "
+"plugin will be always presented on this screen - the plugin does not detect "
+"if you have a specific plugin installed."
+msgstr ""
+"本插件可与第三方插件集成。使用本部分中的选项，您可以隐藏或关闭这些插件默认添"
+"加到后台面板中的多余用户界面元素。受支持插件的选项将始终显示在此页面上，本插"
+"件不会检测您是否安装了特定插件。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:352
+msgid ""
+"WordPress often encourages you to install Jetpack and connect your site to "
+"WordPress.com. If you do not want Jetpack, you can remove the installation "
+"notice. If you are using Jetpack, you can disable Jetpack promotions."
+msgstr ""
+"WordPress 经常鼓励您安装 Jetpack 并将站点连接到 WordPress.com。如果您不需要 "
+"Jetpack，可以移除安装通知。如果您正在使用 Jetpack，可以禁用 Jetpack 推广。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:361
+msgid "Remove Jetpack installation notice"
+msgstr "移除 Jetpack 安装通知"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:362
+msgid "This option will remove Jetpack installation notice."
+msgstr "此选项将移除 Jetpack 安装通知。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:372
+msgid "Disable Jetpack Blaze feature"
+msgstr "禁用 Jetpack Blaze 功能"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:373
+msgid ""
+"Use this option to disable the Jetpack Blaze feature. Blaze is a paid "
+"feature that helps you promote your content across WordPress.com and Tumblr "
+"networks."
+msgstr ""
+"使用此选项可禁用 Jetpack Blaze 功能。Blaze 是一项付费功能，可帮助您在 "
+"WordPress.com 和 Tumblr 网络中推广您的内容。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:383
+msgid "Disable Jetpack promotions"
+msgstr "禁用Jetpack推广"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:384
+msgid ""
+"This option will disable Jetpack-related notices that promote services like "
+"the backup services VaultPress or WordPress Apps. Works only if you have "
+"Jetpack installed."
+msgstr ""
+"此选项将禁用与Jetpack相关的通知，这些通知会推广VaultPress备份服务或WordPress "
+"Apps等服务。仅当您安装了Jetpack时才起作用。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:391
+msgid ""
+"Elementor is a great tool, but it may also lead to cluttering your WordPress "
+"Dashboard. The options below will only be effective if you have Elementor "
+"installed and activated."
+msgstr ""
+"Elementor 是一款出色的工具，但它也可能让您的 WordPress 仪表盘变得杂乱。下面的"
+"选项仅在您已安装并启用 Elementor 时生效。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:400
+msgid "Disable Elementor Dashboard widget"
+msgstr "禁用Elementor仪表盘小工具"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:401
+msgid ""
+"This option will disable Elementor overview widget shown in WordPress "
+"Dashboard."
+msgstr "此选项将禁用 WordPress 仪表盘中显示的 Elementor 概览小工具。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:411
+msgid "Disable Elementor Google Fonts package"
+msgstr "禁用 Elementor Google Fonts 包"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:412
+msgid ""
+"Enable this option to prevent Elementor from loading Google Fonts on your "
+"website's frontend. This can help improve website speed and reduce external "
+"requests to Google's servers."
+msgstr ""
+"启用此选项可阻止 Elementor 在您网站的前台加载 Google Fonts。这有助于提升网站"
+"速度，并减少对 Google 服务器的外部请求。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:419
+msgid ""
+"SkyVerge plugins are adding their own top-level admin menu item with their "
+"Dashboard. You may not want to use it."
+msgstr ""
+"SkyVerge 插件会添加自己的顶级后台菜单项及其仪表盘。您可能并不想使用它。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:428
+msgid "Disable SkyVerge Dashboard"
+msgstr "禁用SkyVerge仪表盘"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:429
+msgid ""
+"This option will disable SkyVerge Dashboard. Works only if you are using "
+"SkyVerge plugins."
+msgstr "此选项将禁用SkyVerge仪表盘，只在SkyVerge插件启用时生效。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:436
+msgid ""
+"Yoast is a very handy plugin, but it may add to your admin panel some "
+"elements that would not be your first choice."
+msgstr ""
+"Yoast 是一款非常实用的插件，但它可能会在您的后台面板中添加一些您并不想要的元"
+"素。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:447
+msgid "Disable Ads, Premium nags, Premium menu"
+msgstr "禁用广告、高级版提醒、高级版菜单"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:449
+msgid ""
+"If you do not want Yoast to scream about the premium version at all times, "
+"use this option. This option will disable Ads, Premium nags, Premium menu."
+msgstr ""
+"如果您不希望 Yoast 时时刻刻推销其高级版，请使用此选项。此选项将禁用广告、高级"
+"版提醒和高级版菜单。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:460
+msgid "Disable Yoast SEO Admin bar item"
+msgstr "禁用 Yoast SEO 工具栏项目"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:462
+msgid "This option will hide Yoast SEO item from WordPress Admin bar."
+msgstr "此选项将从 WordPress 工具栏中隐藏 Yoast SEO 项目。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:473
+msgid "Remove Yoast HTML Comments from the Front-end"
+msgstr "从前台移除 Yoast HTML 注释"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:475
+msgid ""
+"Yoast SEO does include some HTML commented-out code on your site's front. It "
+"may lead to weaker page performance."
+msgstr ""
+"Yoast SEO 会在您站点的前台添加一些 HTML 注释代码，这可能会降低页面性能。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:488
+msgid ""
+"This option will Remove the Yoast SEO widget from your WordPress Dashboard."
+msgstr "此选项将从您的 WordPress 仪表盘中移除 Yoast SEO 小工具。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:495
+msgid ""
+"We all love Contact Form 7 for flexibility, but loading tons of CSS and "
+"javascript on every subpage of your WordPress frontend may be frustrating "
+"for you and for your visitors. Why don't disable it globally and load it "
+"manually only where it is needed?"
+msgstr ""
+"我们都喜欢 Contact Form 7 的灵活性，但在 WordPress 前台的每个子页面上都加载大"
+"量 CSS 和 JavaScript，可能会让您和访客都感到困扰。何不全局禁用它，然后仅在需"
+"要的地方手动加载？"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:505
+msgid "Disable Contact Form 7 JavaScript and CSS"
+msgstr "禁用 Contact Form 7 JavaScript 和 CSS"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:507
+msgid ""
+"This option will disable Contact Form 7 JavaScript and CSS files from "
+"loading on every page. Works only if you are using Contact Form 7. Please "
+"remember to add the scripts manually to your contact page."
+msgstr ""
+"此选项将禁止在每个页面上加载 Contact Form 7 的 JavaScript 和 CSS 文件。仅在您"
+"使用 Contact Form 7 时生效。请记得在您的联系页面中手动添加这些脚本。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:527
+msgid ""
+"This option will hide \"UpdraftPlus\" on admin toolbar. Works only if you "
+"are using “UpdraftPlus”."
+msgstr ""
+"此选项将在后台工具栏中隐藏“UpdraftPlus”。仅在您使用“UpdraftPlus”时生效。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:547
+msgid ""
+"This option will hide Advanced Custom Fields admin interface. Custom Fields "
+"admin menu item won't be available."
+msgstr ""
+"此选项将隐藏 Advanced Custom Fields 的后台界面。“自定义字段”后台菜单项将不可"
+"用。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:554
+msgid ""
+"Some users of the WPML plugin have reported that it can cause bloat on their "
+"website, meaning that it can slow down the website's performance due to the "
+"increased amount of data and code that the plugin adds to the site. This can "
+"result in a slower page load time and decreased user experience. To reduce "
+"the effects of WPML bloat, you may want to disable certain features of the "
+"plugin:"
+msgstr ""
+"一些 WPML 插件用户反映，该插件会导致网站臃肿，也就是说，由于插件向站点添加了"
+"更多的数据和代码，可能会降低网站性能。这会导致页面加载时间变长、用户体验下"
+"降。为减轻 WPML 臃肿带来的影响，您可以禁用该插件的某些功能："
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:566
+msgid "This option will remove WPML Meta Generator Tag from WordPress Header."
+msgstr "此选项将从 WordPress 页眉中移除 WPML Meta Generator 标签。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:573
+msgid ""
+"WP Desk plugins, such as Flexible Checkout Fields, Flexible Invoices, "
+"Shopmagic, and Flexible Product Fields add a \"Grow your business with WP "
+"Desk\" widget to the WordPress dashboard. Disabling an unwanted dashboard "
+"widget can help to improve the user experience by decluttering the dashboard "
+"and making it easier to navigate:"
+msgstr ""
+"WP Desk 插件（例如 Flexible Checkout Fields、Flexible Invoices、Shopmagic 和 "
+"Flexible Product Fields）会在 WordPress 仪表盘中添加“Grow your business with "
+"WP Desk”小工具。禁用不需要的仪表盘小工具可以让仪表盘更整洁、更易于浏览，从而"
+"改善用户体验："
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:582
+msgid "Disable \"Grow your business with WP Desk\" dashboard widget"
+msgstr "禁用“Grow your business with WP Desk”仪表盘小工具"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:583
+msgid ""
+"Check this option to disable \"Grow your business with WP Desk\" dashboard "
+"widget which comes with WP Desk plugins"
+msgstr ""
+"勾选此选项可禁用 WP Desk 插件附带的“Grow your business with WP Desk”仪表盘小"
+"工具"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:590
+msgid ""
+"Octolize plugins, such as Flexible Shipping, add a new WooCommerce menu "
+"entry."
+msgstr ""
+"Octolize 插件（例如 Flexible Shipping）会添加一个新的 WooCommerce 菜单项。"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:599
+msgid "Remove the \"Shipping Extensions\" WooCommerce menu entry"
+msgstr "移除 WooCommerce 菜单中的“Shipping Extensions”菜单项"
+
+#: includes/settings/class-disable-bloat-settings-thirdparty.php:600
+msgid ""
+"Tick this option to remove the annoying \"Shipping Extensions\" submenu from "
+"top-level WooCommerce menu. Enabling this option simplifies your menu by "
+"removing the unnecessary submenu, offering a simpler navigation experience"
+msgstr ""
+"勾选此选项可从顶级 WooCommerce 菜单中移除烦人的“Shipping Extensions”子菜单。"
+"启用此选项会移除这个不必要的子菜单，从而简化您的菜单，带来更简洁的导航体验"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:22
+#: includes/settings/class-disable-bloat-settings.php:25
+msgid "WordPress Core"
+msgstr "WordPress 核心"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:30
+msgid "Updates"
+msgstr "更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:38
+msgid "Themes auto-updates"
+msgstr "主题自动更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:52
+msgid "Plugins auto-updates"
+msgstr "插件自动更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:66
+msgid "WordPress core updates"
+msgstr "WordPress 核心更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:80
+msgid "Speed and security"
+msgstr "速度与安全"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:88
+msgid "File Editor"
+msgstr "文件编辑器"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:102
+msgid "Post revisions"
+msgstr "文章修订版本"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:116
+msgid "Application Passwords"
+msgstr "应用程序密码"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:130
+#: includes/settings/class-disable-bloat-settings-wpcore.php:314
+msgid "Remove script/style version parameter"
+msgstr "移除脚本/样式版本参数"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:146
+msgid "AI features"
+msgstr "AI 功能"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:147
+msgid "Disable the built-in WordPress AI features"
+msgstr "禁用 WordPress 内置 AI 功能"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:148
+msgid ""
+"WordPress 7.0 added an AI client and AI provider connectors (Settings > "
+"Connectors). This option switches them off, for WordPress core and for "
+"plugins that use the core AI client. Other connectors, such as Akismet, keep "
+"working. Has no effect on older WordPress versions."
+msgstr ""
+"WordPress 7.0 新增了 AI 客户端和 AI 服务提供商连接器（设置 > 连接器）。此选项"
+"会为 WordPress 核心以及使用核心 AI 客户端的插件关闭这些功能。其他连接器（例"
+"如 Akismet）将继续正常工作。对较旧版本的 WordPress 无效。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:154
+msgid "WordPress API"
+msgstr "WordPress API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:162
+msgid "XML-RPC API"
+msgstr "XML-RPC API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:176
+msgid "WordPress Heartbeat API"
+msgstr "WordPress Heartbeat API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:190
+msgid "REST API"
+msgstr "REST API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:217
+msgid ""
+"WordPress by default comes with a lot of powerful features. In fact, you "
+"will probably never use some of them. Disabling them will not only improve "
+"performance but will also give your site a higher security level. Disabling "
+"them can prevent attacks and make your WordPress site and admin panel faster."
+msgstr ""
+"WordPress 默认带有许多强大的功能。事实上，其中有些功能您可能永远不会用到。禁"
+"用它们不仅可以提升性能，还能提高站点的安全级别。禁用这些功能可以防范攻击，并"
+"让您的 WordPress 站点和后台面板运行得更快。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:223
+msgid ""
+"Keeping your website updated is important. But some people prefer to do it "
+"manually. In these cases, using a built-in update system is not recommended, "
+"as it is highly resource-consuming.\t"
+msgstr ""
+"保持网站更新很重要，但有些人更喜欢手动更新。在这种情况下，不建议使用内置的更"
+"新系统，因为它非常耗费资源。\t"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:233
+msgid "Disable themes auto-updates"
+msgstr "禁用主题自动更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:234
+msgid ""
+"This option will disable the automatic updates feature for themes. You will "
+"still be able to update the themes by manually clicking the <code>Update</"
+"code> button on the Themes screen, but themes will never be updated "
+"automatically."
+msgstr ""
+"此选项将禁用主题的自动更新功能。您仍然可以通过在主题列表中手动点击 "
+"<code>Update</code> 按钮来更新主题，但主题将永远不会自动更新。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:244
+msgid "Disable plugins auto-updates"
+msgstr "禁用插件自动更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:245
+msgid ""
+"This option will disable the automatic updates feature for plugins. You will "
+"still be able to update the plugins by manually clicking the <code>Update</"
+"code> button on the Plugins list, but plugins will never be updated "
+"automatically."
+msgstr ""
+"此选项将禁用插件的自动更新功能。您仍然可以通过在插件列表中手动点击 "
+"<code>Update</code> 按钮来更新插件，但插件将永远不会自动更新。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:256
+msgid "Disable all WordPress core updates"
+msgstr "禁用所有 WordPress 核心更新"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:258
+msgid ""
+"This allows you to disable all WordPress core updates, including automatic "
+"updates. WordPress will not check for core updates and will not notify the "
+"users about the update availability."
+msgstr ""
+"此选项允许您禁用所有 WordPress 核心更新，包括自动更新。WordPress 将不再检查核"
+"心更新，也不会通知用户有可用的更新。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:265
+msgid ""
+"If you leave some of the core WordPress features active, they may result in "
+"a bloated database, lower security level, and lack of website speed "
+"optimization. Use the options below to disable some of the core features "
+"that are enabled in the default WordPress installation."
+msgstr ""
+"如果您保留某些 WordPress 核心功能处于启用状态，可能会导致数据库臃肿、安全级别"
+"降低以及网站速度得不到优化。使用下面的选项可以禁用默认 WordPress 安装中启用的"
+"部分核心功能。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:275
+msgid "Disable File Editor"
+msgstr "禁用文件编辑器"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:277
+msgid ""
+"This option will disable the file editing tool in your WordPress admin "
+"panel. This disables the plugin and theme editors. Since editing plugin and "
+"theme files can be safely done manually over FTP and are not recommended to "
+"be done in the admin panel, you can safely disable this feature."
+msgstr ""
+"此选项将禁用 WordPress 后台面板中的文件编辑工具，即禁用插件和主题编辑器。由于"
+"可以通过 FTP 安全地手动编辑插件和主题文件，且不建议在后台面板中进行编辑，因此"
+"您可以放心地禁用此功能。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:288
+msgid "Disable post revisions"
+msgstr "禁用文章修订版本"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:290
+msgid ""
+"By default, WordPress uses post revisions to save each post revision in your "
+"database. It cannot be turned off using standard WordPress settings. You may "
+"want to disable revisions to reduce the WordPress database size."
+msgstr ""
+"默认情况下，WordPress 会使用文章修订功能将每篇文章的每个修订版本保存到数据库"
+"中。这一功能无法通过标准的 WordPress 设置关闭。您可能希望禁用修订版本以减小 "
+"WordPress 数据库的大小。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:301
+msgid "Disable Application Passwords"
+msgstr "禁用应用程序密码"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:303
+msgid ""
+"Application Passwords feature allows external applications to request some "
+"permissions on your website. Not every website needs APIs, and granting "
+"permission for an external application can lead to security issues. "
+"Activating this option will turn the Application Passwords feature off."
+msgstr ""
+"应用程序密码功能允许外部应用程序请求您网站上的某些权限。并非每个网站都需要 "
+"API，向外部应用程序授予权限可能会导致安全问题。启用此选项将关闭应用程序密码功"
+"能。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:316
+msgid ""
+"Exposing your scripts' versions to the public may not be a good idea and may "
+"be a potential security threat. This option will remove the script/style "
+"version parameter for your site front-end."
+msgstr ""
+"向公众暴露脚本的版本号可能不是个好主意，并可能带来潜在的安全威胁。此选项将移"
+"除您站点前台的脚本/样式版本参数。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:323
+msgid ""
+"WordPress API refers to a set of functions and tools that allow developers "
+"to interact with the WordPress platform and its data. You may not need them "
+"at all and prefer to turn them off. The WordPress API includes a variety of "
+"different APIs:"
+msgstr ""
+"WordPress API 是指一组允许开发者与 WordPress 平台及其数据进行交互的函数和工"
+"具。您可能根本不需要它们，并希望将其关闭。WordPress API 包括多种不同的 API："
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:333
+msgid "Disable XML-RPC API"
+msgstr "禁用 XML-RPC API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:335
+msgid ""
+"This option will disable the XML-RPC API functionality. XML-RPC is a "
+"specification that enables the communication between WordPress and other "
+"systems. If you disable XML-RPC, you will not be able to receive pingbacks "
+"and trackbacks."
+msgstr ""
+"此选项将禁用 XML-RPC API 功能。XML-RPC 是一种使 WordPress 能够与其他系统通信"
+"的规范。如果禁用 XML-RPC，您将无法接收 Pingback 和 Trackback。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:346
+msgid "Disable WordPress Heartbeat API"
+msgstr "禁用 WordPress Heartbeat API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:348
+msgid ""
+"The WordPress Heartbeat API is a feature that provides real-time "
+"communication between the server and the browser when you are logged into "
+"your admin panel. Unfortunately, the AJAX requests from the API can pile up "
+"and generate high CPU usage, leading to server performance issues."
+msgstr ""
+"WordPress Heartbeat API 是一项在您登录后台面板时提供服务器与浏览器之间实时通"
+"信的功能。遗憾的是，该 API 发出的 AJAX 请求可能会不断累积并导致 CPU 使用率过"
+"高，从而引发服务器性能问题。"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:359
+msgid "Disable WordPress REST API"
+msgstr "禁用 WordPress REST API"
+
+#: includes/settings/class-disable-bloat-settings-wpcore.php:361
+msgid ""
+"Prevent access to the API endpoints that allow external applications to "
+"interact with a website. This can be done for security reasons, to prevent "
+"unauthorized access or protect sensitive data, or for performance reasons: "
+"to reduce server load. The REST API stays available to logged-in users (the "
+"block editor and WooCommerce admin need it) and for the WooCommerce Cart and "
+"Checkout blocks. <br /><strong>Note:</strong> Disabling the REST API can "
+"impact functionality of certain themes and plugins that rely on it, such as "
+"contact forms submitted by visitors."
+msgstr ""
+"阻止对允许外部应用程序与网站交互的 API 端点的访问。这样做可以出于安全原因（防"
+"止未经授权的访问或保护敏感数据），也可以出于性能原因（减轻服务器负载）。已登"
+"录用户仍可使用 REST API（区块编辑器和 WooCommerce 后台需要它），WooCommerce "
+"购物车和结账区块也仍可使用。<br /><strong>注意：</strong>禁用 REST API 可能会"
+"影响依赖它的某些主题和插件的功能，例如访客提交的联系表单。"
+
+#: includes/settings/class-disable-bloat-settings.php:22
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/settings/class-disable-bloat-settings.php:137
+msgid ""
+"You need to <strong>activate WooCommerce</strong> to make the options below "
+"effective."
+msgstr "您需要<strong>启用 WooCommerce</strong>，下面的选项才能生效。"
+
+#. translators: link to external plugin homepage
+#: includes/settings/class-disable-bloat-settings.php:147
+#, php-format
+msgid ""
+"Get <a href=\"%s\" target=\"_blank\">Disable Bloat for WordPress & "
+"WooCommerce PRO</a> to unlock the <span class=\"wcbloat-pro-label\">PRO</"
+"span> options."
+msgstr ""
+"获取 <a href=\"%s\" target=\"_blank\">Disable Bloat for WordPress & "
+"WooCommerce PRO</a> 以解锁 <span class=\"wcbloat-pro-label\">PRO</span> 选"
+"项。"

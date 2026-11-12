@@ -19,7 +19,7 @@ add_action( 'admin_menu', 'wcbloat_menu_page' );
 // Display admin options page
 function wcbloat_options_page() {
     ?>
-    <div class="wrap">
+    <div class="wrap wcbloat-wrap">
         <h1><?php 
     esc_attr_e( 'Disable Bloat for WordPress & WooCommerce', 'disable-dashboard-for-woocommerce' );
     ?></h1>
@@ -70,32 +70,136 @@ function wcbloat_options_page() {
                 <?php 
     if ( $active_tab == 'main' ) {
         settings_fields( 'wcbloat-main-options' );
-        do_settings_sections( 'wcbloat-main' );
+        wcbloat_do_settings_sections( 'wcbloat-main' );
     } elseif ( $active_tab == 'admin' ) {
         settings_fields( 'wcbloat-admin-options' );
-        do_settings_sections( 'wcbloat-admin' );
+        wcbloat_do_settings_sections( 'wcbloat-admin' );
     } elseif ( $active_tab == 'performance' ) {
         settings_fields( 'wcbloat-performance-options' );
-        do_settings_sections( 'wcbloat-performance' );
+        wcbloat_do_settings_sections( 'wcbloat-performance' );
     } elseif ( $active_tab == 'wpcore' ) {
         settings_fields( 'wcbloat-wpcore-options' );
-        do_settings_sections( 'wcbloat-wpcore' );
+        wcbloat_do_settings_sections( 'wcbloat-wpcore' );
     } elseif ( $active_tab == 'block' ) {
         settings_fields( 'wcbloat-block-options' );
-        do_settings_sections( 'wcbloat-block' );
+        wcbloat_do_settings_sections( 'wcbloat-block' );
     } elseif ( $active_tab == 'thirdparty' ) {
         settings_fields( 'wcbloat-thirdparty-options' );
-        do_settings_sections( 'wcbloat-thirdparty' );
+        wcbloat_do_settings_sections( 'wcbloat-thirdparty' );
     } elseif ( $active_tab == 'data' ) {
         settings_fields( 'wcbloat-data-options' );
-        do_settings_sections( 'wcbloat-data' );
+        wcbloat_do_settings_sections( 'wcbloat-data' );
     }
-    submit_button();
+    // The Plugin data tab renders its own save button and forms
+    if ( $active_tab != 'data' ) {
+        ?>
+                <div class="wcbloat-submit"><?php 
+        submit_button(
+            null,
+            'primary',
+            'submit',
+            false
+        );
+        ?></div>
+                <?php 
+    }
     ?>
             </form>
         </div>
     </div>
   <?php 
+}
+
+// Render a tab's settings sections like do_settings_sections(), but wrapped for styling:
+// the untitled icon section and the first titled section become the tab intro (icon next to the title),
+// every other section becomes its own block.
+function wcbloat_do_settings_sections(  $page  ) {
+    global $wp_settings_sections, $wp_settings_fields;
+    if ( !isset( $wp_settings_sections[$page] ) ) {
+        return;
+    }
+    $icon = '';
+    $intro_done = false;
+    foreach ( (array) $wp_settings_sections[$page] as $section ) {
+        $has_fields = isset( $wp_settings_fields[$page][$section['id']] );
+        // Untitled section before the intro holds the tab icon
+        if ( !$intro_done && '' === $section['title'] && !$has_fields ) {
+            ob_start();
+            call_user_func( $section['callback'], $section );
+            $icon = ob_get_clean();
+            continue;
+        }
+        if ( !$intro_done ) {
+            $intro_done = true;
+            ?>
+        <div class="wcbloat-intro">
+          <?php 
+            if ( $icon ) {
+                ?>
+            <div class="wcbloat-intro-icon" aria-hidden="true"><?php 
+                echo wp_kses_post( $icon );
+                ?></div>
+          <?php 
+            }
+            ?>
+          <div class="wcbloat-intro-body">
+            <h2><?php 
+            echo esc_html( $section['title'] );
+            ?></h2>
+            <?php 
+            if ( $section['callback'] ) {
+                ?>
+              <div class="wcbloat-desc"><?php 
+                call_user_func( $section['callback'], $section );
+                ?></div>
+            <?php 
+            }
+            ?>
+          </div>
+        </div>
+      <?php 
+            if ( !$has_fields ) {
+                continue;
+            }
+            $section['title'] = '';
+            $section['callback'] = null;
+        }
+        ?>
+      <div class="wcbloat-section" id="<?php 
+        echo esc_attr( $section['id'] );
+        ?>">
+        <?php 
+        if ( $section['title'] ) {
+            ?>
+          <h2><?php 
+            echo esc_html( $section['title'] );
+            ?></h2>
+        <?php 
+        }
+        ?>
+        <?php 
+        if ( $section['callback'] ) {
+            ?>
+          <div class="wcbloat-desc"><?php 
+            call_user_func( $section['callback'], $section );
+            ?></div>
+        <?php 
+        }
+        ?>
+        <?php 
+        if ( $has_fields ) {
+            ?>
+          <table class="form-table" role="presentation">
+            <?php 
+            do_settings_fields( $page, $section['id'] );
+            ?>
+          </table>
+        <?php 
+        }
+        ?>
+      </div>
+    <?php 
+    }
 }
 
 // Show a bar on WooCommerce settings screen if WooCommerce is not installed
@@ -111,7 +215,7 @@ function wcbloat_woo_not_installed_info_bar() {
 function wcbloat_buy_pro_bar() {
     $is_free = !wcbloat_fs()->is__premium_only();
     /* translators: link to external plugin homepage */
-    $buy_pro_bar = ( $is_free ? sprintf( '<p class="wcbloat-bar">' . __( 'Get <a href="%s" target="_blank">Disable Bloat for WordPress & WooCommerce PRO</a> to unlock the<span class="wcbloat-pro-label">PRO</span>options.', 'disable-dashboard-for-woocommerce' ), 'https://disablebloat.com/?utm_source=settings&utm_medium=referral&utm_campaign=Buy+PRO+Bar' ) : '' );
+    $buy_pro_bar = ( $is_free ? sprintf( '<p class="wcbloat-bar">' . __( 'Get <a href="%s" target="_blank">Disable Bloat for WordPress & WooCommerce PRO</a> to unlock the <span class="wcbloat-pro-label">PRO</span> options.', 'disable-dashboard-for-woocommerce' ), 'https://disablebloat.com/?utm_source=settings&utm_medium=referral&utm_campaign=Buy+PRO+Bar' ) : '' );
     return $buy_pro_bar;
 }
 

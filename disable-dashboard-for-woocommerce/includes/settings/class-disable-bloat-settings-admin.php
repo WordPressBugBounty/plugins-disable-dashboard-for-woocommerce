@@ -330,7 +330,7 @@ function wcbloat_w_logo_disable_callback() {
     echo wcbloat_is_pro_badge();
     ?></label>
     <p><?php 
-    _e( 'This option will hide the WordPress logo in the upper left corner. The logo won\'t be visible in your admin panel and in your site (on the admin bar visible on the front-end after logging in.', 'disable-dashboard-for-woocommerce' );
+    _e( 'This option will hide the WordPress logo in the upper left corner. The logo won\'t be visible in your admin panel and in your site (on the admin bar visible on the front-end after logging in).', 'disable-dashboard-for-woocommerce' );
     ?></p>
   <?php 
 }

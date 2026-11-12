@@ -231,7 +231,7 @@ function wcbloat_themes_auto_update_disable_callback()
   ?>
     <input type='hidden' name='wcbloat_themes_auto_update_disable' value='no'>
     <label><input type='checkbox' name='wcbloat_themes_auto_update_disable' <?php checked( esc_attr( $value ), 'yes' ); ?> value='yes'> <?php esc_attr_e( 'Disable themes auto-updates', 'disable-dashboard-for-woocommerce' ); ?></label>
-    <p><?php _e( 'This option will disable the automatic updates feature for themes. You will still be able to update the themes by manually clicking the <code>Update</code> button on the Plugins list, but plugins will never be updated automatically.', 'disable-dashboard-for-woocommerce' ); ?></p>
+    <p><?php _e( 'This option will disable the automatic updates feature for themes. You will still be able to update the themes by manually clicking the <code>Update</code> button on the Themes screen, but themes will never be updated automatically.', 'disable-dashboard-for-woocommerce' ); ?></p>
   <?php
 }
 
